@@ -1,3 +1,4 @@
+import { prop } from "lodash/fp";
 import React from "react";
 import Graph from "react-graph-vis";
 
@@ -28,7 +29,7 @@ export default function GraphView (props) {
     //         { from: 5, to: 10 },
     //     ],
     // };
-    const data = require('../data/metadata.json');
+    const data = props.data;
     const graph = {
         nodes: data.nodes.map(node => ({
             id: node.id,

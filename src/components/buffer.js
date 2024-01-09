@@ -47,8 +47,8 @@ export default function Buffer (props) {
             hover: true,
         },
         locale: 'ru',
-        height : '200' , 
-        width : '200',
+        height : '100%' , 
+        width : '100%',
         edges: {
             color: {
                 color:'#424242ff',
@@ -68,7 +68,7 @@ export default function Buffer (props) {
     const events = {}
 
     return (
-        <div className="buffer-container">
+        <div className="graph-container">
             <Graph 
                 graph={graph}
                 options={options}
