@@ -29,3 +29,13 @@ body{
   right: 0px;
   z-index: 100;
 }
+
+.buffer-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #8a5cecff;
+  background-color: #1e1e1eff;
+}

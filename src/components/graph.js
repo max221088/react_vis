@@ -2,7 +2,7 @@ import React from "react";
 import Graph from "react-graph-vis";
 
 
-export default function GraphView () {
+export default function GraphView (props) {
     // const graph = {
     //     nodes: [
     //         { id: 1,  title: 'Узел 1',shape: 'dot', size: 10},
@@ -94,7 +94,7 @@ export default function GraphView () {
         },
         locale: 'ru',
         height : '500' , 
-        width : '80%',
+        width : '100%',
         edges: {
             color: {
                 color:'#424242ff',
@@ -145,7 +145,8 @@ export default function GraphView () {
             const newGraph = { nodes: {}, edges: [] };
             selectNodesFromGraph.forEach(() => newGraph.nodes = selectNodesFromGraph.map((node) => ({ ...node })));
             selectEdgesFromGraph.forEach((edge) => newGraph.edges.push({ ...edge }));
-            console.log(newGraph)
+            // console.log(newGraph)
+            props.updateGraphData(newGraph);
         }
     };
     
