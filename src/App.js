@@ -7,12 +7,13 @@ import VaultList from './components/VaultList.js';
 
 
 function App() {
-
+  
   const [metaData, setMetaData] = useState(require('./data/metadata.json'));
   const [copyGraph, setCopyGraph] = useState({});
   const [viewGraph, setViewGraph] = useState(metaData);
 
   const updateViewGraph = (newGraph) => {
+    // console.log(newGraph)
     setViewGraph(newGraph)
   }
 
@@ -22,7 +23,12 @@ function App() {
 
   return (
     <div className="App">
-      <GraphView data={viewGraph} updateCopyGraph={updateCopyGraph} />
+      <GraphView 
+        data={viewGraph} 
+        updateCopyGraph={updateCopyGraph} 
+        copyGraph={copyGraph} 
+        updateViewGraph={updateViewGraph}
+      />
       <div className='buffer-container'>
       {Object.keys(copyGraph).length > 0 && <Buffer data={copyGraph} />}
       </div>

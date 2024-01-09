@@ -125,14 +125,25 @@ export default function GraphView (props) {
         },
     };
 
-
     const events = {
-        // select: function(event) {
+        select: function(event) {
+            if (props.copyGraph.nodes) {
+                graph.edges.push({ from: props.copyGraph.idSelectedNode, to: event.nodes[0] })
+                props.copyGraph.nodes.forEach((el) => {
+                    graph.nodes.push(el)
+                })
+                props.copyGraph.edges.forEach((el) => {
+                    graph.edges.push(el)
+                })
+                props.updateViewGraph(graph);
+                props.updateCopyGraph({});
+
+            }
         //   var { nodes, edges, pointer } = event;
         //   console.log(nodes , edges, pointer)
         //   console.log(event)
         //   console.log(graph.nodes[nodes-1])
-        // },
+        },
         doubleClick: function(event) {
             const selectEdgesFromGraph = graph.edges.filter((edge) => event.edges.includes(edge.id));
             const allNodeIds = new Set();
@@ -144,6 +155,7 @@ export default function GraphView (props) {
             const copyGraph = { nodes: {}, edges: [] };
             selectNodesFromGraph.forEach(() => copyGraph.nodes = selectNodesFromGraph.map((node) => ({ ...node })));
             selectEdgesFromGraph.forEach((edge) => copyGraph.edges.push({ ...edge }));
+            copyGraph.idSelectedNode = event.nodes[0]
             props.updateCopyGraph(copyGraph);
         }
     };
