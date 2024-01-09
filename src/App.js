@@ -24,8 +24,7 @@ function App() {
     <div className="App">
       <GraphView data={viewGraph} updateCopyGraph={updateCopyGraph} />
       <div className='buffer-container'>
-      {Object.keys(copyGraph).length > 0 && 
-        <Buffer data={copyGraph} />}
+      {Object.keys(copyGraph).length > 0 && <Buffer data={copyGraph} />}
       </div>
       <VaultList data={metaData} updateViewGraph={updateViewGraph} />
     </div>

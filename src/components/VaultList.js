@@ -13,7 +13,7 @@ export default function VaultList (props) {
         function dfs(node, currentGraph) {
           visited.add(node);
           currentGraph.nodes.push(graph.nodes.find(n => n.id === node));
-          
+
           for (const edge of graph.edges) {
             if (edge.from === node && !visited.has(edge.to)) {
               currentGraph.edges.push(edge);
@@ -33,15 +33,14 @@ export default function VaultList (props) {
             result.push(currentGraph);
           }
         }
-      
         return result;
-      }
+    }
 
-      const graphData = splitGraph(graph);
-      function changeGraph (graph) {
-        props.updateViewGraph(graph);
-        console.log(graph)
-      }
+    const graphData = splitGraph(graph);
+    function changeGraph (graph) {
+    props.updateViewGraph(graph);
+    console.log(graph)
+    }
 
     return (
         <div className="left-bar">

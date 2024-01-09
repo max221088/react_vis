@@ -103,9 +103,7 @@ export default function GraphView (props) {
                 hover: '#8153ecff',
                 inherit: 'from',
                 opacity:1.0
-              },
-            // color: '#555',
-            
+            },  
         },
         nodes: {
             color: '#999',
@@ -118,7 +116,7 @@ export default function GraphView (props) {
             editNode: function(nodeData,callback) {
                 nodeData.label = 'hello world';
                 callback(nodeData);
-              },
+            },
             editEdge: true,
             deleteNode: true,
             deleteEdge: true,
@@ -139,14 +137,13 @@ export default function GraphView (props) {
             const selectEdgesFromGraph = graph.edges.filter((edge) => event.edges.includes(edge.id));
             const allNodeIds = new Set();
             selectEdgesFromGraph.forEach((edge) => {
-                  allNodeIds.add(edge.from);
-                  allNodeIds.add(edge.to);
-                });
+                allNodeIds.add(edge.from);
+                allNodeIds.add(edge.to);
+            });
             const selectNodesFromGraph = Object.values(graph.nodes).filter((node) => allNodeIds.has(node.id));
             const copyGraph = { nodes: {}, edges: [] };
             selectNodesFromGraph.forEach(() => copyGraph.nodes = selectNodesFromGraph.map((node) => ({ ...node })));
             selectEdgesFromGraph.forEach((edge) => copyGraph.edges.push({ ...edge }));
-            // console.log(newGraph)
             props.updateCopyGraph(copyGraph);
         }
     };
