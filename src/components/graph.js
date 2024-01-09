@@ -143,11 +143,11 @@ export default function GraphView (props) {
                   allNodeIds.add(edge.to);
                 });
             const selectNodesFromGraph = Object.values(graph.nodes).filter((node) => allNodeIds.has(node.id));
-            const newGraph = { nodes: {}, edges: [] };
-            selectNodesFromGraph.forEach(() => newGraph.nodes = selectNodesFromGraph.map((node) => ({ ...node })));
-            selectEdgesFromGraph.forEach((edge) => newGraph.edges.push({ ...edge }));
+            const copyGraph = { nodes: {}, edges: [] };
+            selectNodesFromGraph.forEach(() => copyGraph.nodes = selectNodesFromGraph.map((node) => ({ ...node })));
+            selectEdgesFromGraph.forEach((edge) => copyGraph.edges.push({ ...edge }));
             // console.log(newGraph)
-            props.updateGraphData(newGraph);
+            props.updateCopyGraph(copyGraph);
         }
     };
     

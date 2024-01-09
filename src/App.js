@@ -8,25 +8,25 @@ import VaultList from './components/VaultList.js';
 
 function App() {
 
-  const [graphData, setGraphData] = useState({});
   const [metaData, setMetaData] = useState(require('./data/metadata.json'));
+  const [copyGraph, setCopyGraph] = useState({});
   const [viewGraph, setViewGraph] = useState(metaData);
 
   const updateViewGraph = (newGraph) => {
     setViewGraph(newGraph)
   }
 
-  const updateGraphData = (newData) => {
-    setGraphData(newData)
+  const updateCopyGraph = (newData) => {
+    setCopyGraph(newData)
   };
 
   return (
     <div className="App">
-      <GraphView data={viewGraph} updateGraphData={updateGraphData} />
-      {Object.keys(graphData).length > 0 && 
+      <GraphView data={viewGraph} updateCopyGraph={updateCopyGraph} />
       <div className='buffer-container'>
-        <Buffer data={graphData} />
-      </div>}
+      {Object.keys(copyGraph).length > 0 && 
+        <Buffer data={copyGraph} />}
+      </div>
       <VaultList data={metaData} updateViewGraph={updateViewGraph} />
     </div>
   );
