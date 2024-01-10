@@ -1,7 +1,7 @@
 import React from "react";
 import Graph from "react-graph-vis";
 
-export default function Buffer (props) {
+export default function PreviewGraph (props) {
     let graph = {
         nodes: [],
         edges: [],

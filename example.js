@@ -27,62 +27,92 @@
 const util = require('util');
 const graph = require('./src/data/metadata.json');
 
-function splitGraph(graph) {
-
-    if (!(/-v(\d+)/.test(graph.nodes[0].id))) {
-
-        const visited = new Set();
-        const result = [];
-      
-        function dfs(node, currentGraph) {
-          visited.add(node);
-          currentGraph.nodes.push(graph.nodes.find(n => n.id === node));
-
-          for (const edge of graph.edges) {
-            if (edge.from === node && !visited.has(edge.to)) {
-              currentGraph.edges.push(edge);
-              dfs(edge.to, currentGraph);
-            }
-            if (edge.to === node && !visited.has(edge.from)) {
-              currentGraph.edges.push(edge);
-              dfs(edge.from, currentGraph);
-            }
-          }
-        }
-      
-        for (const node of graph.nodes) {
-          if (!visited.has(node.id)) {
-            const currentGraph = { nodes: [], edges: [] };
-            dfs(node.id, currentGraph);
-            result.push(currentGraph);
-          }
-        }
-
-        result.forEach((item, index) => {
-            const identifier = `-v${(index + 1).toString().padStart(2, '0')}`;
-            
-            // Обновление nodes
-            item.nodes.forEach(node => {
-              node.id = `${node.id}${identifier}`;
-            });
-        
-            // Обновление edges
-            item.edges.forEach(edge => {
-              edge.from = `${edge.from}${identifier}`;
-              edge.to = `${edge.to}${identifier}`;
-            });
-          });
-        
-        return result;
-        
-    }   
-}
-
-
+function getConnectedComponents(graph) {
+    const visited = new Set();
+    const components = [];
   
-      const connectedGraphs = splitGraph(graph);
-    //   const res = addIdentifierToData(connectedGraphs)
-      
-    //   console.log(connectedGraphs);
-      console.log(util.inspect(connectedGraphs, { showHidden: false, depth: null }));
+    function dfs(nodeId, component) {
+      visited.add(nodeId);
+      component.push(nodeId);
+  
+      const neighbors = graph.edges
+        .filter((edge) => edge.from === nodeId || edge.to === nodeId)
+        .map((edge) => (edge.from === nodeId ? edge.to : edge.from));
+  
+      for (const neighbor of neighbors) {
+        if (!visited.has(neighbor)) {
+          dfs(neighbor, component);
+        }
+      }
+    }
+  
+    for (const node of graph.nodes) {
+      const nodeId = node.id;
+      if (!visited.has(nodeId)) {
+        const component = [];
+        dfs(nodeId, component);
+        components.push(component);
+      }
+    }
+  
+    return components;
+  }
+
+function findDuplicateEdges(edges) {
+    const seenEdges = new Set();
+    const duplicateEdges = [];
+  
+    for (const edge of edges) {
+      const edgeString = JSON.stringify(edge);
+  
+      if (seenEdges.has(edgeString)) {
+        duplicateEdges.push(edge);
+      } else {
+        seenEdges.add(edgeString);
+      }
+    }
+  
+    return duplicateEdges;
+  }
+
+  function findDuplicateEdgeIndexes(edges) {
+    const seenEdges = new Map();
+    const duplicateIndexes = [];
+  
+    edges.forEach((edge, index) => {
+      const edgeString = JSON.stringify(edge);
+  
+      if (seenEdges.has(edgeString)) {
+        const firstIndex = seenEdges.get(edgeString);
+        duplicateIndexes.push([firstIndex, index]);
+      } else {
+        seenEdges.set(edgeString, index);
+      }
+    });
+  
+    return duplicateIndexes;
+  }
+  
+  
+  
+  //   const connectedComponentsIndex = findDuplicateEdgeIndexes(graph.edges);
+  //   console.log(connectedComponentsIndex);
+  
+  //   console.log(graph.edges[42]);
+  //   console.log(graph.edges[48]);
+  
+  const result = getConnectedComponents(graph);
+  console.log(graph.edges.length);
+//   console.log(result)
+//   console.log(result[0].edge.length + result[1].edge.length)
+  
+  const connectedComponents = findDuplicateEdges(result[1]);
+//    console.log(connectedComponents);
+
+
+//   const connectedGraphs = splitGraph(graph);
+//   const res = addIdentifierToData(connectedGraphs)
+
+// console.log(result);
+      console.log(util.inspect(result, { showHidden: false, depth: null }));
       

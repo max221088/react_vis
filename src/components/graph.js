@@ -130,10 +130,14 @@ export default function GraphView (props) {
             if (props.copyGraph.nodes) {
                 graph.edges.push({ from: props.copyGraph.idSelectedNode, to: event.nodes[0] })
                 props.copyGraph.nodes.forEach((el) => {
-                    graph.nodes.push(el)
+                    if (!graph.nodes.some(node => node.id === el.id)) {
+                        graph.nodes.push(el);
+                    }
                 })
                 props.copyGraph.edges.forEach((el) => {
-                    graph.edges.push(el)
+                    if (!graph.edges.some(node => node.id === el.id)) {
+                        graph.edges.push(el)
+                    }
                 })
                 props.updateViewGraph(graph);
                 props.updateCopyGraph({});
