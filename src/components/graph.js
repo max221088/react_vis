@@ -1,9 +1,20 @@
 import { prop } from "lodash/fp";
 import React from "react";
 import Graph from "react-graph-vis";
+import { cutEdges } from "../utils/cutEdges";
+import { selectEdgesForCut } from "../utils/selectEdgesForCut";
+import { selectGraphForCopy } from "../utils/selectGraphForCopy";
 
 
 export default function GraphView (props) {
+    let move = {
+        action: false,
+        distance: null,
+        edges: [],
+        nodeId : ''
+    };
+    let edgesForDelete = [];
+    let selectedNode = false;
     // const graph = {
     //     nodes: [
     //         { id: 1,  title: 'Узел 1',shape: 'dot', size: 10},
@@ -30,7 +41,7 @@ export default function GraphView (props) {
     //     ],
     // };
     const data = props.data;
-    const graph = {
+    let graph = {
         nodes: data.nodes.map(node => ({
             id: node.id,
             title: node.name, 
@@ -127,7 +138,10 @@ export default function GraphView (props) {
 
     const events = {
         select: function(event) {
-            if (props.copyGraph.nodes) {
+                if (event.event.srcEvent.ctrlKey === false) {
+                    selectedNode = event.nodes[0];
+                }
+            if (props.copyGraph.nodes && event.event.srcEvent.ctrlKey === false) {
                 graph.edges.push({ from: props.copyGraph.idSelectedNode, to: event.nodes[0] })
                 props.copyGraph.nodes.forEach((el) => {
                     if (!graph.nodes.some(node => node.id === el.id)) {
@@ -143,24 +157,47 @@ export default function GraphView (props) {
                 props.updateCopyGraph({});
 
             }
+            if (event.event.srcEvent.ctrlKey === true && selectedNode && event.nodes != selectedNode && event.nodes[0]) {
+                graph.edges.push({ from: selectedNode.toString(), to: event.nodes[0].toString() })
+                props.updateViewGraph(graph);
+                selectedNode = false
+            }
         //   var { nodes, edges, pointer } = event;
         //   console.log(nodes , edges, pointer)
         //   console.log(event)
         //   console.log(graph.nodes[nodes-1])
         },
         doubleClick: function(event) {
-            const selectEdgesFromGraph = graph.edges.filter((edge) => event.edges.includes(edge.id));
-            const allNodeIds = new Set();
-            selectEdgesFromGraph.forEach((edge) => {
-                allNodeIds.add(edge.from);
-                allNodeIds.add(edge.to);
-            });
-            const selectNodesFromGraph = Object.values(graph.nodes).filter((node) => allNodeIds.has(node.id));
-            const copyGraph = { nodes: {}, edges: [] };
-            selectNodesFromGraph.forEach(() => copyGraph.nodes = selectNodesFromGraph.map((node) => ({ ...node })));
-            selectEdgesFromGraph.forEach((edge) => copyGraph.edges.push({ ...edge }));
-            copyGraph.idSelectedNode = event.nodes[0]
+            const copyGraph = selectGraphForCopy(graph, event)
             props.updateCopyGraph(copyGraph);
+        },
+        selectNode: function (event) {
+            if (event.event.srcEvent.ctrlKey === true){
+                
+                // console.log(graph)
+                // console.log(event.nodes[0] )
+                // console.log(newGraph)
+            }
+        },
+        dragStart: function (event) {
+            if (event.event.srcEvent.ctrlKey === true && event.nodes[0]){
+                const copyGraph = selectGraphForCopy(graph, event)
+                edgesForDelete = selectEdgesForCut(graph, copyGraph)
+                move.action = true
+                move.edges = event.edges
+                move.distance = event.event.distance
+                move.nodeId = event.nodes
+            }
+        },
+        dragging: function (event) {
+            if (event.event.srcEvent.ctrlKey === true){
+                let distance = event.event.distance - move.distance;
+                if (distance > 70 && move.action) {
+                    const newGraph = cutEdges(graph, edgesForDelete);
+                    props.updateViewGraph(newGraph);
+                    move.action = false
+                }
+            }
         }
     };
     
