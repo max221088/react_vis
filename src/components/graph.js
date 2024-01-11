@@ -157,7 +157,7 @@ export default function GraphView (props) {
                 props.updateCopyGraph({});
 
             }
-            if (event.event.srcEvent.ctrlKey === true && selectedNode && event.nodes != selectedNode && event.nodes[0]) {
+            if (event.event.srcEvent.ctrlKey === true && selectedNode && event.nodes !== selectedNode && event.nodes[0]) {
                 graph.edges.push({ from: selectedNode.toString(), to: event.nodes[0].toString() })
                 props.updateViewGraph(graph);
                 selectedNode = false
