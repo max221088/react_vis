@@ -4,6 +4,7 @@ import Graph from "react-graph-vis";
 import { cutEdges } from "../utils/cutEdges";
 import { selectEdgesForCut } from "../utils/selectEdgesForCut";
 import { selectGraphForCopy } from "../utils/selectGraphForCopy";
+const { v4: uuidv4 } = require('uuid');
 
 
 export default function GraphView (props) {
@@ -15,31 +16,6 @@ export default function GraphView (props) {
     };
     let edgesForDelete = [];
     let selectedNode = false;
-    // const graph = {
-    //     nodes: [
-    //         { id: 1,  title: 'Узел 1',shape: 'dot', size: 10},
-    //         { id: 2,  title: 'Узел 2', shape: 'dot', size: 10 },
-    //         { id: 3,  title: 'Узел 3', shape: 'dot', size: 10  },
-    //         { id: 4,  title: 'Узел 4', shape: 'dot', size: 10  },
-    //         { id: 5,  title: 'Узел 5', shape: 'dot', size: 10  },
-    //         { id: 6,  title: 'Узел 6', shape: 'dot', size: 10  },
-    //         { id: 7,  title: 'Узел 7', shape: 'dot', size: 10  },
-    //         { id: 8,  title: 'Узел 8', shape: 'dot', size: 10  },
-    //         { id: 9,  title: 'Узел 9', shape: 'dot', size: 10  },
-    //         { id: 10, title: 'Узел 10', shape: 'dot', size: 10  },
-    //     ],
-    //     edges: [
-    //         { from: 1, to: 2 },
-    //         { from: 1, to: 3 },
-    //         { from: 1, to: 4 },
-    //         { from: 1, to: 5 },
-    //         { from: 5, to: 6 },
-    //         { from: 5, to: 7 },
-    //         { from: 5, to: 8 },
-    //         { from: 5, to: 9 },
-    //         { from: 5, to: 10 },
-    //     ],
-    // };
     const data = props.data;
     let graph = {
         nodes: data.nodes.map(node => ({
@@ -51,15 +27,12 @@ export default function GraphView (props) {
             chosen: {
                 node: function(values, id, selected, hovering) {
                     values.color = '#8a5cecff';
-                    // console.log(id)
-                    // console.log(selected)
-                    // console.log( hovering)
                   }
             }
         })),
-        edges: data.edges.map(node => ({
-            from: node.from,
-            to: node.to, 
+        edges: data.edges.map(edge => ({
+            from: edge.from,
+            to: edge.to, 
             arrows: {
                 to: {
                 enabled: false,
@@ -74,9 +47,6 @@ export default function GraphView (props) {
             chosen: {
                 edge: function(values, id, selected, hovering) {
                     values.color = '#8a5cecff';
-                    // console.log(id)
-                    // console.log(selected)
-                    // console.log( hovering)
                   }
             }
         })),
@@ -142,7 +112,8 @@ export default function GraphView (props) {
                     selectedNode = event.nodes[0];
                 }
             if (props.copyGraph.nodes && event.event.srcEvent.ctrlKey === false) {
-                graph.edges.push({ from: props.copyGraph.idSelectedNode, to: event.nodes[0] })
+                let newEdge = { from: props.copyGraph.idSelectedNode, to: event.nodes[0], id: uuidv4().toString() }
+                graph.edges.push(newEdge)
                 props.copyGraph.nodes.forEach((el) => {
                     if (!graph.nodes.some(node => node.id === el.id)) {
                         graph.nodes.push(el);
@@ -153,19 +124,18 @@ export default function GraphView (props) {
                         graph.edges.push(el)
                     }
                 })
+                props.sendEvent('add', newEdge)
                 props.updateViewGraph(graph);
                 props.updateCopyGraph({});
 
             }
             if (event.event.srcEvent.ctrlKey === true && selectedNode && event.nodes !== selectedNode && event.nodes[0]) {
-                graph.edges.push({ from: selectedNode.toString(), to: event.nodes[0].toString() })
+                let newEdge = { from: selectedNode.toString(), to: event.nodes[0].toString(), id: uuidv4().toString() };
+                graph.edges.push(newEdge);
+                props.sendEvent('add', newEdge);
                 props.updateViewGraph(graph);
                 selectedNode = false
             }
-        //   var { nodes, edges, pointer } = event;
-        //   console.log(nodes , edges, pointer)
-        //   console.log(event)
-        //   console.log(graph.nodes[nodes-1])
         },
         doubleClick: function(event) {
             const copyGraph = selectGraphForCopy(graph, event)
@@ -194,13 +164,14 @@ export default function GraphView (props) {
                 let distance = event.event.distance - move.distance;
                 if (distance > 70 && move.action) {
                     const newGraph = cutEdges(graph, edgesForDelete);
+                    props.sendEvent('remove', edgesForDelete)
                     props.updateViewGraph(newGraph);
                     move.action = false
                 }
             }
         }
     };
-    
+    // console.log(graph)
     return (
         <div className="container">
             <Graph 

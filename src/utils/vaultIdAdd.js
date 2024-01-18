@@ -1,3 +1,5 @@
+const { v4: uuidv4 } = require('uuid');
+
 export const vaultIdAdd = (graph) => {
     if (!(/-v(\d+)/.test(graph[0].nodes[0].id.toString()))) {
 
@@ -11,6 +13,7 @@ export const vaultIdAdd = (graph) => {
             item.edges.forEach(edge => {
                 edge.from = `${edge.from}${identifier}`;
                 edge.to = `${edge.to}${identifier}`;
+                edge.id = uuidv4().toString();
             });
         });
         return graph;
