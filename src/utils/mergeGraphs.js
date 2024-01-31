@@ -1,14 +1,13 @@
 export const mergeGraphs = (graphs) => {
-    const mergedGraph = {
-        edges: [],
-        nodes: [],
-    };
+  const mergedGraph = {
+    edges: [],
+    nodes: [],
+  };
 
-    graphs.forEach(graph => {
-        mergedGraph.nodes.push(...graph.nodes);
+  graphs.forEach((graph) => {
+    mergedGraph.nodes.push(...graph.nodes);
 
-        mergedGraph.edges.push(...graph.edges);
-    });
-
-    return mergedGraph;
-}
+    mergedGraph.edges.push(...graph.edges);
+  });
+  return mergedGraph;
+};
