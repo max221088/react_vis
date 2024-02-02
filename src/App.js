@@ -20,6 +20,7 @@ function App() {
       .on("publication", function (ctx) {
         // console.log("notification", ctx);
         fetchData();
+        // setMetaData(transformGraph(ctx.data.newMetadata));
         // console.log(ctx.data.newMetadata);
         // setMetaData(transformGraph(ctx.data.newMetadata));
         // console.log(JSON.stringify(ctx.data.newMetadata, null, 2));
@@ -33,16 +34,18 @@ function App() {
   const [metaData, setMetaData] = useState({});
   const [loading, setLoading] = useState(true);
 
-  function fetchData() {
+  function fetchData(all) {
     fetch("http://localhost:2323", { method: "GET" })
       .then(async (response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
         const res = await response.json();
-        // console.log(res);
+        console.log(res);
         setMetaData(transformGraph(res));
-        // updateViewGraph(mergeGraphs(transformGraph(res)));
+        if (all) {
+          updateViewGraph(mergeGraphs(transformGraph(res)));
+        }
         setLoading(false);
       })
       .catch((error) => {
@@ -54,7 +57,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetchData();
+    fetchData(false);
   }, []);
 
   const [copyGraph, setCopyGraph] = useState({});
@@ -78,6 +81,10 @@ function App() {
     // console.log(newMetadata);
   };
 
+  const showAll = () => {
+    fetchData("All");
+  };
+
   return (
     <div className="App">
       {loading ? (
@@ -98,7 +105,7 @@ function App() {
         <VaultList
           data={metaData}
           updateViewGraph={updateViewGraph}
-          fetch={fetchData}
+          showAll={showAll}
         />
       )}
     </div>

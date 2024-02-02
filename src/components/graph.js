@@ -130,6 +130,7 @@ export default function GraphView(props) {
           });
           props.copyGraph.edges.forEach((el) => {
             if (!graph.edges.some((node) => node.id === el.id)) {
+              el.id = uuidv4().toString();
               graph.edges.push(el);
             }
           });
@@ -202,7 +203,7 @@ export default function GraphView(props) {
       }
     },
   };
-  // console.log(graph);
+  console.log(graph);
   return (
     <div className="container">
       <Graph graph={graph} options={options} events={events} />

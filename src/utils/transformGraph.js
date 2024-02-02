@@ -9,9 +9,15 @@ export const transformGraph = (graphs) => {
       keys[node.id] = node.type + "-$$-" + node.id;
       node.id = node.type + "-$$-" + node.id;
     });
-    graph.edges.forEach((edge) => {
-      edge.from = keys[edge.from];
-      edge.to = keys[edge.to];
+    graph.edges.forEach((edge, index) => {
+      if (keys[edge.from] && keys[edge.to]) {
+        edge.from = keys[edge.from];
+        edge.to = keys[edge.to];
+      } else {
+        graph.edges.splice(index, 1);
+        return;
+      }
+
       if (!edge.id) {
         edge.id = uuidv4().toString();
       }

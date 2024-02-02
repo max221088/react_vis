@@ -30,7 +30,10 @@ export const selectGraphForCopy = (graph, event) => {
   selectEdgesFromGraph.forEach((edge) => copyGraph.edges.push({ ...edge }));
   copyGraph.idSelectedNode = event.nodes[0];
   // console.log(copyGraph);
-  let graphID = copyGraph.nodes[0].parent;
+  let graphID;
+  if (copyGraph.nodes[0]) {
+    graphID = copyGraph.nodes[0].parent;
+  }
   return {
     copyGraph: copyGraph,
     edgesForDelete: edgesForDelete,

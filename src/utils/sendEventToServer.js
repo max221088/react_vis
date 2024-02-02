@@ -40,9 +40,9 @@ export const sendEventToServer = (metaData, marker, edges, copyGraph) => {
       body: data ? JSON.stringify(data) : null,
     });
   }
-  // console.log(metaData);
+  console.log(metaData);
   const normalMetaData = normalizeGraph(metaData);
-  // console.log(normalMetaData[0]);
+  console.log(normalMetaData);
   // console.log(index);
   postRequest("change/", normalMetaData[index]);
 };

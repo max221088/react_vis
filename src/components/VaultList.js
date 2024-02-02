@@ -10,9 +10,9 @@ export default function VaultList(props) {
   }
 
   function showAll(graph) {
-    const all = mergeGraphs(graph);
-    props.updateViewGraph(all);
-    // props.fetch();
+    props.showAll();
+    // const all = mergeGraphs(graph);
+    // props.updateViewGraph(all);
   }
 
   return (
