@@ -1,115 +1,105 @@
-import "./App.css";
-import React, { useState, useEffect } from "react";
+import React, { useCallback, useEffect, useState } from "react";
+import { v4 as uuidv4 } from "uuid";
+
 import GraphView from "./components/graph.js";
 import PreviewGraph from "./components/previewGraph.js";
 import VaultList from "./components/VaultList.js";
-// import { splitGraph } from './utils/splitGraph.js';
-// import { vaultIdAdd } from './utils/vaultIdAdd.js';
-import { mergeGraphs } from "./utils/mergeGraphs.js";
-import { sendEventToServer } from "./utils/sendEventToServer.js";
 import { Centrifuge } from "centrifuge";
-import { transformGraph } from "./utils/transformGraph.js";
+import { fetchData } from "./utils/fetchData";
+import { useGraphManager } from "./graphManager/useGraphManager";
+
+import "./App.css";
 
 const centrifuge = new Centrifuge("ws://localhost:2324/connection/websocket");
 centrifuge.connect();
 const sub = centrifuge.newSubscription("channel");
 
 function App() {
-  useEffect(() => {
-    sub
-      .on("publication", function (ctx) {
-        // console.log("notification", ctx);
-        fetchData();
-        // setMetaData(transformGraph(ctx.data.newMetadata));
-        // console.log(ctx.data.newMetadata);
-        // setMetaData(transformGraph(ctx.data.newMetadata));
-        // console.log(JSON.stringify(ctx.data.newMetadata, null, 2));
-      })
-      .on("subscribed", function (ctx) {
-        // console.log("subscribed", ctx);
-      })
-      .subscribe();
-  }, []);
+    const [currentGraph, setCurrentGraph] = useState();
+    const [originalGraph, setOriginalGraph] = useState();
+    const [copiedVault, setCopiedVault] = useState();
+    const [loading, setLoading] = useState(true);
 
-  const [metaData, setMetaData] = useState({});
-  const [loading, setLoading] = useState(true);
+    const { graphManager, graph, graphArray, selectNode, selectedNode } = useGraphManager({
+        data: originalGraph,
+        currentGraph
+    });
 
-  function fetchData(all) {
-    fetch("http://localhost:2323", { method: "GET" })
-      .then(async (response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
+    const updateMetadata = useCallback(() => {
+        setLoading(true);
+
+        fetchData()
+            .then(data => {
+                if (!data) {
+                    return;
+                }
+                setOriginalGraph(data);
+            })
+            .finally(() => {
+                setLoading(false);
+            });
+    }, []);
+
+    useEffect(() => {
+        sub
+            .on("publication", function (ctx) {
+                updateMetadata();
+            })
+            .subscribe();
+
+        updateMetadata();
+    }, []);
+
+    const copyVault = useCallback((targetId, relatedEdgeIds) => {
+        const res = graphManager.getCopiedVault(targetId, relatedEdgeIds);
+        setCopiedVault(res);
+    }, [graphManager]);
+
+    const onNodeSelect = useCallback((selectedNodeId) => {
+        if (copiedVault && selectedNodeId !== copiedVault.targetNode.id) {
+            // send to server merged graph
+            // sendEventToServer(metaData, marker, edges, copyGraph);
         }
-        const res = await response.json();
-        console.log(res);
-        setMetaData(transformGraph(res));
-        if (all) {
-          updateViewGraph(mergeGraphs(transformGraph(res)));
-        }
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error(
-          "There has been a problem with your fetch operation:",
-          error
-        );
-      });
-  }
 
-  useEffect(() => {
-    fetchData(false);
-  }, []);
+        selectNode(selectedNodeId);
+    }, [copiedVault, selectNode]);
 
-  const [copyGraph, setCopyGraph] = useState({});
-  const [viewGraph, setViewGraph] = useState({
-    nodes: [],
-    edges: [],
-  });
+    const addEdge = useCallback((fromId, toId) => {
+        // check if they from same vault
+        let newEdge = {
+            from: fromId,
+            to: toId,
+            id: uuidv4().toString(),
+        };
 
-  const updateViewGraph = (newGraph) => {
-    setViewGraph(newGraph);
-  };
+        // send to server
+    }, [copiedVault, selectNode]);
 
-  const updateCopyGraph = (newData) => {
-    setCopyGraph(newData);
-  };
-
-  const sendEvent = (marker, edges) => {
-    // const mergedMeta = mergeGraphs(metaData)
-    // const newMetadata =
-    sendEventToServer(metaData, marker, edges, copyGraph);
-    // console.log(newMetadata);
-  };
-
-  const showAll = () => {
-    fetchData("All");
-  };
-
-  return (
-    <div className="App">
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <GraphView
-          data={viewGraph}
-          updateCopyGraph={updateCopyGraph}
-          copyGraph={copyGraph}
-          updateViewGraph={updateViewGraph}
-          sendEvent={sendEvent}
-        />
-      )}
-      <div className="buffer-container">
-        {Object.keys(copyGraph).length > 0 && <PreviewGraph data={copyGraph} />}
-      </div>
-      {Object.keys(metaData).length > 0 && (
-        <VaultList
-          data={metaData}
-          updateViewGraph={updateViewGraph}
-          showAll={showAll}
-        />
-      )}
-    </div>
-  );
+    return (
+        <div className="App">
+            {loading ? (
+                <p>Loading...</p>
+            ) : (
+                <GraphView
+                    graph={graph}
+                    setCopyVault={copyVault}
+                    graphManager={graphManager}
+                    selectNode={onNodeSelect}
+                    selectedNode={selectedNode}
+                    addEdge={addEdge}
+                />
+            )}
+            <div className="buffer-container">
+                {copiedVault && <PreviewGraph graph={copiedVault}/>}
+            </div>
+            {graphArray.length > 0 && (
+                <VaultList
+                    graphs={graphArray}
+                    setCurrentGraph={setCurrentGraph}
+                />
+            )}
+        </div>
+    );
 }
 
 export default App;

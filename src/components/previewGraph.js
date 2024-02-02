@@ -1,17 +1,7 @@
 import React from "react";
 import Graph from "react-graph-vis";
 
-export default function PreviewGraph(props) {
-  let graph = {
-    nodes: [],
-    edges: [],
-  };
-
-  if (props.data && props.data.nodes && props.data.edges) {
-    graph = props.data;
-    graph.edges = props.data.edges;
-  }
-
+export default function PreviewGraph({graph}) {
   const options = {
     interaction: {
       tooltipDelay: 300,
@@ -36,7 +26,9 @@ export default function PreviewGraph(props) {
 
   return (
     <div className="graph-container">
-      <Graph graph={graph} options={options} />
+      {graph && (
+        <Graph graph={graph} options={options} />
+      )}
     </div>
   );
 }
