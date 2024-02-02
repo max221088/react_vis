@@ -1,6 +1,6 @@
 const { v4: uuidv4 } = require("uuid");
 
-export default class GraphManager {
+export class GraphManager {
     vaults = {};
     selectedNode;
 
