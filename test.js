@@ -1,13698 +1,10619 @@
 const graph = {
   nodes: [
     {
-      id: "FILE-$$-3ec44a62-1f4a-4cd7-bb87-cb080e295d50",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\Документ 1.md",
-      relativePath: ".\\Документ 1.md",
-      name: "Документ 1.md",
-      type: "FILE",
-      title: "Документ 1.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "1",
-    },
-    {
-      id: "TAG-$$-da1f3407-fc63-4af7-9558-34943cf259a0",
-      name: "#qwe",
-      type: "TAG",
-      title: "#qwe",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-ae8c30a3-68eb-4791-a8f8-dea19a989df2",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\Test.md",
-      relativePath: ".\\Test.md",
-      name: "Test.md",
-      type: "FILE",
+      id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
       title: "Test.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        relativePath: ".\\Test.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Test.md",
+        type: "FILE",
+        name: "Test.md",
       },
-      chosen: {},
-      label: "2",
     },
     {
-      id: "TAG-$$-43611681-cb4c-4038-877d-1b914f9ddd65",
-      name: "#tag1",
-      type: "TAG",
+      id: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
       title: "#tag1",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "TAG",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#tag1",
+        id: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+        type: "TAG",
       },
-      chosen: {},
     },
     {
-      id: "TAG-$$-024bf1a8-485e-46cb-b132-55322ef325fe",
-      name: "#tag2",
-      type: "TAG",
+      id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
       title: "#tag2",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "TAG",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#tag2",
+        id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+        type: "TAG",
       },
-      chosen: {},
     },
     {
-      id: "TAG-$$-1c62a26a-8355-4aea-8477-044d7c839685",
-      name: "#tag3",
-      type: "TAG",
+      id: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
       title: "#tag3",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "TAG",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "TAG",
+        id: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+        name: "#tag3",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-49ae7768-f800-4846-aaa7-24ff6fe23c44",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\Table.md",
-      relativePath: ".\\Table.md",
-      name: "Table.md",
-      type: "FILE",
+      id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
       title: "Table.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        relativePath: ".\\Table.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Table.md",
+        id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        name: "Table.md",
+        type: "FILE",
       },
-      chosen: {},
-      label: "3",
     },
     {
-      id: "TAG-$$-9bf29bc4-7149-4b0c-9b9a-f835ecde982e",
-      name: "#tag",
-      type: "TAG",
+      id: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
       title: "#tag",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\venus-vs-mars-exploring-space.md",
-      relativePath: ".\\space/venus-vs-mars-exploring-space.md",
-      name: "venus-vs-mars-exploring-space.md",
-      type: "FILE",
-      title: "venus-vs-mars-exploring-space.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "4",
-    },
-    {
-      id: "ANCHOR-$$-8dac9bba-3bdd-432a-b931-9389cda1bd11",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-cf6af17e-564b-4338-97f6-4cba4f6a4981",
-      name: "#Венера: Загадки Горячей Планеты",
-      type: "ANCHOR",
-      title: "#Венера: Загадки Горячей Планеты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-052892c4-a014-45dc-a7ff-08f7502e3667",
-      name: "#Марс: Путь к Красной Планете",
-      type: "ANCHOR",
-      title: "#Марс: Путь к Красной Планете",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-0f39552d-a099-4fb8-84df-462296bacf66",
-      name: "#Миссии на Венеру и Марс",
-      type: "ANCHOR",
-      title: "#Миссии на Венеру и Марс",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-2da2e727-2a5d-4113-988d-2551f9083813",
-      name: "#Научные Открытия и Перспективы",
-      type: "ANCHOR",
-      title: "#Научные Открытия и Перспективы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-c3726efa-2294-40e4-aa87-a78bc366b809",
-      name: "#Значимость Освоения Венеры и Марса",
-      type: "ANCHOR",
-      title: "#Значимость Освоения Венеры и Марса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-a1444146-9c6f-4f8b-9520-ec3d13bac5b2",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-0c96a58c-ddaa-4509-b82b-8efba0c4ce08",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\space-suits-from-prototypes-to-modern-models.md",
-      relativePath: ".\\space/space-suits-from-prototypes-to-modern-models.md",
-      name: "space-suits-from-prototypes-to-modern-models.md",
-      type: "FILE",
-      title: "space-suits-from-prototypes-to-modern-models.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "5",
-    },
-    {
-      id: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\solar-energy-in-space-new-frontiers-of-power.md",
-      relativePath: ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
-      name: "solar-energy-in-space-new-frontiers-of-power.md",
-      type: "FILE",
-      title: "solar-energy-in-space-new-frontiers-of-power.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "6",
-    },
-    {
-      id: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\space-disasters-lessons-learned.md",
-      relativePath: ".\\space/space-disasters-lessons-learned.md",
-      name: "space-disasters-lessons-learned.md",
-      type: "FILE",
-      title: "space-disasters-lessons-learned.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "7",
-    },
-    {
-      id: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\spacecraft-technology.md",
-      relativePath: ".\\space/spacecraft-technology.md",
-      name: "spacecraft-technology.md",
-      type: "FILE",
-      title: "spacecraft-technology.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "8",
-    },
-    {
-      id: "ANCHOR-$$-d96d94cb-d155-44b7-a0b4-7f4bb3158ee7",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-7641f5e7-3f18-4eda-9332-8e268f2a40a8",
-      name: "#Развитие Реактивных Двигателей",
-      type: "ANCHOR",
-      title: "#Развитие Реактивных Двигателей",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-3d28f27f-be04-47ce-83e9-acd5390d580b",
-      name: "#Ионные и Электрические Двигатели",
-      type: "ANCHOR",
-      title: "#Ионные и Электрические Двигатели",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-dd485954-0426-47fd-a5c3-b93c1c4d4bef",
-      name: "#Технологии Жизнеобеспечения на Борту",
-      type: "ANCHOR",
-      title: "#Технологии Жизнеобеспечения на Борту",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b751d025-10fe-4b51-9898-12a08e9a211d",
-      name: "#Инновации в Материалах и Конструкциях",
-      type: "ANCHOR",
-      title: "#Инновации в Материалах и Конструкциях",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-65fb1cbd-eb6a-43ba-adb0-1b4f26329756",
-      name: "#Будущее Космических Путешествий",
-      type: "ANCHOR",
-      title: "#Будущее Космических Путешествий",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-356b0135-2a45-4646-b031-8529ccb7d460",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-9bedce43-699f-41ea-9be6-6432806b8bb0",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\greatest-astronauts-biographies.md",
-      relativePath: ".\\space/greatest-astronauts-biographies.md",
-      name: "greatest-astronauts-biographies.md",
-      type: "FILE",
-      title: "greatest-astronauts-biographies.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "9",
-    },
-    {
-      id: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\james-webb-telescope-mission.md",
-      relativePath: ".\\space/james-webb-telescope-mission.md",
-      name: "james-webb-telescope-mission.md",
-      type: "FILE",
-      title: "james-webb-telescope-mission.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "10",
-    },
-    {
-      id: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\life-among-the-stars.md",
-      relativePath: ".\\space/life-among-the-stars.md",
-      name: "life-among-the-stars.md",
-      type: "FILE",
-      title: "life-among-the-stars.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "11",
-    },
-    {
-      id: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\space-tourism-dream-or-reality.md",
-      relativePath: ".\\space/space-tourism-dream-or-reality.md",
-      name: "space-tourism-dream-or-reality.md",
-      type: "FILE",
-      title: "space-tourism-dream-or-reality.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "12",
-    },
-    {
-      id: "ANCHOR-$$-bb707ff7-71a7-42ed-92c3-722d939ece2b",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-9bf66330-0c99-4aff-b1f9-d9c8656654d0",
-      name: "#История Космического Туризма",
-      type: "ANCHOR",
-      title: "#История Космического Туризма",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-9b30ec1a-a90a-4014-b691-77765da123d4",
-      name: "#Космические Коммерческие Проекты",
-      type: "ANCHOR",
-      title: "#Космические Коммерческие Проекты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-4a85279c-0609-4f8f-96dd-7ad83b716164",
-      name: "#Технические Испытания и Будущие Полеты",
-      type: "ANCHOR",
-      title: "#Технические Испытания и Будущие Полеты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-e1677ca2-47f4-4a7b-bfd4-ee08931bb10a",
-      name: "#Экономический Потенциал и Вызовы",
-      type: "ANCHOR",
-      title: "#Экономический Потенциал и Вызовы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-3aae045c-fb66-49f0-bfb0-a88a25a462fd",
-      name: "#Космический Туризм и Научные Исследования",
-      type: "ANCHOR",
-      title: "#Космический Туризм и Научные Исследования",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f0523ca5-173a-49ae-a973-cb1b10343773",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-d23699b7-470e-43cf-a38d-806552659622",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\asteroids-and-comets-resource-mining.md",
-      relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
-      name: "asteroids-and-comets-resource-mining.md",
-      type: "FILE",
-      title: "asteroids-and-comets-resource-mining.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "13",
-    },
-    {
-      id: "ANCHOR-$$-92819fda-c5a1-4e27-8637-4d1af1f61713",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-22bb336c-5b37-49bb-a231-f1bea32e72b0",
-      name: "#Ранние Прототипы и История Скафандров",
-      type: "ANCHOR",
-      title: "#Ранние Прототипы и История Скафандров",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b790c8b5-90f8-4a5f-95c8-d59dad225939",
-      name: "#Эволюция Скафандров в Космосе",
-      type: "ANCHOR",
-      title: "#Эволюция Скафандров в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-830e88f0-4cee-4d15-87b9-d0850a4ba6e6",
-      name: "#Современные Скафандры и Инновации",
-      type: "ANCHOR",
-      title: "#Современные Скафандры и Инновации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-8c379d97-4b90-4903-9ab4-537adb8ee123",
-      name: "#Скафандры в Космических Миссиях",
-      type: "ANCHOR",
-      title: "#Скафандры в Космических Миссиях",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-fbbee5f9-e06b-4cd8-bf12-4c5be4b6a225",
-      name: "#Значимость Скафандров для Астронавтов",
-      type: "ANCHOR",
-      title: "#Значимость Скафандров для Астронавтов",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-c140bfb0-99bf-4c58-911d-e091f68b02d3",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93cfe5f1-1b44-4369-b7ab-7fa807ec8e76",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-69c53176-21e3-4211-bea1-b20dd96ea2ba",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-22ad7dda-52f1-4ec5-8938-c1d4b39b83ea",
-      name: "#История Космических Катастроф",
-      type: "ANCHOR",
-      title: "#История Космических Катастроф",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b6594bf6-f48e-4105-b589-43012a43d9c3",
-      name: "#Причины и Уроки Через Преграды",
-      type: "ANCHOR",
-      title: "#Причины и Уроки Через Преграды",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-740bcf4b-b608-45cf-a2d4-8830fe43fa47",
-      name: "#Безопасность и Профилактика",
-      type: "ANCHOR",
-      title: "#Безопасность и Профилактика",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-2c55a070-a364-4839-a7a9-eb46da6d51e2",
-      name: "#Опыт и Эволюция",
-      type: "ANCHOR",
-      title: "#Опыт и Эволюция",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f5576cd7-9d9d-402f-93e6-5a19537a5977",
-      name: "#Значимость Уроков Космических Катастроф",
-      type: "ANCHOR",
-      title: "#Значимость Уроков Космических Катастроф",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-645b5276-3288-497b-9b7d-e3f467175d2b",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-6907ecbd-1340-423b-bd2e-c703340ec976",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-701f75f6-11e2-4935-a35c-dfad417c3ab4",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-0f0214d0-1cc1-4719-a55f-1f49de5ffda5",
-      name: "#Солнечные Панели и Источники Энергии",
-      type: "ANCHOR",
-      title: "#Солнечные Панели и Источники Энергии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-9c9c518e-42e9-42b5-98f8-9151efd3d488",
-      name: "#Применение Солнечной Энергии в Космосе",
-      type: "ANCHOR",
-      title: "#Применение Солнечной Энергии в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-713f1245-a0a5-44be-aadd-b8028a8d0e6f",
-      name: "#Технологии и Инновации",
-      type: "ANCHOR",
-      title: "#Технологии и Инновации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-8c0c9c6e-776c-4c8b-bac7-3b6ae823d434",
-      name: "#Вызовы и Перспективы",
-      type: "ANCHOR",
-      title: "#Вызовы и Перспективы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-fb8bdd8a-31b5-4bc5-a3e7-3d0f06ea74cc",
-      name: "#Значимость Солнечной Энергии в Космических Миссиях",
-      type: "ANCHOR",
-      title: "#Значимость Солнечной Энергии в Космических Миссиях",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-042dbc27-fe7d-4912-9f99-6d50f486664e",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-085175b3-97a2-474f-bc02-b2a9596a5954",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\search-for-extraterrestrial-life.md",
-      relativePath: ".\\space/search-for-extraterrestrial-life.md",
-      name: "search-for-extraterrestrial-life.md",
-      type: "FILE",
-      title: "search-for-extraterrestrial-life.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "14",
-    },
-    {
-      id: "ANCHOR-$$-2720cda3-e27d-4838-ba87-269c97b1343e",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-c7977556-c4c6-4570-8e30-22e47c593a85",
-      name: "#Экзопланеты и Зона Жизни",
-      type: "ANCHOR",
-      title: "#Экзопланеты и Зона Жизни",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-10f5a6b2-42a1-4340-9620-4cdc791c45b9",
-      name: "#Исследование Марса и Марсианских Загадок",
-      type: "ANCHOR",
-      title: "#Исследование Марса и Марсианских Загадок",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-fb43164c-662f-4e29-89f4-5db95dd29b52",
-      name: "#История Радиосигналов и SETI",
-      type: "ANCHOR",
-      title: "#История Радиосигналов и SETI",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-a700e2f0-5400-4d17-bcf0-59c030014f57",
-      name: "#Значимые Открытия и Перспективы",
-      type: "ANCHOR",
-      title: "#Значимые Открытия и Перспективы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-e277443e-4b1a-45db-83f3-1023d7d608f7",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-d13aeddc-3ce6-4d7e-a2c3-47aaf59f966e",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\satellites-and-surveillance.md",
-      relativePath: ".\\space/satellites-and-surveillance.md",
-      name: "satellites-and-surveillance.md",
-      type: "FILE",
-      title: "satellites-and-surveillance.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "15",
-    },
-    {
-      id: "ANCHOR-$$-e7fcc41d-9d14-48bf-a47a-a34f7a82220f",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-34ae4954-7a6e-4a9d-a679-5e9e869d13b7",
-      name: "#Спутники: Глаза Вселенной в Нашем Небе",
-      type: "ANCHOR",
-      title: "#Спутники: Глаза Вселенной в Нашем Небе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-af964d68-fb6c-4f6f-8fd6-77de8f001311",
-      name: "#Роль Спутников в Космической Навигации",
-      type: "ANCHOR",
-      title: "#Роль Спутников в Космической Навигации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-ccabe641-15da-4c05-95a0-e4dfcb164956",
-      name: "#Слежение за Погодой и Климатом",
-      type: "ANCHOR",
-      title: "#Слежение за Погодой и Климатом",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-e23a06df-eed1-4ef3-a05f-32af7b1024e1",
-      name: "#Спутники для Глобальной Безопасности",
-      type: "ANCHOR",
-      title: "#Спутники для Глобальной Безопасности",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-65d23214-eef4-46e1-b2f0-d7ca62ae3b63",
-      name: "#Будущее Спутников и Слежения",
-      type: "ANCHOR",
-      title: "#Будущее Спутников и Слежения",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-ecaed248-99ba-400b-838a-bfbedcc11edd",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-535a787e-c131-45d4-a3ba-c6e141ce036d",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\quantum-physics-in-space.md",
-      relativePath: ".\\space/quantum-physics-in-space.md",
-      name: "quantum-physics-in-space.md",
-      type: "FILE",
-      title: "quantum-physics-in-space.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "16",
-    },
-    {
-      id: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
-      relativePath:
-        ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
-      name: "black-holes-and-quasars-mysteries-of-the-universe.md",
-      type: "FILE",
-      title: "black-holes-and-quasars-mysteries-of-the-universe.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "17",
-    },
-    {
-      id: "ANCHOR-$$-65d4da01-2bb4-471c-aca8-5e840e204a52",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-9060d5d0-0708-4eb6-8891-c74f90d7b6eb",
-      name: "#Основы Квантовой Физики",
-      type: "ANCHOR",
-      title: "#Основы Квантовой Физики",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5e72b51f-2093-48f1-88db-f3f0f3e611c5",
-      name: "#Квантовая Физика и Космические Явления",
-      type: "ANCHOR",
-      title: "#Квантовая Физика и Космические Явления",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-25474dc8-210e-443e-8262-57a8f0029bb8",
-      name: "#Квантовые Технологии в Космосе",
-      type: "ANCHOR",
-      title: "#Квантовые Технологии в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-88cc3257-54c9-4e67-b5ed-16586d204b2d",
-      name: "#Будущее Квантовой Физики в Космосе",
-      type: "ANCHOR",
-      title: "#Будущее Квантовой Физики в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-51240d84-e449-4c32-b7f9-3e6dbf605412",
-      name: "#Значимость для Исследований Вселенной",
-      type: "ANCHOR",
-      title: "#Значимость для Исследований Вселенной",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b1dfda7b-3dce-4391-80f5-ac01e57c22bf",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5117b16e-0317-4394-8fc3-845953c1988a",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\moon-landing-apollo.md",
-      relativePath: ".\\space/moon-landing-apollo.md",
-      name: "moon-landing-apollo.md",
-      type: "FILE",
-      title: "moon-landing-apollo.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "18",
-    },
-    {
-      id: "ANCHOR-$$-bf89e461-e0d5-4159-bdc0-263fc100d175",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-80e6db50-f33b-4c87-ad4f-970e25abe14a",
-      name: "#Начало Программы Аполлон",
-      type: "ANCHOR",
-      title: "#Начало Программы Аполлон",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-74b26ae5-334a-4e3c-b096-aad77edf8620",
-      name: "#Аполлон-11: Первые Шаги Человека на Луне",
-      type: "ANCHOR",
-      title: "#Аполлон-11: Первые Шаги Человека на Луне",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f020389e-8406-4d36-a78e-d3465c348a6e",
-      name: "#Технологические и Научные Достижения",
-      type: "ANCHOR",
-      title: "#Технологические и Научные Достижения",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-0352e7cf-488f-46db-98a8-dd4d469e75cb",
-      name: "#Культурное и Историческое Значение",
-      type: "ANCHOR",
-      title: "#Культурное и Историческое Значение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-c4152328-93a7-4d41-8fe0-c1503a226730",
-      name: "#Наследие и Влияние на Будущие Миссии",
-      type: "ANCHOR",
-      title: "#Наследие и Влияние на Будущие Миссии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5d784b37-c914-4da9-8e68-0d331e1f9a31",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-44de36fe-eb4c-43ad-92a8-1443ec6ecd27",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\beyond-earth-manned-spaceflights.md",
-      relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
-      name: "beyond-earth-manned-spaceflights.md",
-      type: "FILE",
-      title: "beyond-earth-manned-spaceflights.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "19",
-    },
-    {
-      id: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\mars-colonization-plans.md",
-      relativePath: ".\\space/mars-colonization-plans.md",
-      name: "mars-colonization-plans.md",
-      type: "FILE",
-      title: "mars-colonization-plans.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "20",
-    },
-    {
-      id: "ANCHOR-$$-b5ef3946-d7ee-4a3c-b7ae-a33a505acaeb",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f37e64d9-1dfd-432d-b758-bc71bfd68553",
-      name: "#История Исследования Марса",
-      type: "ANCHOR",
-      title: "#История Исследования Марса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-d77bfc2e-ca95-40f3-ad92-96971600f415",
-      name: "#Текущие Миссии на Марс",
-      type: "ANCHOR",
-      title: "#Текущие Миссии на Марс",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-dc806fa7-9faa-4fff-abfc-752f6299e1ff",
-      name: "#Планы по Колонизации",
-      type: "ANCHOR",
-      title: "#Планы по Колонизации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-2ba2a5a5-2ec7-4efd-b864-0a6e60f312f0",
-      name: "#Технологические и Логистические Вызовы",
-      type: "ANCHOR",
-      title: "#Технологические и Логистические Вызовы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-8e9e99ee-f905-4a60-850c-7c86a5870c09",
-      name: "#Этические и Экологические Аспекты",
-      type: "ANCHOR",
-      title: "#Этические и Экологические Аспекты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-6170e30d-8e3f-40d0-bf5d-48670c426804",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-99b12a15-d783-4a97-82de-942c96f335e6",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-c7e1c3c0-313d-4288-8253-84f23a295936",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-8c37d99c-864a-4f8b-bbfa-5e43493b76f7",
-      name: "#История и Структура МКС",
-      type: "ANCHOR",
-      title: "#История и Структура МКС",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-e560c868-7170-4454-b58d-03d0de8ac866",
-      name: "#Повседневная Жизнь на МКС",
-      type: "ANCHOR",
-      title: "#Повседневная Жизнь на МКС",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-2cea4bf6-3dbc-444c-a4f8-be95d3f905c5",
-      name: "#Научные Эксперименты на Орбите",
-      type: "ANCHOR",
-      title: "#Научные Эксперименты на Орбите",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-27ff41e3-1a17-4007-bbb4-2a115518cd39",
-      name: "#Взаимодействие и Работа Экипажа",
-      type: "ANCHOR",
-      title: "#Взаимодействие и Работа Экипажа",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5d6c7df2-345d-481c-8a26-290962aec4e3",
-      name: "#Вызовы Жизни в Космосе",
-      type: "ANCHOR",
-      title: "#Вызовы Жизни в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b1c69f09-c751-4dc4-9302-25e2ea6765b7",
-      name: "#Значение МКС для Будущего Исследования Космоса",
-      type: "ANCHOR",
-      title: "#Значение МКС для Будущего Исследования Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-4db90d3c-d6ec-45be-ac33-7db362232a01",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-7a8ff013-a591-46b9-bcf8-fc4937d4d708",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f1ecfeb0-5e0e-4e1f-9c3c-4c493820a8a4",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-7bd9b596-1a2f-46f7-8048-a674cb6c7f6e",
-      name: "#История и Разработка Телескопа",
-      type: "ANCHOR",
-      title: "#История и Разработка Телескопа",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-6c6f269c-96ec-4ed8-b5e9-667ffdb5e097",
-      name: "#Уникальные Возможности и Инструменты",
-      type: "ANCHOR",
-      title: "#Уникальные Возможности и Инструменты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-883fb7bc-8e2e-4ab4-8983-6560fb1ba3ea",
-      name: "#Основные Цели Миссии",
-      type: "ANCHOR",
-      title: "#Основные Цели Миссии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-11ac964a-3763-493c-a042-ee91d31d8e4d",
-      name: "#Первые Открытия и Наблюдения",
-      type: "ANCHOR",
-      title: "#Первые Открытия и Наблюдения",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-2a805d25-463d-4b65-af57-7d86851ebf3f",
-      name: "#Будущее Астрономических Исследований",
-      type: "ANCHOR",
-      title: "#Будущее Астрономических Исследований",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-8ccbffcc-5b43-46eb-9895-4d690961a66f",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5f93bd72-23a3-4ac9-b61d-46975cf94432",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-092e935a-08fb-49cd-b114-30c28bbc9e0e",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-33d54b1d-79c0-4078-b6d9-ad60384d4818",
-      name: "#Юрий Гагарин: Первый Человек в Космосе",
-      type: "ANCHOR",
-      title: "#Юрий Гагарин: Первый Человек в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-ad423441-daa8-42c5-a907-502ed7d7aee8",
-      name: "#Нил Армстронг: Легенда Аполлона",
-      type: "ANCHOR",
-      title: "#Нил Армстронг: Легенда Аполлона",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-c944ac04-bef6-43bf-8377-7d553fa496c9",
-      name: "#Валентина Терешкова: Первая Женщина в Космосе",
-      type: "ANCHOR",
-      title: "#Валентина Терешкова: Первая Женщина в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-2dc8341c-0d2d-471b-9ae3-7629c9b3e6ad",
-      name: "#Салли Райд: Пионерка Американского Космоса",
-      type: "ANCHOR",
-      title: "#Салли Райд: Пионерка Американского Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-ddc4f77c-1127-47f4-ba2a-04dff6731c1e",
-      name: "#Крис Хэдфилд: Современный Герой Космоса",
-      type: "ANCHOR",
-      title: "#Крис Хэдфилд: Современный Герой Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-3d5c3f2a-b61a-44a2-8c7a-512ca213e2d3",
-      name: "#Вклад Астронавтов в Исследование Космоса",
-      type: "ANCHOR",
-      title: "#Вклад Астронавтов в Исследование Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-849800b3-b473-4acb-83f1-06195fcd4dde",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-75dc529d-ecc3-4274-9a06-69a5307b93e1",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\gravity-and-relativity-space-travel.md",
-      relativePath: ".\\space/gravity-and-relativity-space-travel.md",
-      name: "gravity-and-relativity-space-travel.md",
-      type: "FILE",
-      title: "gravity-and-relativity-space-travel.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "21",
-    },
-    {
-      id: "ANCHOR-$$-4d3e1047-f0ba-4f20-bb77-036910b5fd32",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-25938f19-05e8-4110-9d7c-45172b2b6fac",
-      name: "#Основы Гравитации и Относительности",
-      type: "ANCHOR",
-      title: "#Основы Гравитации и Относительности",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-cf5cd41a-6b1b-4717-841b-2d25b230f8c1",
-      name: "#Эффекты Гравитации на Космонавтику",
-      type: "ANCHOR",
-      title: "#Эффекты Гравитации на Космонавтику",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b894e0f8-f1b2-4ed0-8cc8-42f6369374a5",
-      name: "#Относительность и Путешествие со Световой Скоростью",
-      type: "ANCHOR",
-      title: "#Относительность и Путешествие со Световой Скоростью",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-bab98b00-91ea-4929-916b-d1d6cddd5f6b",
-      name: "#Исследования и Эксперименты",
-      type: "ANCHOR",
-      title: "#Исследования и Эксперименты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-33e355b4-cad0-470a-9c73-a22512c96819",
-      name: "#Значимость для Будущего Космических Путешествий",
-      type: "ANCHOR",
-      title: "#Значимость для Будущего Космических Путешествий",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-089ea120-c4cc-40f8-9f8b-8109be0208b8",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-65ab6025-fa92-44c8-b30c-9e341a073116",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-389591a4-23c6-41cb-a344-2de3a47d975c",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-36fe0b04-d0be-4cec-ba38-f0c939463e68",
-      name: "#Черные Дыры: Поглощение Света и Материи",
-      type: "ANCHOR",
-      title: "#Черные Дыры: Поглощение Света и Материи",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-cfb19e94-a7c4-4c4b-8af2-4f2d15d6d5b1",
-      name: "#Квазары: Мощнейшие Источники Энергии",
-      type: "ANCHOR",
-      title: "#Квазары: Мощнейшие Источники Энергии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-cf1df794-d050-4824-a9e0-87b250e3c2f5",
-      name: "#Сверхмассивные Черные Дыры и Галактические Коллайдеры",
-      type: "ANCHOR",
-      title: "#Сверхмассивные Черные Дыры и Галактические Коллайдеры",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5b111d14-3caf-4e2a-a4be-e3e16f5efbfb",
-      name: "#Исследования и Теории",
-      type: "ANCHOR",
-      title: "#Исследования и Теории",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-8d4b7f08-5304-48ec-90cb-9bdcba3b34f6",
-      name: "#Значимость для Космологии",
-      type: "ANCHOR",
-      title: "#Значимость для Космологии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-edd2ba04-39e9-4583-b0ca-5bd3fcc59cde",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-7d132b2a-cfa2-44d2-8ce0-4a09753e423a",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir2\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      relativePath:
-        ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      type: "FILE",
-      title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "22",
-    },
-    {
-      id: "ANCHOR-$$-d5a46620-79b8-4334-a86d-179ded439e2b",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b2e6e0a3-f36f-4060-8584-3c7004b10dfa",
-      name: "#История Космических Станций",
-      type: "ANCHOR",
-      title: "#История Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-3967f326-937d-461d-bc31-dce84cf33b6f",
-      name: "#МКС: Наша Современная Космическая Лаборатория",
-      type: "ANCHOR",
-      title: "#МКС: Наша Современная Космическая Лаборатория",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-18ed8187-3c15-4901-9f7c-8e9ead1bfe49",
-      name: "#Будущее Космических Станций",
-      type: "ANCHOR",
-      title: "#Будущее Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-bde4e747-72dc-40d8-85f5-7682d84963bc",
-      name: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      type: "ANCHOR",
-      title: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-7236e6ee-7b21-47e5-9947-c4483d8238bd",
-      name: "#Значимость для Человечества",
-      type: "ANCHOR",
-      title: "#Значимость для Человечества",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-205b41a1-4206-4757-b1d2-09c93903f1dc",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-ee91c8de-a090-4165-b8f8-e85767ea28b1",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f3e8b196-e72f-422a-b303-8e7ed9e1306d",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b478434d-559b-4d3e-8a93-85a4a1aa478a",
-      name: "#Ранние Годы Космонавтики",
-      type: "ANCHOR",
-      title: "#Ранние Годы Космонавтики",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-a3eb7313-9d48-4758-8093-0b0490b21668",
-      name: '#Эра "Аполлон"',
-      type: "ANCHOR",
-      title: '#Эра "Аполлон"',
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f10f1338-5e64-4805-92ac-ad2d910a14d4",
-      name: "#Современные Космические Программы",
-      type: "ANCHOR",
-      title: "#Современные Космические Программы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-f1f71c85-26bc-4134-9911-3daa4605da2d",
-      name: "#Будущее Пилотируемых Полетов",
-      type: "ANCHOR",
-      title: "#Будущее Пилотируемых Полетов",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-77ecad11-5ad0-46c0-ac73-a02b40494ba4",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-285316a3-85cf-4f7d-a9d7-ed2791f5742e",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-043c2f07-da30-495f-834d-8a82c63869d7",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5f011699-676f-4f4d-a1d0-42e4ad3f6faa",
-      name: "#Астероиды: Золотые Рудники Космоса",
-      type: "ANCHOR",
-      title: "#Астероиды: Золотые Рудники Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-c6a53367-fdae-422e-8221-41aa5961f931",
-      name: "#Кометы и Их Значение",
-      type: "ANCHOR",
-      title: "#Кометы и Их Значение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-04a7985b-27d3-4402-b266-87d4b5e16ff2",
-      name: "#Технологии Добычи и Транспортировки",
-      type: "ANCHOR",
-      title: "#Технологии Добычи и Транспортировки",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-690da89e-4c68-4cf3-a9ae-b999571751d8",
-      name: "#Экологические и Экономические Аспекты",
-      type: "ANCHOR",
-      title: "#Экологические и Экономические Аспекты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-acc17713-ebad-4af0-91e0-df533c1d8714",
-      name: "#Перспективы и Вызовы",
-      type: "ANCHOR",
-      title: "#Перспективы и Вызовы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-6571ea01-63a3-454a-b67c-2fe74c1e8726",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b2190031-1659-4754-afbd-7b7b4fdaa856",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      parent: "22146381-06d4-48ad-b7ee-1d1c10e1e1c0",
-      absolutePath:
-        "/usr/src/app/trackingDir/dir2/space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      relativePath:
-        ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      type: "FILE",
-      title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "23",
-    },
-    {
-      id: "ANCHOR-$$-894E9344-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-894F5586-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#История Космических Станций",
-      type: "ANCHOR",
-      title: "#История Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-894F5504-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#МКС: Наша Современная Космическая Лаборатория",
-      type: "ANCHOR",
-      title: "#МКС: Наша Современная Космическая Лаборатория",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-895E059A-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Будущее Космических Станций",
-      type: "ANCHOR",
-      title: "#Будущее Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-894F55B8-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      type: "ANCHOR",
-      title: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-895E0540-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Значимость для Человечества",
-      type: "ANCHOR",
-      title: "#Значимость для Человечества",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-894F554A-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-895E05D6-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-206ad93e-05b7-49c7-9aca-b91b58218cdf",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Документ 1.md",
-      relativePath: ".\\Документ 1.md",
-      name: "Документ 1.md",
-      type: "FILE",
-      title: "Документ 1.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "24",
-    },
-    {
-      id: "TAG-$$-645884c1-f98b-4a08-8e29-2cc7e22089ce",
-      name: "#qwe",
       type: "TAG",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "TAG",
+        id: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+        name: "#tag",
+      },
+    },
+    {
+      id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
       title: "#qwe",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "TAG",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#qwe",
+        id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+        type: "TAG",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-c65a384d-d292-4194-96ae-e03f898dda72",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Test.md",
-      relativePath: ".\\Test.md",
-      name: "Test.md",
+      id: "c1095f78-4e67-4fdf-93cc-6ea7d4a0cea3",
+      title: "Документ 1.md",
       type: "FILE",
-      title: "Test.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        relativePath: ".\\Документ 1.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Документ 1.md",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "c1095f78-4e67-4fdf-93cc-6ea7d4a0cea3",
+        name: "Документ 1.md",
+        type: "FILE",
       },
-      chosen: {},
-      label: "25",
     },
     {
-      id: "TAG-$$-faffb393-1f5b-44fb-b240-348241f47912",
-      name: "#tag1",
-      type: "TAG",
-      title: "#tag1",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "TAG-$$-a1992cf4-9c24-49ba-9528-fb97afc49a6a",
-      name: "#tag2",
-      type: "TAG",
-      title: "#tag2",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "TAG-$$-aeac9e83-71b5-458d-bf77-5a27a7f00622",
-      name: "#tag3",
-      type: "TAG",
-      title: "#tag3",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-052ee3e5-c415-404c-abf4-a13519e37c6a",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Table.md",
-      relativePath: ".\\Table.md",
-      name: "Table.md",
-      type: "FILE",
-      title: "Table.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "26",
-    },
-    {
-      id: "TAG-$$-6bc973d8-57ee-47d3-a96c-fca6905eeb2e",
-      name: "#tag",
-      type: "TAG",
-      title: "#tag",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#0078d4",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
-      relativePath: ".\\space/venus-vs-mars-exploring-space.md",
-      name: "venus-vs-mars-exploring-space.md",
-      type: "FILE",
+      id: "f3788327-5a50-402f-8e9b-87432fdd640f",
       title: "venus-vs-mars-exploring-space.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
       },
-      chosen: {},
-      label: "27",
     },
     {
-      id: "ANCHOR-$$-b59ac330-6912-48f4-a1d2-393dd921bfc5",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "1da18919-77ab-4eae-a751-8b212f761c2d",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        id: "1da18919-77ab-4eae-a751-8b212f761c2d",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-2e6a3da1-2c35-4604-98a7-dd31c028a6c5",
-      name: "#Венера: Загадки Горячей Планеты",
-      type: "ANCHOR",
+      id: "8434f0cc-c503-4ebf-aac4-39366420d630",
       title: "#Венера: Загадки Горячей Планеты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "8434f0cc-c503-4ebf-aac4-39366420d630",
+        type: "ANCHOR",
+        name: "#Венера: Загадки Горячей Планеты",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-d0ee3c15-091c-4dd8-8586-e3ab5b77ae28",
-      name: "#Марс: Путь к Красной Планете",
-      type: "ANCHOR",
+      id: "4de6f442-7302-40c2-b972-f9d92b509067",
       title: "#Марс: Путь к Красной Планете",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Марс: Путь к Красной Планете",
+        id: "4de6f442-7302-40c2-b972-f9d92b509067",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-6f08ef83-c012-45ac-9a4d-bb5a13a6fbd1",
-      name: "#Миссии на Венеру и Марс",
-      type: "ANCHOR",
+      id: "3c5a052b-a8d3-4881-9ddc-bbaf85769578",
       title: "#Миссии на Венеру и Марс",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "3c5a052b-a8d3-4881-9ddc-bbaf85769578",
+        name: "#Миссии на Венеру и Марс",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-35ee4e92-0bb8-4387-aaa3-8ac0ed17cea4",
-      name: "#Научные Открытия и Перспективы",
-      type: "ANCHOR",
+      id: "9ef03edd-b60f-42bc-9492-68c3993e24a1",
       title: "#Научные Открытия и Перспективы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "9ef03edd-b60f-42bc-9492-68c3993e24a1",
+        name: "#Научные Открытия и Перспективы",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-91c03594-a128-43dd-9e5b-5fa5cb14d118",
-      name: "#Значимость Освоения Венеры и Марса",
-      type: "ANCHOR",
+      id: "f4ffbd71-1c01-40a2-b746-f503f2600aa9",
       title: "#Значимость Освоения Венеры и Марса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "f4ffbd71-1c01-40a2-b746-f503f2600aa9",
+        name: "#Значимость Освоения Венеры и Марса",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-b9cd95c1-db8a-4066-883b-d1f5e96ec062",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "a663f823-fa91-4dc8-9611-0b4d5725a9d7",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-dcf122a0-8d3b-4d23-9504-bb037304816c",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "a663f823-fa91-4dc8-9611-0b4d5725a9d7",
+        type: "ANCHOR",
+        name: "#Заключение",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
-      relativePath: ".\\space/space-suits-from-prototypes-to-modern-models.md",
-      name: "space-suits-from-prototypes-to-modern-models.md",
-      type: "FILE",
+      id: "8e1e5f29-4da9-429c-813f-7d3235d02111",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        type: "ANCHOR",
+        id: "8e1e5f29-4da9-429c-813f-7d3235d02111",
+      },
+    },
+    {
+      id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
       title: "space-suits-from-prototypes-to-modern-models.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+        relativePath:
+          ".\\space/space-suits-from-prototypes-to-modern-models.md",
       },
-      chosen: {},
-      label: "28",
     },
     {
-      id: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
-      relativePath: ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
-      name: "solar-energy-in-space-new-frontiers-of-power.md",
-      type: "FILE",
+      id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
       title: "solar-energy-in-space-new-frontiers-of-power.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "FILE",
+        name: "solar-energy-in-space-new-frontiers-of-power.md",
+        relativePath:
+          ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
       },
-      chosen: {},
-      label: "29",
     },
     {
-      id: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
-      relativePath: ".\\space/space-disasters-lessons-learned.md",
-      name: "space-disasters-lessons-learned.md",
-      type: "FILE",
+      id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
       title: "space-disasters-lessons-learned.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        relativePath: ".\\space/space-disasters-lessons-learned.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
       },
-      chosen: {},
-      label: "30",
     },
     {
-      id: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
-      relativePath: ".\\space/spacecraft-technology.md",
-      name: "spacecraft-technology.md",
-      type: "FILE",
+      id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
       title: "spacecraft-technology.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        relativePath: ".\\space/spacecraft-technology.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+        type: "FILE",
+        name: "spacecraft-technology.md",
       },
-      chosen: {},
-      label: "31",
     },
     {
-      id: "ANCHOR-$$-4190a29c-1bed-451d-add5-731ba244dc4e",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "b07dc501-be5d-44d5-802a-c598574951d0",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "b07dc501-be5d-44d5-802a-c598574951d0",
+        type: "ANCHOR",
+        name: "#Введение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-9ebfad22-611d-4cc3-bb54-dfb3277fce97",
-      name: "#Развитие Реактивных Двигателей",
-      type: "ANCHOR",
+      id: "ef3b273a-bfd9-46c4-b9f9-57a573f35fec",
       title: "#Развитие Реактивных Двигателей",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Развитие Реактивных Двигателей",
+        id: "ef3b273a-bfd9-46c4-b9f9-57a573f35fec",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-e8d65651-293a-44d0-a4ad-6b3e2c5125bb",
-      name: "#Ионные и Электрические Двигатели",
-      type: "ANCHOR",
+      id: "9d0899bc-9ef8-44e9-85d5-f8084a68697a",
       title: "#Ионные и Электрические Двигатели",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Ионные и Электрические Двигатели",
+        type: "ANCHOR",
+        id: "9d0899bc-9ef8-44e9-85d5-f8084a68697a",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-25d62619-ab5c-4555-849d-0919a75de445",
-      name: "#Технологии Жизнеобеспечения на Борту",
-      type: "ANCHOR",
+      id: "be918cd7-6b1b-4c7b-bd10-aa7d52143f40",
       title: "#Технологии Жизнеобеспечения на Борту",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Технологии Жизнеобеспечения на Борту",
+        type: "ANCHOR",
+        id: "be918cd7-6b1b-4c7b-bd10-aa7d52143f40",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-dc3c57a9-6fe2-46a3-b04a-25443429accb",
-      name: "#Инновации в Материалах и Конструкциях",
-      type: "ANCHOR",
+      id: "06f95e30-1ca6-4b8e-8a34-fa1876a8de46",
       title: "#Инновации в Материалах и Конструкциях",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "06f95e30-1ca6-4b8e-8a34-fa1876a8de46",
+        type: "ANCHOR",
+        name: "#Инновации в Материалах и Конструкциях",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-f482c3fb-e0ca-4759-add6-676072896114",
-      name: "#Будущее Космических Путешествий",
-      type: "ANCHOR",
+      id: "bc197fde-73ab-406c-ab99-1c1c6a049126",
       title: "#Будущее Космических Путешествий",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "bc197fde-73ab-406c-ab99-1c1c6a049126",
+        name: "#Будущее Космических Путешествий",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ee6fb6f9-c639-40f8-ab14-ae60306adc31",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "286f5a84-0fa0-4880-af30-6734c6a71bbe",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5effb4fc-8139-4dff-9e28-76d85668debb",
-      name: "#См. также",
       type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "286f5a84-0fa0-4880-af30-6734c6a71bbe",
+        name: "#Заключение",
+      },
+    },
+    {
+      id: "990ecf87-4c8a-4fe9-906f-be380368178a",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        type: "ANCHOR",
+        id: "990ecf87-4c8a-4fe9-906f-be380368178a",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
-      relativePath: ".\\space/greatest-astronauts-biographies.md",
-      name: "greatest-astronauts-biographies.md",
-      type: "FILE",
+      id: "c45272b1-e295-4b45-8730-2ba36c174545",
       title: "greatest-astronauts-biographies.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+        relativePath: ".\\space/greatest-astronauts-biographies.md",
       },
-      chosen: {},
-      label: "32",
     },
     {
-      id: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
-      relativePath: ".\\space/james-webb-telescope-mission.md",
-      name: "james-webb-telescope-mission.md",
-      type: "FILE",
+      id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
       title: "james-webb-telescope-mission.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "FILE",
+        name: "james-webb-telescope-mission.md",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        relativePath: ".\\space/james-webb-telescope-mission.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
       },
-      chosen: {},
-      label: "33",
     },
     {
-      id: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
-      relativePath: ".\\space/life-among-the-stars.md",
-      name: "life-among-the-stars.md",
-      type: "FILE",
+      id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
       title: "life-among-the-stars.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        relativePath: ".\\space/life-among-the-stars.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+        type: "FILE",
+        name: "life-among-the-stars.md",
       },
-      chosen: {},
-      label: "34",
     },
     {
-      id: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
-      relativePath: ".\\space/space-tourism-dream-or-reality.md",
-      name: "space-tourism-dream-or-reality.md",
-      type: "FILE",
+      id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
       title: "space-tourism-dream-or-reality.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "FILE",
+        name: "space-tourism-dream-or-reality.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+        relativePath: ".\\space/space-tourism-dream-or-reality.md",
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
       },
-      chosen: {},
-      label: "35",
     },
     {
-      id: "ANCHOR-$$-c9458933-4bcc-4a36-93b8-97220442eea8",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "3fa9acad-2864-45ad-8abf-c08bad9706ed",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "3fa9acad-2864-45ad-8abf-c08bad9706ed",
+        name: "#Введение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-98882739-3269-4ca0-903a-39376022efd0",
-      name: "#История Космического Туризма",
-      type: "ANCHOR",
+      id: "8895599f-e19a-476b-9179-b1a390d3eb66",
       title: "#История Космического Туризма",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#История Космического Туризма",
+        id: "8895599f-e19a-476b-9179-b1a390d3eb66",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-52e4fac2-b819-467d-a8ca-f8f7433c45d9",
-      name: "#Космические Коммерческие Проекты",
-      type: "ANCHOR",
+      id: "13e45f41-2bd4-4927-b613-97fe96562342",
       title: "#Космические Коммерческие Проекты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "13e45f41-2bd4-4927-b613-97fe96562342",
+        type: "ANCHOR",
+        name: "#Космические Коммерческие Проекты",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-8b57bf56-a88d-4417-a710-59c2883f1302",
-      name: "#Технические Испытания и Будущие Полеты",
-      type: "ANCHOR",
+      id: "70134b22-7296-4d1a-87e1-7236848e93d5",
       title: "#Технические Испытания и Будущие Полеты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "70134b22-7296-4d1a-87e1-7236848e93d5",
+        name: "#Технические Испытания и Будущие Полеты",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0ff7096e-9b5d-4cfe-85c5-d949eeb937ee",
-      name: "#Экономический Потенциал и Вызовы",
-      type: "ANCHOR",
+      id: "4b7651b9-a03f-478d-b1c0-58599381da6c",
       title: "#Экономический Потенциал и Вызовы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "4b7651b9-a03f-478d-b1c0-58599381da6c",
+        name: "#Экономический Потенциал и Вызовы",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-cbd4d04b-ed4e-4bd3-b892-8fd9ac0c45f1",
-      name: "#Космический Туризм и Научные Исследования",
-      type: "ANCHOR",
+      id: "ff712b30-d0c5-4964-b302-9f01901ae335",
       title: "#Космический Туризм и Научные Исследования",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Космический Туризм и Научные Исследования",
+        type: "ANCHOR",
+        id: "ff712b30-d0c5-4964-b302-9f01901ae335",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-169371b5-3f58-4069-b7b3-b130c539f2cf",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "2a4691aa-f6b0-4809-b14f-c4b4bfdf079c",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-43fd61a3-bd1b-4427-b53b-abccef8edeb4",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "2a4691aa-f6b0-4809-b14f-c4b4bfdf079c",
+        name: "#Заключение",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
-      relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
-      name: "asteroids-and-comets-resource-mining.md",
-      type: "FILE",
+      id: "82166597-eee1-48a1-a4df-d6760c2c8d0b",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        type: "ANCHOR",
+        id: "82166597-eee1-48a1-a4df-d6760c2c8d0b",
+      },
+    },
+    {
+      id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
       title: "asteroids-and-comets-resource-mining.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "FILE",
+        name: "asteroids-and-comets-resource-mining.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+        relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
       },
-      chosen: {},
-      label: "36",
     },
     {
-      id: "ANCHOR-$$-5707ec6b-2d9e-417b-91a6-f4f66c556963",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "b9e24671-ff86-4540-b86b-1db65ac96567",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        type: "ANCHOR",
+        id: "b9e24671-ff86-4540-b86b-1db65ac96567",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-e91dbe52-5481-45c3-9474-1c601fa37f48",
-      name: "#Ранние Прототипы и История Скафандров",
-      type: "ANCHOR",
+      id: "11968660-549a-4121-b521-f8f58af0da1c",
       title: "#Ранние Прототипы и История Скафандров",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Ранние Прототипы и История Скафандров",
+        id: "11968660-549a-4121-b521-f8f58af0da1c",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-849fac8b-5805-4bf6-848b-ffb6ccf2e49d",
-      name: "#Эволюция Скафандров в Космосе",
-      type: "ANCHOR",
+      id: "7c8d6e5b-5218-4c38-b309-cfb032a22ff8",
       title: "#Эволюция Скафандров в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Эволюция Скафандров в Космосе",
+        id: "7c8d6e5b-5218-4c38-b309-cfb032a22ff8",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-b0c9f3f0-069d-4f69-8028-ea998a8e78c4",
-      name: "#Современные Скафандры и Инновации",
-      type: "ANCHOR",
+      id: "607c8dd6-3d65-4fe6-8401-220657102bb8",
       title: "#Современные Скафандры и Инновации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Современные Скафандры и Инновации",
+        id: "607c8dd6-3d65-4fe6-8401-220657102bb8",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-11425c0b-beb4-402c-bfd0-831b9b02970d",
-      name: "#Скафандры в Космических Миссиях",
-      type: "ANCHOR",
+      id: "22422945-3258-49c8-a621-418b6d4e8c41",
       title: "#Скафандры в Космических Миссиях",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "22422945-3258-49c8-a621-418b6d4e8c41",
+        type: "ANCHOR",
+        name: "#Скафандры в Космических Миссиях",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-827cf76b-abef-4986-8695-63e147676cbe",
-      name: "#Значимость Скафандров для Астронавтов",
-      type: "ANCHOR",
+      id: "9b28b768-ce8d-4add-8768-b91e6b031ec7",
       title: "#Значимость Скафандров для Астронавтов",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "9b28b768-ce8d-4add-8768-b91e6b031ec7",
+        type: "ANCHOR",
+        name: "#Значимость Скафандров для Астронавтов",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-dbe01925-72d7-4168-a48b-4272c25c1f51",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "28024de2-fd88-412b-a8a8-cc3c99e1bbf7",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        id: "28024de2-fd88-412b-a8a8-cc3c99e1bbf7",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-6bc111cc-4d29-4830-b7a5-e3a8f51bba0d",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "f8839654-8d01-4090-87aa-00883a890142",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        id: "f8839654-8d01-4090-87aa-00883a890142",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-97c1f506-54b1-4fcf-ba7e-34a9e447276a",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "7f26258e-88e7-4572-9f81-b6df9a454a04",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "7f26258e-88e7-4572-9f81-b6df9a454a04",
+        name: "#Введение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-2ad2bd04-e9d3-4c97-a287-3901a99838a0",
-      name: "#История Космических Катастроф",
-      type: "ANCHOR",
+      id: "833e1800-d663-4195-8ab8-b7d661ccc862",
       title: "#История Космических Катастроф",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#История Космических Катастроф",
+        id: "833e1800-d663-4195-8ab8-b7d661ccc862",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-8f64f83f-6961-4932-aada-e57e3f9c670c",
-      name: "#Причины и Уроки Через Преграды",
-      type: "ANCHOR",
+      id: "a35c6f1f-cd18-4566-917c-37072477a68c",
       title: "#Причины и Уроки Через Преграды",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "a35c6f1f-cd18-4566-917c-37072477a68c",
+        name: "#Причины и Уроки Через Преграды",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-f59fbe05-848b-45fc-ab95-05174d029c47",
-      name: "#Безопасность и Профилактика",
-      type: "ANCHOR",
+      id: "3e618de9-71fd-4b59-ac98-071e95735b40",
       title: "#Безопасность и Профилактика",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Безопасность и Профилактика",
+        type: "ANCHOR",
+        id: "3e618de9-71fd-4b59-ac98-071e95735b40",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-648a0454-1c92-407b-a0d0-8251824261f6",
-      name: "#Опыт и Эволюция",
-      type: "ANCHOR",
+      id: "c8190168-7b0d-42d2-8835-ae4fae5a5f6e",
       title: "#Опыт и Эволюция",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "c8190168-7b0d-42d2-8835-ae4fae5a5f6e",
+        name: "#Опыт и Эволюция",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-a12e48ce-db5b-494b-910f-5a7a46528d83",
-      name: "#Значимость Уроков Космических Катастроф",
-      type: "ANCHOR",
+      id: "2483a733-7b3b-49d4-8296-2aeb4f5b28c1",
       title: "#Значимость Уроков Космических Катастроф",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Значимость Уроков Космических Катастроф",
+        id: "2483a733-7b3b-49d4-8296-2aeb4f5b28c1",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ab9df02e-bfad-4bbf-99d5-96f7d9822a4c",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "a8209204-f7eb-4524-8154-f7eb7c51355f",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        type: "ANCHOR",
+        id: "a8209204-f7eb-4524-8154-f7eb7c51355f",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-4c036ee0-d062-403a-83ea-f373b7f6d335",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "2eca19a2-5ba2-464b-8018-9f596c729bed",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "2eca19a2-5ba2-464b-8018-9f596c729bed",
+        name: "#См. также",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0acaa716-3c71-4437-8770-c6915f8b97da",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "b6c03471-eaa6-4e31-9f1d-2dd669bb788c",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        type: "ANCHOR",
+        id: "b6c03471-eaa6-4e31-9f1d-2dd669bb788c",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-1ebe9549-c60c-4450-8c00-9ef9e4b3b410",
-      name: "#Солнечные Панели и Источники Энергии",
-      type: "ANCHOR",
+      id: "b0449e12-42ca-4493-8e3f-1e8734eb67a1",
       title: "#Солнечные Панели и Источники Энергии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "b0449e12-42ca-4493-8e3f-1e8734eb67a1",
+        name: "#Солнечные Панели и Источники Энергии",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-4b075e5f-3ed0-48da-8319-1a8838467ac0",
-      name: "#Применение Солнечной Энергии в Космосе",
-      type: "ANCHOR",
+      id: "3e6699a2-92ad-4987-adad-4c11813a05ab",
       title: "#Применение Солнечной Энергии в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "3e6699a2-92ad-4987-adad-4c11813a05ab",
+        name: "#Применение Солнечной Энергии в Космосе",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-61ac9c8f-41f4-4637-afa4-69574b13a450",
-      name: "#Технологии и Инновации",
-      type: "ANCHOR",
+      id: "d0964f51-dfb2-44f3-9188-db75c49eb439",
       title: "#Технологии и Инновации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "d0964f51-dfb2-44f3-9188-db75c49eb439",
+        type: "ANCHOR",
+        name: "#Технологии и Инновации",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-a1e7f81e-d0cd-40b4-90c2-502d54ad31b8",
-      name: "#Вызовы и Перспективы",
-      type: "ANCHOR",
+      id: "81a9d993-c3e2-4ab6-be11-6d228ab7ff3b",
       title: "#Вызовы и Перспективы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Вызовы и Перспективы",
+        type: "ANCHOR",
+        id: "81a9d993-c3e2-4ab6-be11-6d228ab7ff3b",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-066c4eaf-d221-4398-b394-9292639272a6",
-      name: "#Значимость Солнечной Энергии в Космических Миссиях",
-      type: "ANCHOR",
+      id: "001048d2-1957-41ed-aac2-5c80b9dd0f78",
       title: "#Значимость Солнечной Энергии в Космических Миссиях",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "001048d2-1957-41ed-aac2-5c80b9dd0f78",
+        name: "#Значимость Солнечной Энергии в Космических Миссиях",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-1cca7192-134a-41c6-846e-5467b0aee96a",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "b9949185-7d24-4c3f-a9cd-ce44fbd2f1ed",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-1c85afda-6914-4eb2-a763-d138dba801c0",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        id: "b9949185-7d24-4c3f-a9cd-ce44fbd2f1ed",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
-      relativePath: ".\\space/search-for-extraterrestrial-life.md",
-      name: "search-for-extraterrestrial-life.md",
-      type: "FILE",
+      id: "391b2050-d9d9-4e22-8fff-6387e9391da9",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "391b2050-d9d9-4e22-8fff-6387e9391da9",
+        name: "#См. также",
+      },
+    },
+    {
+      id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
       title: "search-for-extraterrestrial-life.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        relativePath: ".\\space/search-for-extraterrestrial-life.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        name: "search-for-extraterrestrial-life.md",
+        type: "FILE",
       },
-      chosen: {},
-      label: "37",
     },
     {
-      id: "ANCHOR-$$-31d772b8-6d4e-4990-93c5-784d98746edc",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "489d29e1-fe69-49af-a71d-84a3e40498e8",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        id: "489d29e1-fe69-49af-a71d-84a3e40498e8",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-98364e61-781b-408d-b85f-5e00773a91a1",
-      name: "#Экзопланеты и Зона Жизни",
-      type: "ANCHOR",
+      id: "36037d3a-33a9-4612-b728-aad453f736ed",
       title: "#Экзопланеты и Зона Жизни",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "36037d3a-33a9-4612-b728-aad453f736ed",
+        type: "ANCHOR",
+        name: "#Экзопланеты и Зона Жизни",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-049ff980-a0ef-41ec-bbc4-52f626f86145",
-      name: "#Исследование Марса и Марсианских Загадок",
-      type: "ANCHOR",
+      id: "f6c09a79-c670-4223-a6e9-5f78af47d7d1",
       title: "#Исследование Марса и Марсианских Загадок",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Исследование Марса и Марсианских Загадок",
+        id: "f6c09a79-c670-4223-a6e9-5f78af47d7d1",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-b6a4d9d7-c9a0-4208-ba6c-4604e887b684",
-      name: "#История Радиосигналов и SETI",
-      type: "ANCHOR",
+      id: "f4e10b77-41b2-434f-b133-2d048e35a9cb",
       title: "#История Радиосигналов и SETI",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#История Радиосигналов и SETI",
+        type: "ANCHOR",
+        id: "f4e10b77-41b2-434f-b133-2d048e35a9cb",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-46e11f18-98f2-4d55-bdf9-33ccede46777",
-      name: "#Значимые Открытия и Перспективы",
-      type: "ANCHOR",
+      id: "0119dbfe-80fe-4e56-8a1e-062bd9a4bdb5",
       title: "#Значимые Открытия и Перспективы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Значимые Открытия и Перспективы",
+        type: "ANCHOR",
+        id: "0119dbfe-80fe-4e56-8a1e-062bd9a4bdb5",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-20afdfdb-eeee-4095-a856-9d078a52c143",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "575be04a-7f5f-46df-a4e6-6d3f065726f4",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-47ae9149-0526-44b7-803d-bd5a9e01ec46",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        id: "575be04a-7f5f-46df-a4e6-6d3f065726f4",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
-      relativePath: ".\\space/satellites-and-surveillance.md",
-      name: "satellites-and-surveillance.md",
-      type: "FILE",
+      id: "9b1703c0-cf94-457a-b7fa-99f0c92ddfc6",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "9b1703c0-cf94-457a-b7fa-99f0c92ddfc6",
+        name: "#См. также",
+      },
+    },
+    {
+      id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
       title: "satellites-and-surveillance.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        relativePath: ".\\space/satellites-and-surveillance.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+        type: "FILE",
+        name: "satellites-and-surveillance.md",
       },
-      chosen: {},
-      label: "38",
     },
     {
-      id: "ANCHOR-$$-10908ed1-b9ee-4336-886c-2cade4668494",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "bc77ca86-5117-421d-a76e-9448334567fe",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        type: "ANCHOR",
+        id: "bc77ca86-5117-421d-a76e-9448334567fe",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-c89bdbb9-2786-40b5-9bce-2a29dcf9ed8d",
-      name: "#Спутники: Глаза Вселенной в Нашем Небе",
-      type: "ANCHOR",
+      id: "eecef9ee-a351-4954-9e0d-d1732df9f395",
       title: "#Спутники: Глаза Вселенной в Нашем Небе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Спутники: Глаза Вселенной в Нашем Небе",
+        id: "eecef9ee-a351-4954-9e0d-d1732df9f395",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-005b70df-d0a8-4caf-b7a5-fd4462547882",
-      name: "#Роль Спутников в Космической Навигации",
-      type: "ANCHOR",
+      id: "1bf1825c-5113-4dad-a16d-10fedebc7639",
       title: "#Роль Спутников в Космической Навигации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Роль Спутников в Космической Навигации",
+        id: "1bf1825c-5113-4dad-a16d-10fedebc7639",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-dbacc486-9b0f-4316-8668-f24fcef55eff",
-      name: "#Слежение за Погодой и Климатом",
-      type: "ANCHOR",
+      id: "bf2f959b-725d-4be7-86a6-26e960dad5b2",
       title: "#Слежение за Погодой и Климатом",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Слежение за Погодой и Климатом",
+        type: "ANCHOR",
+        id: "bf2f959b-725d-4be7-86a6-26e960dad5b2",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-6f37eed9-7ac4-493b-9c0d-d68cf00aac8a",
-      name: "#Спутники для Глобальной Безопасности",
-      type: "ANCHOR",
+      id: "e06cd141-8c32-4b48-83c1-9563624a80f3",
       title: "#Спутники для Глобальной Безопасности",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Спутники для Глобальной Безопасности",
+        id: "e06cd141-8c32-4b48-83c1-9563624a80f3",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ac026c1f-da98-4891-8689-9be943f0cab5",
-      name: "#Будущее Спутников и Слежения",
-      type: "ANCHOR",
+      id: "4a0eaa6f-b633-4362-8905-9cd576f88c10",
       title: "#Будущее Спутников и Слежения",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "4a0eaa6f-b633-4362-8905-9cd576f88c10",
+        type: "ANCHOR",
+        name: "#Будущее Спутников и Слежения",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-6218b332-e618-4622-a988-a8ee894298c5",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "1b081d87-db20-48d1-9511-437976ec6aea",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5c11316f-3596-4c8e-9c40-74db37696160",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        type: "ANCHOR",
+        id: "1b081d87-db20-48d1-9511-437976ec6aea",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
-      relativePath: ".\\space/quantum-physics-in-space.md",
-      name: "quantum-physics-in-space.md",
-      type: "FILE",
+      id: "573e8cb3-1dce-4119-9488-7e7910154c54",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        type: "ANCHOR",
+        id: "573e8cb3-1dce-4119-9488-7e7910154c54",
+      },
+    },
+    {
+      id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
       title: "quantum-physics-in-space.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+        relativePath: ".\\space/quantum-physics-in-space.md",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        type: "FILE",
+        name: "quantum-physics-in-space.md",
       },
-      chosen: {},
-      label: "39",
     },
     {
-      id: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
-      relativePath:
-        ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
-      name: "black-holes-and-quasars-mysteries-of-the-universe.md",
-      type: "FILE",
+      id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
       title: "black-holes-and-quasars-mysteries-of-the-universe.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        relativePath:
+          ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
       },
-      chosen: {},
-      label: "40",
     },
     {
-      id: "ANCHOR-$$-2ce42e4d-1976-4437-a548-a8fb618b2702",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "c2e0ec38-a863-447f-8244-2af527c831a3",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        type: "ANCHOR",
+        id: "c2e0ec38-a863-447f-8244-2af527c831a3",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0d4897ea-880d-4fc3-acf4-1a3381241704",
-      name: "#Основы Квантовой Физики",
-      type: "ANCHOR",
+      id: "6f5c53ab-ff25-41b2-a266-e0374de32a41",
       title: "#Основы Квантовой Физики",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Основы Квантовой Физики",
+        type: "ANCHOR",
+        id: "6f5c53ab-ff25-41b2-a266-e0374de32a41",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-a2a2e339-b124-4c07-801c-71f668e61cc9",
-      name: "#Квантовая Физика и Космические Явления",
-      type: "ANCHOR",
+      id: "fe369bbe-3691-48c0-b40b-ab0f4b730666",
       title: "#Квантовая Физика и Космические Явления",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Квантовая Физика и Космические Явления",
+        type: "ANCHOR",
+        id: "fe369bbe-3691-48c0-b40b-ab0f4b730666",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-abd34be6-097e-4257-98e7-7f429458f4fb",
-      name: "#Квантовые Технологии в Космосе",
-      type: "ANCHOR",
+      id: "f513d5a4-0a9e-4e4e-99de-f89d7164e231",
       title: "#Квантовые Технологии в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "f513d5a4-0a9e-4e4e-99de-f89d7164e231",
+        type: "ANCHOR",
+        name: "#Квантовые Технологии в Космосе",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-cf105e25-ed33-4cbd-a324-f02e2f2ed08a",
-      name: "#Будущее Квантовой Физики в Космосе",
-      type: "ANCHOR",
+      id: "1aed72e4-9769-48cd-b6c4-c84dfdf3b78b",
       title: "#Будущее Квантовой Физики в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Будущее Квантовой Физики в Космосе",
+        id: "1aed72e4-9769-48cd-b6c4-c84dfdf3b78b",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-dc9d41f5-5ce3-411d-a204-c6dd4d7132ad",
-      name: "#Значимость для Исследований Вселенной",
-      type: "ANCHOR",
+      id: "a8aa1353-3ea2-488f-bc20-7f420b8d14a4",
       title: "#Значимость для Исследований Вселенной",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Значимость для Исследований Вселенной",
+        type: "ANCHOR",
+        id: "a8aa1353-3ea2-488f-bc20-7f420b8d14a4",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-e9442b7a-08ff-4a17-976f-bd62df899d49",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "3750d8a1-7a7f-4cbf-8c5a-0f39cb18ae8e",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-9fce4ca6-c3f2-4027-a282-ca750ce72cb2",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "3750d8a1-7a7f-4cbf-8c5a-0f39cb18ae8e",
+        type: "ANCHOR",
+        name: "#Заключение",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
-      relativePath: ".\\space/moon-landing-apollo.md",
-      name: "moon-landing-apollo.md",
-      type: "FILE",
+      id: "9a31b404-4072-4729-90e0-a00681ee2e7d",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "9a31b404-4072-4729-90e0-a00681ee2e7d",
+        type: "ANCHOR",
+        name: "#См. также",
+      },
+    },
+    {
+      id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
       title: "moon-landing-apollo.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "41",
-    },
-    {
-      id: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
-      relativePath: ".\\space/mars-colonization-plans.md",
-      name: "mars-colonization-plans.md",
       type: "FILE",
-      title: "mars-colonization-plans.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+        relativePath: ".\\space/moon-landing-apollo.md",
       },
-      chosen: {},
-      label: "42",
     },
     {
-      id: "ANCHOR-$$-ccd18294-5a15-4f94-99d9-f7672ab8dbfd",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "d2a686fb-36f6-49c1-9b7a-12e3a84118f7",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-a2f15534-4774-4330-8e58-1d1fb0f2daec",
-      name: "#История Исследования Марса",
       type: "ANCHOR",
-      title: "#История Исследования Марса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        id: "d2a686fb-36f6-49c1-9b7a-12e3a84118f7",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-6c072e6a-130f-496b-bd8b-9da574b64eb3",
-      name: "#Текущие Миссии на Марс",
-      type: "ANCHOR",
-      title: "#Текущие Миссии на Марс",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b931b4df-6194-482b-bce0-8cc438c4eea3",
-      name: "#Планы по Колонизации",
-      type: "ANCHOR",
-      title: "#Планы по Колонизации",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-4596f7cd-0d6b-456f-8d4f-76c3a27aa851",
-      name: "#Технологические и Логистические Вызовы",
-      type: "ANCHOR",
-      title: "#Технологические и Логистические Вызовы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-6b1ded1b-2be0-4f34-a301-ef1238de113e",
-      name: "#Этические и Экологические Аспекты",
-      type: "ANCHOR",
-      title: "#Этические и Экологические Аспекты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-5beca993-849b-458a-a5b0-e9a4794055b0",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-403f6952-bf78-4ff6-84ed-d850520724a6",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
-      relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
-      name: "beyond-earth-manned-spaceflights.md",
-      type: "FILE",
-      title: "beyond-earth-manned-spaceflights.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "43",
-    },
-    {
-      id: "ANCHOR-$$-10633d79-d068-4b83-b783-3d7e59260061",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-353f1061-f0fb-4418-8e11-7f134648b267",
-      name: "#Начало Программы Аполлон",
-      type: "ANCHOR",
+      id: "bce1d139-37a2-47f1-aa25-ecac51bda41f",
       title: "#Начало Программы Аполлон",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Начало Программы Аполлон",
+        id: "bce1d139-37a2-47f1-aa25-ecac51bda41f",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ea169706-149d-4bfd-930d-a7ecd0a4f1f7",
-      name: "#Аполлон-11: Первые Шаги Человека на Луне",
-      type: "ANCHOR",
+      id: "c248f2b1-ee53-4e14-8e77-61ffd4ddd9f3",
       title: "#Аполлон-11: Первые Шаги Человека на Луне",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "c248f2b1-ee53-4e14-8e77-61ffd4ddd9f3",
+        name: "#Аполлон-11: Первые Шаги Человека на Луне",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-d933f57e-0a21-444d-bab6-7c4db1c9fc03",
-      name: "#Технологические и Научные Достижения",
-      type: "ANCHOR",
+      id: "328e8b5d-d38f-4253-bce5-bca6d5acae3b",
       title: "#Технологические и Научные Достижения",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Технологические и Научные Достижения",
+        id: "328e8b5d-d38f-4253-bce5-bca6d5acae3b",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-4f94ab63-e93c-405d-a4c6-c068597e3c04",
-      name: "#Культурное и Историческое Значение",
-      type: "ANCHOR",
+      id: "e17280dc-5883-4e1d-b9f6-64422a6400c1",
       title: "#Культурное и Историческое Значение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "e17280dc-5883-4e1d-b9f6-64422a6400c1",
+        name: "#Культурное и Историческое Значение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-47a39289-aae2-459e-8c26-bfba09e87763",
-      name: "#Наследие и Влияние на Будущие Миссии",
-      type: "ANCHOR",
+      id: "af4981a1-1d76-4e5f-bc25-2b3bdf9d7f31",
       title: "#Наследие и Влияние на Будущие Миссии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Наследие и Влияние на Будущие Миссии",
+        type: "ANCHOR",
+        id: "af4981a1-1d76-4e5f-bc25-2b3bdf9d7f31",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-798487c8-4aa0-436d-afe1-c7cd5cad8db2",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "42de84f9-d123-4371-a089-2db2b9300d70",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        type: "ANCHOR",
+        id: "42de84f9-d123-4371-a089-2db2b9300d70",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-73b73558-2efc-4bcb-b60b-6a67443f4a24",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "7867243d-a2bd-4e4d-9038-d9674a5d5d9b",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "7867243d-a2bd-4e4d-9038-d9674a5d5d9b",
+        name: "#См. также",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-d47f1250-35eb-44ef-b2f8-6a9fc4f789b9",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "863df54f-b156-4660-a54d-cd39c06478e2",
+      title: "beyond-earth-manned-spaceflights.md",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "FILE",
+        name: "beyond-earth-manned-spaceflights.md",
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+        relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+      },
+    },
+    {
+      id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      title: "mars-colonization-plans.md",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        relativePath: ".\\space/mars-colonization-plans.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        type: "FILE",
+        name: "mars-colonization-plans.md",
+      },
+    },
+    {
+      id: "6824ec05-7b47-4fad-8c48-05f70bd33e50",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        id: "6824ec05-7b47-4fad-8c48-05f70bd33e50",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-62166325-5c6a-4a92-bb91-08fe8dcd5c40",
-      name: "#История и Структура МКС",
+      id: "9bc2dc9f-ed4f-434b-bf41-1fa76266beee",
+      title: "#История Исследования Марса",
       type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "9bc2dc9f-ed4f-434b-bf41-1fa76266beee",
+        name: "#История Исследования Марса",
+      },
+    },
+    {
+      id: "cb306aaa-8924-4454-aad3-60294ba4e86d",
+      title: "#Текущие Миссии на Марс",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "cb306aaa-8924-4454-aad3-60294ba4e86d",
+        name: "#Текущие Миссии на Марс",
+      },
+    },
+    {
+      id: "8c08cf28-2895-492e-8067-009cf8d0bebe",
+      title: "#Планы по Колонизации",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "8c08cf28-2895-492e-8067-009cf8d0bebe",
+        name: "#Планы по Колонизации",
+      },
+    },
+    {
+      id: "baf928b7-d21c-470e-909d-f307a9d208d1",
+      title: "#Технологические и Логистические Вызовы",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "baf928b7-d21c-470e-909d-f307a9d208d1",
+        type: "ANCHOR",
+        name: "#Технологические и Логистические Вызовы",
+      },
+    },
+    {
+      id: "263df72f-4474-427d-ba66-7608081a6d99",
+      title: "#Этические и Экологические Аспекты",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "263df72f-4474-427d-ba66-7608081a6d99",
+        type: "ANCHOR",
+        name: "#Этические и Экологические Аспекты",
+      },
+    },
+    {
+      id: "c9165913-6ba5-491a-a5fd-ecdceb7e0dbe",
+      title: "#Заключение",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        type: "ANCHOR",
+        id: "c9165913-6ba5-491a-a5fd-ecdceb7e0dbe",
+      },
+    },
+    {
+      id: "ebaa89aa-7b14-4376-9242-401cd2416acd",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        id: "ebaa89aa-7b14-4376-9242-401cd2416acd",
+        type: "ANCHOR",
+      },
+    },
+    {
+      id: "00c24c26-e237-450d-a015-dac658106cac",
+      title: "#Введение",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        type: "ANCHOR",
+        id: "00c24c26-e237-450d-a015-dac658106cac",
+      },
+    },
+    {
+      id: "d1cdb3f9-506e-4309-baff-9f9f9d56463a",
       title: "#История и Структура МКС",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "d1cdb3f9-506e-4309-baff-9f9f9d56463a",
+        name: "#История и Структура МКС",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ddf039fd-c9d5-400c-b508-2d06f7897119",
-      name: "#Повседневная Жизнь на МКС",
-      type: "ANCHOR",
+      id: "3be689bc-d9df-40df-8c7c-3ac5693e2b42",
       title: "#Повседневная Жизнь на МКС",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Повседневная Жизнь на МКС",
+        id: "3be689bc-d9df-40df-8c7c-3ac5693e2b42",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-a3f143f6-815b-41ca-be88-93c5ee456a93",
-      name: "#Научные Эксперименты на Орбите",
-      type: "ANCHOR",
+      id: "dce1d9b2-50dd-4ae0-8032-b425efba8db0",
       title: "#Научные Эксперименты на Орбите",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Научные Эксперименты на Орбите",
+        id: "dce1d9b2-50dd-4ae0-8032-b425efba8db0",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-b496d1b5-faf8-40f8-ac71-84c913bc258f",
-      name: "#Взаимодействие и Работа Экипажа",
-      type: "ANCHOR",
+      id: "c3fab49c-b6ae-4e26-a307-197c480a2b38",
       title: "#Взаимодействие и Работа Экипажа",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "c3fab49c-b6ae-4e26-a307-197c480a2b38",
+        name: "#Взаимодействие и Работа Экипажа",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-95b171f5-bed7-4d2b-92a4-b896f28ed9eb",
-      name: "#Вызовы Жизни в Космосе",
-      type: "ANCHOR",
+      id: "5251f9b5-ad7e-4c47-b8cb-34efee141935",
       title: "#Вызовы Жизни в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Вызовы Жизни в Космосе",
+        id: "5251f9b5-ad7e-4c47-b8cb-34efee141935",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-7dea5e68-5ffb-4e6d-9273-1fcc465c4899",
-      name: "#Значение МКС для Будущего Исследования Космоса",
-      type: "ANCHOR",
+      id: "90a2b542-adf8-4ca5-b90e-278f26128912",
       title: "#Значение МКС для Будущего Исследования Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "90a2b542-adf8-4ca5-b90e-278f26128912",
+        name: "#Значение МКС для Будущего Исследования Космоса",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-fe56e0f5-d938-41e9-8a7d-ba41a117669c",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "5474c44e-98e0-47c1-a2cd-5b05c7cdc508",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        id: "5474c44e-98e0-47c1-a2cd-5b05c7cdc508",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-11e2d401-f3aa-4f8e-b259-c3aeef023bfb",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "61896fca-8afd-45bf-87d6-5a0136e658cf",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        id: "61896fca-8afd-45bf-87d6-5a0136e658cf",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0078dcb0-58ea-496a-9d24-84d122e20773",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "48725be3-bb07-4cb6-8bef-a481deb241c8",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "48725be3-bb07-4cb6-8bef-a481deb241c8",
+        name: "#Введение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0b156fd6-9c69-481b-bcce-19f54427cb4c",
-      name: "#История и Разработка Телескопа",
-      type: "ANCHOR",
+      id: "215f3a58-839e-486f-ba96-e65099bd3c97",
       title: "#История и Разработка Телескопа",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#История и Разработка Телескопа",
+        type: "ANCHOR",
+        id: "215f3a58-839e-486f-ba96-e65099bd3c97",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-f3126181-2e36-4ac3-839e-c959b0ee5ca5",
-      name: "#Уникальные Возможности и Инструменты",
-      type: "ANCHOR",
+      id: "a24f5b13-774e-4382-9341-14987c08496a",
       title: "#Уникальные Возможности и Инструменты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Уникальные Возможности и Инструменты",
+        type: "ANCHOR",
+        id: "a24f5b13-774e-4382-9341-14987c08496a",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-87ab626a-1a0c-4aeb-acb6-cda2de8a12c0",
-      name: "#Основные Цели Миссии",
-      type: "ANCHOR",
+      id: "d42faee8-ebea-43a4-9164-2bbcca992e08",
       title: "#Основные Цели Миссии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Основные Цели Миссии",
+        id: "d42faee8-ebea-43a4-9164-2bbcca992e08",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-e0ae4338-acc2-4c3c-9220-a47d344de45d",
-      name: "#Первые Открытия и Наблюдения",
-      type: "ANCHOR",
+      id: "19e96e74-c9b1-48d0-b7eb-0352d3706fcf",
       title: "#Первые Открытия и Наблюдения",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "19e96e74-c9b1-48d0-b7eb-0352d3706fcf",
+        type: "ANCHOR",
+        name: "#Первые Открытия и Наблюдения",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0f21a003-8e01-4172-9368-74cb9eca0e6d",
-      name: "#Будущее Астрономических Исследований",
-      type: "ANCHOR",
+      id: "8f390049-6eb6-4178-b3d4-f7aa405285a6",
       title: "#Будущее Астрономических Исследований",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Будущее Астрономических Исследований",
+        type: "ANCHOR",
+        id: "8f390049-6eb6-4178-b3d4-f7aa405285a6",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-77971f9c-d07a-401b-84d4-109d9f85fd83",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "6c16bf66-39c8-4953-826d-c521cf1913dc",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        type: "ANCHOR",
+        id: "6c16bf66-39c8-4953-826d-c521cf1913dc",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-c917cda6-bca5-4fab-8572-d2cbab65143d",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "40ef6a74-7200-4d7f-89a4-99fe9acc0c1c",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "40ef6a74-7200-4d7f-89a4-99fe9acc0c1c",
+        name: "#См. также",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-03b22788-9fc0-4425-993e-1a2a874fcf7b",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "080a0f45-368d-426a-9a3b-33b61ee7ad41",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "080a0f45-368d-426a-9a3b-33b61ee7ad41",
+        type: "ANCHOR",
+        name: "#Введение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-47c26dd0-a807-44db-9914-c33bd5f676b9",
-      name: "#Юрий Гагарин: Первый Человек в Космосе",
-      type: "ANCHOR",
+      id: "a8339b73-d26d-4032-9069-ae4bd55a90cc",
       title: "#Юрий Гагарин: Первый Человек в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Юрий Гагарин: Первый Человек в Космосе",
+        id: "a8339b73-d26d-4032-9069-ae4bd55a90cc",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-22bfbeb3-2b7a-49fa-a09a-725c19ce8969",
-      name: "#Нил Армстронг: Легенда Аполлона",
-      type: "ANCHOR",
+      id: "2bdb7c08-48a4-4fae-9608-eee8ecc52174",
       title: "#Нил Армстронг: Легенда Аполлона",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "2bdb7c08-48a4-4fae-9608-eee8ecc52174",
+        type: "ANCHOR",
+        name: "#Нил Армстронг: Легенда Аполлона",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ffa830df-d62d-4628-815b-5fb79d437c89",
-      name: "#Валентина Терешкова: Первая Женщина в Космосе",
-      type: "ANCHOR",
+      id: "8241618e-d4be-4269-b527-0330a1001e34",
       title: "#Валентина Терешкова: Первая Женщина в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "8241618e-d4be-4269-b527-0330a1001e34",
+        type: "ANCHOR",
+        name: "#Валентина Терешкова: Первая Женщина в Космосе",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-b42574a7-2718-4d02-bb69-bd3800c7713b",
-      name: "#Салли Райд: Пионерка Американского Космоса",
-      type: "ANCHOR",
+      id: "afeddd3f-9a68-488d-b2ab-7ef5a85a5d0a",
       title: "#Салли Райд: Пионерка Американского Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "afeddd3f-9a68-488d-b2ab-7ef5a85a5d0a",
+        name: "#Салли Райд: Пионерка Американского Космоса",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-9baa991f-aebd-46c7-afff-bd84a54b1c0f",
-      name: "#Крис Хэдфилд: Современный Герой Космоса",
-      type: "ANCHOR",
+      id: "34a79f6f-0e6e-4ed4-b1b8-e035b5c88b04",
       title: "#Крис Хэдфилд: Современный Герой Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Крис Хэдфилд: Современный Герой Космоса",
+        id: "34a79f6f-0e6e-4ed4-b1b8-e035b5c88b04",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-5fd580e7-bbac-48d6-aa44-f3beb607f9d5",
-      name: "#Вклад Астронавтов в Исследование Космоса",
-      type: "ANCHOR",
+      id: "66aa2750-73c5-4f95-abf2-51efebb247dd",
       title: "#Вклад Астронавтов в Исследование Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Вклад Астронавтов в Исследование Космоса",
+        type: "ANCHOR",
+        id: "66aa2750-73c5-4f95-abf2-51efebb247dd",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-8f53a864-3384-4dad-b0ae-bccd916dbeb0",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "952e708c-5421-47a6-bc15-850d2365006a",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-8eef8ee7-6f20-48c2-bd23-ca2638612de1",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        id: "952e708c-5421-47a6-bc15-850d2365006a",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
-      relativePath: ".\\space/gravity-and-relativity-space-travel.md",
-      name: "gravity-and-relativity-space-travel.md",
-      type: "FILE",
+      id: "56178392-cbdb-44d2-9969-0ae8be0621d4",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        type: "ANCHOR",
+        id: "56178392-cbdb-44d2-9969-0ae8be0621d4",
+      },
+    },
+    {
+      id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
       title: "gravity-and-relativity-space-travel.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "FILE",
+        name: "gravity-and-relativity-space-travel.md",
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+        relativePath: ".\\space/gravity-and-relativity-space-travel.md",
       },
-      chosen: {},
-      label: "44",
     },
     {
-      id: "ANCHOR-$$-26467040-3699-4a7e-94ff-28378b59ce7e",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "4a128581-c04c-42de-a0c0-7f72b7b080e9",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        type: "ANCHOR",
+        id: "4a128581-c04c-42de-a0c0-7f72b7b080e9",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-33ab587b-3466-4c5a-83b1-5b71dc0d060d",
-      name: "#Основы Гравитации и Относительности",
-      type: "ANCHOR",
+      id: "f60c0ce6-ad57-403f-9d99-c76cd7010e6f",
       title: "#Основы Гравитации и Относительности",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "f60c0ce6-ad57-403f-9d99-c76cd7010e6f",
+        name: "#Основы Гравитации и Относительности",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-5d7769cb-c2ed-46c3-8b49-d44dea79b1d0",
-      name: "#Эффекты Гравитации на Космонавтику",
-      type: "ANCHOR",
+      id: "3036606e-9da0-4726-83e7-e09b10897dd7",
       title: "#Эффекты Гравитации на Космонавтику",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Эффекты Гравитации на Космонавтику",
+        id: "3036606e-9da0-4726-83e7-e09b10897dd7",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-357e461d-e116-4cce-abc9-f85b4f6b3d87",
-      name: "#Относительность и Путешествие со Световой Скоростью",
-      type: "ANCHOR",
+      id: "4fda304d-c9be-4d48-b10c-b3e10d8eee8a",
       title: "#Относительность и Путешествие со Световой Скоростью",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Относительность и Путешествие со Световой Скоростью",
+        id: "4fda304d-c9be-4d48-b10c-b3e10d8eee8a",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-756826e3-2804-405c-8632-7398065e0ce6",
-      name: "#Исследования и Эксперименты",
-      type: "ANCHOR",
+      id: "ec7d17a5-ad98-4c63-a9e0-30dc10fe5031",
       title: "#Исследования и Эксперименты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "ec7d17a5-ad98-4c63-a9e0-30dc10fe5031",
+        type: "ANCHOR",
+        name: "#Исследования и Эксперименты",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-b6931170-a5a2-40c6-9f9b-fde36217cd37",
-      name: "#Значимость для Будущего Космических Путешествий",
-      type: "ANCHOR",
+      id: "7c8bbddc-3e2e-4d84-8a7d-c9f8b712343a",
       title: "#Значимость для Будущего Космических Путешествий",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "7c8bbddc-3e2e-4d84-8a7d-c9f8b712343a",
+        type: "ANCHOR",
+        name: "#Значимость для Будущего Космических Путешествий",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-57ec0820-a4f0-4a93-bd05-301ed34ca666",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "c7f22cb2-cf11-4930-8c7a-ff8ca28609db",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-b8770544-1ad1-466a-b74f-5fead97215f8",
-      name: "#См. также",
       type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        id: "c7f22cb2-cf11-4930-8c7a-ff8ca28609db",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      relativePath:
-        ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      type: "FILE",
+      id: "db09c9fd-230c-4744-ae5c-48ef170a1deb",
+      title: "#См. также",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        type: "ANCHOR",
+        id: "db09c9fd-230c-4744-ae5c-48ef170a1deb",
+      },
+    },
+    {
+      id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
       title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
+      type: "FILE",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        relativePath:
+          ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        absolutePath:
+          "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
       },
-      chosen: {},
-      label: "45",
     },
     {
-      id: "ANCHOR-$$-289d85e2-6ed8-4e9b-9dea-b8c68dce27ad",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "de8cb98a-7f43-4433-8e4b-088152811fd4",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        id: "de8cb98a-7f43-4433-8e4b-088152811fd4",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-6dc36c42-6cc3-40e0-87ff-c687cc623166",
-      name: "#История Космических Станций",
-      type: "ANCHOR",
+      id: "00a62285-c25f-42a4-80a0-253f8df89245",
       title: "#История Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#История Космических Станций",
+        id: "00a62285-c25f-42a4-80a0-253f8df89245",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-be7a3c3a-46dc-4a43-97ef-3dd8c3b27f41",
-      name: "#МКС: Наша Современная Космическая Лаборатория",
-      type: "ANCHOR",
+      id: "4bd98818-146c-4f85-9fd2-c2feaffe986c",
       title: "#МКС: Наша Современная Космическая Лаборатория",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#МКС: Наша Современная Космическая Лаборатория",
+        id: "4bd98818-146c-4f85-9fd2-c2feaffe986c",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-b72903b0-f2be-406d-ac28-dc34a29623d8",
-      name: "#Будущее Космических Станций",
-      type: "ANCHOR",
+      id: "d5dc7ccd-1006-4ce2-b907-6384e4966b2a",
       title: "#Будущее Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "d5dc7ccd-1006-4ce2-b907-6384e4966b2a",
+        type: "ANCHOR",
+        name: "#Будущее Космических Станций",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-28750260-b2b0-4e67-8e27-b46f2a46c537",
-      name: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      type: "ANCHOR",
+      id: "889fe4f4-f64f-4756-8685-fec0702612dc",
       title: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "889fe4f4-f64f-4756-8685-fec0702612dc",
+        type: "ANCHOR",
+        name: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0cb02130-cb3f-48d4-9ef7-fb6dfc582188",
-      name: "#Значимость для Человечества",
-      type: "ANCHOR",
+      id: "95e140ae-ae2f-4b64-8fa6-1798e0a3b67a",
       title: "#Значимость для Человечества",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Значимость для Человечества",
+        type: "ANCHOR",
+        id: "95e140ae-ae2f-4b64-8fa6-1798e0a3b67a",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-127e1582-6b84-46dd-afd2-abcbc53ea993",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "c40b17de-f797-43af-ab50-a4aaea6f2be8",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "c40b17de-f797-43af-ab50-a4aaea6f2be8",
+        name: "#Заключение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-87f08f13-b86e-431d-8c26-000da368cccf",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "fe519fec-6618-4f3b-b20f-afbaa849950a",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        id: "fe519fec-6618-4f3b-b20f-afbaa849950a",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-7270a676-bf23-490d-a06f-4572d2355fd4",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "08a8c145-3b61-4eb2-9f9f-f14543880f42",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        id: "08a8c145-3b61-4eb2-9f9f-f14543880f42",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-d56f9c9b-631f-4382-80ac-352c82273267",
-      name: "#Черные Дыры: Поглощение Света и Материи",
-      type: "ANCHOR",
+      id: "6a740266-ca61-4632-9062-9f59ed694050",
       title: "#Черные Дыры: Поглощение Света и Материи",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Черные Дыры: Поглощение Света и Материи",
+        id: "6a740266-ca61-4632-9062-9f59ed694050",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-afd73448-eec9-4e05-b509-0ab3f5772c20",
-      name: "#Квазары: Мощнейшие Источники Энергии",
-      type: "ANCHOR",
+      id: "88c33e68-6d37-4e81-b3ca-aad0c82d8ca2",
       title: "#Квазары: Мощнейшие Источники Энергии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "88c33e68-6d37-4e81-b3ca-aad0c82d8ca2",
+        name: "#Квазары: Мощнейшие Источники Энергии",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-d21741ae-78e3-44e8-8169-f12a630617c7",
-      name: "#Сверхмассивные Черные Дыры и Галактические Коллайдеры",
-      type: "ANCHOR",
+      id: "b34b1e1f-08c2-484b-a5c9-ec7bb76d0651",
       title: "#Сверхмассивные Черные Дыры и Галактические Коллайдеры",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "b34b1e1f-08c2-484b-a5c9-ec7bb76d0651",
+        type: "ANCHOR",
+        name: "#Сверхмассивные Черные Дыры и Галактические Коллайдеры",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-8c516ba4-503c-4435-9482-deee5aa319b2",
-      name: "#Исследования и Теории",
-      type: "ANCHOR",
+      id: "33fdc26b-f14c-4602-aad9-5427b038f336",
       title: "#Исследования и Теории",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "33fdc26b-f14c-4602-aad9-5427b038f336",
+        type: "ANCHOR",
+        name: "#Исследования и Теории",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ce46c175-124e-4eff-9c1a-cef750c7bfe4",
-      name: "#Значимость для Космологии",
-      type: "ANCHOR",
+      id: "30af9eea-3d2f-4560-a79c-6fbde070a960",
       title: "#Значимость для Космологии",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Значимость для Космологии",
+        type: "ANCHOR",
+        id: "30af9eea-3d2f-4560-a79c-6fbde070a960",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-bcc1b100-c372-452e-a105-aea678d30d00",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "d3c5ee1f-2fa2-4b40-9f6c-83a92d1e3e30",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        type: "ANCHOR",
+        id: "d3c5ee1f-2fa2-4b40-9f6c-83a92d1e3e30",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-309951bb-85fb-433f-b806-ab5ba61ecff5",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "e7dd006a-83e9-4490-bced-107eb023a52a",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#См. также",
+        id: "e7dd006a-83e9-4490-bced-107eb023a52a",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-ae197a12-b664-492e-858b-01340b9135ee",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "af2cb03d-2253-45b0-a261-b42d9f8ee76d",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Введение",
+        id: "af2cb03d-2253-45b0-a261-b42d9f8ee76d",
+        type: "ANCHOR",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-e468d57b-7d3f-4d25-bff3-fe05b5607457",
-      name: "#Ранние Годы Космонавтики",
-      type: "ANCHOR",
+      id: "f33664c0-6d82-4665-adfb-c683901f0a3b",
       title: "#Ранние Годы Космонавтики",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Ранние Годы Космонавтики",
+        type: "ANCHOR",
+        id: "f33664c0-6d82-4665-adfb-c683901f0a3b",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-cef75dc5-37e5-49a6-8b2d-cadb50bd7e70",
-      name: '#Эра "Аполлон"',
-      type: "ANCHOR",
+      id: "12a43379-f08c-44d4-a639-34ba15ca112c",
       title: '#Эра "Аполлон"',
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: '#Эра "Аполлон"',
+        type: "ANCHOR",
+        id: "12a43379-f08c-44d4-a639-34ba15ca112c",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-d64cd390-9d76-4daf-af49-f2424f1e2e81",
-      name: "#Современные Космические Программы",
-      type: "ANCHOR",
+      id: "09c56639-329c-4daf-a551-b0619f7ad500",
       title: "#Современные Космические Программы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "09c56639-329c-4daf-a551-b0619f7ad500",
+        type: "ANCHOR",
+        name: "#Современные Космические Программы",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-fe7e4741-81bf-4f74-815f-ffa5e20181b4",
-      name: "#Будущее Пилотируемых Полетов",
-      type: "ANCHOR",
+      id: "46cb64d4-a567-4dac-8a5e-1ff96abc38cd",
       title: "#Будущее Пилотируемых Полетов",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Будущее Пилотируемых Полетов",
+        type: "ANCHOR",
+        id: "46cb64d4-a567-4dac-8a5e-1ff96abc38cd",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-02d91b0b-3da4-4f36-86c5-fdc722a7d83f",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "4f3fc2a9-e3a3-41b3-8e95-d1e02eac5082",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Заключение",
+        type: "ANCHOR",
+        id: "4f3fc2a9-e3a3-41b3-8e95-d1e02eac5082",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-703f4950-ae80-4b8a-afaa-ada2cef55ea1",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "c6b232ed-a3e3-4ef0-9a8f-d81f00d362ed",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "c6b232ed-a3e3-4ef0-9a8f-d81f00d362ed",
+        name: "#См. также",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-98da3812-abe5-4f53-82a8-502f9223de86",
-      name: "#Введение",
-      type: "ANCHOR",
+      id: "6bbfae16-b063-48d2-9f84-b40b1ba24543",
       title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "6bbfae16-b063-48d2-9f84-b40b1ba24543",
+        name: "#Введение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-2cc698bf-25e6-4da4-9c80-062432ddbd50",
-      name: "#Астероиды: Золотые Рудники Космоса",
-      type: "ANCHOR",
+      id: "c5c0e298-8cbe-4675-a71a-b1dc0b594734",
       title: "#Астероиды: Золотые Рудники Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Астероиды: Золотые Рудники Космоса",
+        type: "ANCHOR",
+        id: "c5c0e298-8cbe-4675-a71a-b1dc0b594734",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-cf2cca92-5cdb-4c5b-bd37-15e61cac6651",
-      name: "#Кометы и Их Значение",
-      type: "ANCHOR",
+      id: "c919df59-2b53-4f54-aaac-fbf5d8aea739",
       title: "#Кометы и Их Значение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Кометы и Их Значение",
+        type: "ANCHOR",
+        id: "c919df59-2b53-4f54-aaac-fbf5d8aea739",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-eeb4bd13-fa7b-44cc-ad35-d7990cfd9b5b",
-      name: "#Технологии Добычи и Транспортировки",
-      type: "ANCHOR",
+      id: "85b330fc-7a6c-4b75-a38e-e3813d2fe681",
       title: "#Технологии Добычи и Транспортировки",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "85b330fc-7a6c-4b75-a38e-e3813d2fe681",
+        name: "#Технологии Добычи и Транспортировки",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-d4d515ef-336a-46a7-b674-b11c21497d2a",
-      name: "#Экологические и Экономические Аспекты",
-      type: "ANCHOR",
+      id: "ff33a63b-0c35-4ccc-a114-e474ff873107",
       title: "#Экологические и Экономические Аспекты",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "ff33a63b-0c35-4ccc-a114-e474ff873107",
+        name: "#Экологические и Экономические Аспекты",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0a857f2e-f1cc-41b4-bdcb-a88a5b6020b9",
-      name: "#Перспективы и Вызовы",
-      type: "ANCHOR",
+      id: "f95c7727-b512-431a-a062-340891da3e5c",
       title: "#Перспективы и Вызовы",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        name: "#Перспективы и Вызовы",
+        type: "ANCHOR",
+        id: "f95c7727-b512-431a-a062-340891da3e5c",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-76de1564-f4a4-4065-b91c-772cc6ad2bde",
-      name: "#Заключение",
-      type: "ANCHOR",
+      id: "262c50de-c1be-4ba7-8bf4-1c02720825e4",
       title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      type: "ANCHOR",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        id: "262c50de-c1be-4ba7-8bf4-1c02720825e4",
+        type: "ANCHOR",
+        name: "#Заключение",
       },
-      chosen: {},
     },
     {
-      id: "ANCHOR-$$-0f5ab45a-bd11-44e6-b421-4c1dc180ae03",
-      name: "#См. также",
-      type: "ANCHOR",
+      id: "7322355d-567d-4327-b2f0-e2607e526ef1",
       title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "/usr/src/app/trackingDir/dir1/space/greatest-astronauts-biographies.md",
-      relativePath: ".\\space/greatest-astronauts-biographies.md",
-      name: "greatest-astronauts-biographies.md",
-      type: "FILE",
-      title: "greatest-astronauts-biographies.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "46",
-    },
-    {
-      id: "ANCHOR-$$-93F05F12-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Введение",
       type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      original: {
+        type: "ANCHOR",
+        id: "7322355d-567d-4327-b2f0-e2607e526ef1",
+        name: "#См. также",
       },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F05F62-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Юрий Гагарин: Первый Человек в Космосе",
-      type: "ANCHOR",
-      title: "#Юрий Гагарин: Первый Человек в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F7C9E6-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Нил Армстронг: Легенда Аполлона",
-      type: "ANCHOR",
-      title: "#Нил Армстронг: Легенда Аполлона",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F03C12-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Валентина Терешкова: Первая Женщина в Космосе",
-      type: "ANCHOR",
-      title: "#Валентина Терешкова: Первая Женщина в Космосе",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F05EAE-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Салли Райд: Пионерка Американского Космоса",
-      type: "ANCHOR",
-      title: "#Салли Райд: Пионерка Американского Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F7C996-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Крис Хэдфилд: Современный Герой Космоса",
-      type: "ANCHOR",
-      title: "#Крис Хэдфилд: Современный Герой Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F7CA36-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Вклад Астронавтов в Исследование Космоса",
-      type: "ANCHOR",
-      title: "#Вклад Астронавтов в Исследование Космоса",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F7CA86-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-93F7C928-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      parent: "258dcaa6-741a-471c-b1bc-65579fe38fec",
-      absolutePath:
-        "/usr/src/app/trackingDir/dir1/space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      relativePath:
-        ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      type: "FILE",
-      title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
-      shape: "circle",
-      size: 15,
-      color: {
-        color: "#aaaab3ff",
-        hover: "#8a5cecff",
-      },
-      chosen: {},
-      label: "47",
-    },
-    {
-      id: "ANCHOR-$$-A1B7BA28-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Введение",
-      type: "ANCHOR",
-      title: "#Введение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-A1B7BAD2-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#История Космических Станций",
-      type: "ANCHOR",
-      title: "#История Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-A1B7B91A-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#МКС: Наша Современная Космическая Лаборатория",
-      type: "ANCHOR",
-      title: "#МКС: Наша Современная Космическая Лаборатория",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-A1B7BA64-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Будущее Космических Станций",
-      type: "ANCHOR",
-      title: "#Будущее Космических Станций",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-A1B7B9EC-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      type: "ANCHOR",
-      title: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-A1B7BA96-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Значимость для Человечества",
-      type: "ANCHOR",
-      title: "#Значимость для Человечества",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-A1B7B974-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#Заключение",
-      type: "ANCHOR",
-      title: "#Заключение",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
-    },
-    {
-      id: "ANCHOR-$$-A1B7B9B0-C11C-11EE-A174-9E3F4D08EF5C",
-      name: "#См. также",
-      type: "ANCHOR",
-      title: "#См. также",
-      shape: "dot",
-      size: 8,
-      color: {
-        background: "#424242ff",
-        hover: "#8a5cecff",
-        border: "#424242ff",
-      },
-      chosen: {},
     },
   ],
   edges: [
     {
-      from: "FILE-$$-3ec44a62-1f4a-4cd7-bb87-cb080e295d50",
-      to: "TAG-$$-da1f3407-fc63-4af7-9558-34943cf259a0",
-      id: "be296278-e1ba-4521-9a0f-767bae9222d5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ae8c30a3-68eb-4791-a8f8-dea19a989df2",
-      to: "TAG-$$-43611681-cb4c-4038-877d-1b914f9ddd65",
-      id: "f8c1cb7a-c3fc-42e2-b001-90d2c0b7ce54",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ae8c30a3-68eb-4791-a8f8-dea19a989df2",
-      to: "TAG-$$-024bf1a8-485e-46cb-b132-55322ef325fe",
-      id: "e154c6d3-0aa7-47cf-85ff-c3a0ed13db80",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ae8c30a3-68eb-4791-a8f8-dea19a989df2",
-      to: "TAG-$$-1c62a26a-8355-4aea-8477-044d7c839685",
-      id: "7c90e94f-dc71-431a-ad52-bccbd4e71f98",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ae8c30a3-68eb-4791-a8f8-dea19a989df2",
-      to: "FILE-$$-49ae7768-f800-4846-aaa7-24ff6fe23c44",
-      id: "7766ea63-6c10-42d6-8de5-99404e4679e2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-49ae7768-f800-4846-aaa7-24ff6fe23c44",
-      to: "TAG-$$-9bf29bc4-7149-4b0c-9b9a-f835ecde982e",
-      id: "6bd7ba66-d68e-46c5-bacc-412f0b34d4b4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-49ae7768-f800-4846-aaa7-24ff6fe23c44",
-      to: "TAG-$$-da1f3407-fc63-4af7-9558-34943cf259a0",
-      id: "fb3fc363-11a4-4875-9b5e-378728bd7f0d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-49ae7768-f800-4846-aaa7-24ff6fe23c44",
-      to: "FILE-$$-ae8c30a3-68eb-4791-a8f8-dea19a989df2",
-      id: "4d4becad-a462-4c9f-889d-dc3f01669073",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-8dac9bba-3bdd-432a-b931-9389cda1bd11",
-      id: "c515c6f2-eb9d-4058-9d3c-cf4fcb7fb36d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-cf6af17e-564b-4338-97f6-4cba4f6a4981",
-      id: "fd371c5d-a7d5-441d-9ab1-41930eec292a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-052892c4-a014-45dc-a7ff-08f7502e3667",
-      id: "cd841e52-579a-4da4-b590-6e56eac28d29",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-0f39552d-a099-4fb8-84df-462296bacf66",
-      id: "579012ee-e509-4155-9a2a-6cbe49bb3139",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-2da2e727-2a5d-4113-988d-2551f9083813",
-      id: "2b32c7d2-b9a0-4a35-9ce2-722b9db35278",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-c3726efa-2294-40e4-aa87-a78bc366b809",
-      id: "a6cad0c1-1bb6-4762-8d79-053741f8c692",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-a1444146-9c6f-4f8b-9520-ec3d13bac5b2",
-      id: "a3913a71-d290-40bf-b58e-23f702c34406",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "ANCHOR-$$-0c96a58c-ddaa-4509-b82b-8efba0c4ce08",
-      id: "ba879d99-5f84-48a3-944e-867252f68e20",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      id: "b99f3829-e507-463f-bdb0-b55638d900b7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      id: "e0cf6dc5-f824-4e06-9229-59dc9a212931",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      to: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      id: "63b3144c-217b-4cb9-9d9e-2857415f8685",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "TAG-$$-43611681-cb4c-4038-877d-1b914f9ddd65",
-      id: "97df59ae-251e-4a6b-80f5-507bd59e20aa",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "TAG-$$-024bf1a8-485e-46cb-b132-55322ef325fe",
-      id: "c1be2cf9-d1e4-408c-9808-4a0bfdac903c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "TAG-$$-1c62a26a-8355-4aea-8477-044d7c839685",
-      id: "ef311a4c-2655-4c5c-a5b1-aa522c46b938",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "TAG-$$-da1f3407-fc63-4af7-9558-34943cf259a0",
-      id: "14de6e0d-1474-422e-81f8-43fb42708625",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "TAG-$$-024bf1a8-485e-46cb-b132-55322ef325fe",
-      id: "7aa5fc80-50dc-48eb-b7a2-3952e1812b6c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-d96d94cb-d155-44b7-a0b4-7f4bb3158ee7",
-      id: "9e80a596-e86a-470d-9e66-e1c21c7a3f69",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-7641f5e7-3f18-4eda-9332-8e268f2a40a8",
-      id: "0df5b24c-e6de-428f-80be-3ac5ba6b4808",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-3d28f27f-be04-47ce-83e9-acd5390d580b",
-      id: "d4de91dd-2fbd-4b67-b286-a79479ea0b8a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-dd485954-0426-47fd-a5c3-b93c1c4d4bef",
-      id: "86362fc1-fef0-4780-ba81-cc6e99cfe705",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-b751d025-10fe-4b51-9898-12a08e9a211d",
-      id: "05e03db0-0123-4c0b-94f6-a9f50e1007be",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-65fb1cbd-eb6a-43ba-adb0-1b4f26329756",
-      id: "178d9249-e83d-4792-8be5-e7553e59fdb3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-356b0135-2a45-4646-b031-8529ccb7d460",
-      id: "c21d2767-21ce-4062-bdbb-e9211e5c02aa",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "ANCHOR-$$-9bedce43-699f-41ea-9be6-6432806b8bb0",
-      id: "086f1ee1-fb0c-46af-ae01-fa73b1ee9605",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      id: "ba19fc61-6f7f-46cc-93ff-94d5e6da41d1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      id: "f599b69e-8dc7-44f3-b233-919bd698c278",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      to: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      id: "b83ef7fc-1176-42bc-a8d2-cd3d2fa73a20",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-bb707ff7-71a7-42ed-92c3-722d939ece2b",
-      id: "d1491804-557d-41d8-b401-ee67beba3134",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-9bf66330-0c99-4aff-b1f9-d9c8656654d0",
-      id: "b5360d74-0955-47b0-97c6-02466f473064",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-9b30ec1a-a90a-4014-b691-77765da123d4",
-      id: "32027a27-bc1a-42ef-95a2-a24c1c271f3a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-4a85279c-0609-4f8f-96dd-7ad83b716164",
-      id: "9c94d166-2a31-41cd-aa51-61324c4b1754",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-e1677ca2-47f4-4a7b-bfd4-ee08931bb10a",
-      id: "ad8d16e6-825f-4740-8a1c-6c68b87c5ca4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-3aae045c-fb66-49f0-bfb0-a88a25a462fd",
-      id: "1d043a6c-7260-4d69-9efc-b2d7d78d716d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-f0523ca5-173a-49ae-a973-cb1b10343773",
-      id: "8760d92f-efe9-48af-b81a-fb881cb52075",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "ANCHOR-$$-d23699b7-470e-43cf-a38d-806552659622",
-      id: "214d86c7-6786-4ff1-97d9-b2763c79d57a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      id: "bb5759c2-1f63-4908-bbdb-b373ddf44012",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      id: "1216b289-95bd-434d-8161-af2c97c14437",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      to: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      id: "76f1f15c-9ed3-49bf-bae3-212d5e099597",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-92819fda-c5a1-4e27-8637-4d1af1f61713",
-      id: "bde96b2e-56e4-4aef-aa9c-cc6ff8786614",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-22bb336c-5b37-49bb-a231-f1bea32e72b0",
-      id: "e2af48b4-738b-4df4-addc-465de9eee189",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-b790c8b5-90f8-4a5f-95c8-d59dad225939",
-      id: "b6e4ae22-1f6c-4797-978b-56b60b73e910",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-830e88f0-4cee-4d15-87b9-d0850a4ba6e6",
-      id: "d6519130-9469-44db-a9f2-16c5b6c62ae6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-8c379d97-4b90-4903-9ab4-537adb8ee123",
-      id: "e68d5191-becb-4cd2-87c6-744abfa0c8f7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-fbbee5f9-e06b-4cd8-bf12-4c5be4b6a225",
-      id: "9e6f3537-cd4b-4453-bc47-6e2ee458e243",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-c140bfb0-99bf-4c58-911d-e091f68b02d3",
-      id: "849b5ec0-c4c2-4ca9-9227-45020d8622ea",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "ANCHOR-$$-93cfe5f1-1b44-4369-b7ab-7fa807ec8e76",
-      id: "6a26620b-48fb-481a-9ec9-a1617087a1d9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      id: "447c9caa-32e1-4679-8fda-55b843741dfd",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      id: "f0e61c4e-58f9-47a9-b2dd-0aaba574042b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      to: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      id: "baed57ca-492f-4000-9e2b-5dc3e41b2268",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-69c53176-21e3-4211-bea1-b20dd96ea2ba",
-      id: "014f4cca-473a-4ff3-a7f3-7a9e0bd06606",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-22ad7dda-52f1-4ec5-8938-c1d4b39b83ea",
-      id: "d20d37ca-9f6a-491b-812a-3e5f0023b1c1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-b6594bf6-f48e-4105-b589-43012a43d9c3",
-      id: "7cd748e1-4fad-4be4-bebe-6000151f9b8e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-740bcf4b-b608-45cf-a2d4-8830fe43fa47",
-      id: "d2ac0d9c-d074-4943-b093-de58632e6679",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-2c55a070-a364-4839-a7a9-eb46da6d51e2",
-      id: "f268dcfe-2d38-40b5-ae54-d846fcee2bea",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-f5576cd7-9d9d-402f-93e6-5a19537a5977",
-      id: "83218219-2a05-4690-bc1c-10f62dee0358",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-645b5276-3288-497b-9b7d-e3f467175d2b",
-      id: "51261e9d-949d-496c-bf60-2578bcce96b1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "ANCHOR-$$-6907ecbd-1340-423b-bd2e-c703340ec976",
-      id: "a86f912b-e6f6-4c59-a237-ad8a976048d4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      id: "3cc79818-939d-435b-bc43-bf39d1c198da",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      to: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      id: "c1448839-f098-48af-882a-5a3d63257566",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-701f75f6-11e2-4935-a35c-dfad417c3ab4",
-      id: "6baf9e7f-908a-4da0-972e-5435a3e51699",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-0f0214d0-1cc1-4719-a55f-1f49de5ffda5",
-      id: "b386da70-870a-4089-8b47-3dcbf326fc4a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-9c9c518e-42e9-42b5-98f8-9151efd3d488",
-      id: "68d82e11-1d5c-44d5-bedb-3f4c1b0689cb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-713f1245-a0a5-44be-aadd-b8028a8d0e6f",
-      id: "e1339f98-517c-483b-a03e-49844df2aa61",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-8c0c9c6e-776c-4c8b-bac7-3b6ae823d434",
-      id: "f6e54a3f-cb22-4d10-a0b6-d2ac88634773",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-fb8bdd8a-31b5-4bc5-a3e7-3d0f06ea74cc",
-      id: "225f4e0e-93b3-437d-820c-e8b26b817852",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-042dbc27-fe7d-4912-9f99-6d50f486664e",
-      id: "69f74f49-9680-4771-ade5-e7f829eb4e7d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "ANCHOR-$$-085175b3-97a2-474f-bc02-b2a9596a5954",
-      id: "e956bd16-860e-45ff-8124-43e6112afcff",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "FILE-$$-c1649256-a385-4a99-a00c-49a9a3c1086f",
-      id: "a4565750-4f17-4818-8a15-4ddd14b84546",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      id: "c8bea34d-e077-47be-9470-5191abd5d3ae",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      to: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      id: "aa413411-fd64-46e3-a2a7-99d03217d1d1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "ANCHOR-$$-2720cda3-e27d-4838-ba87-269c97b1343e",
-      id: "ba07c25e-f02a-4cf1-a9c3-161060bb655f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "ANCHOR-$$-c7977556-c4c6-4570-8e30-22e47c593a85",
-      id: "e4f51bf3-e287-4399-8b75-f330506ff223",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "ANCHOR-$$-10f5a6b2-42a1-4340-9620-4cdc791c45b9",
-      id: "4243ec5d-20a0-4d10-a3da-c594343bd6e3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "ANCHOR-$$-fb43164c-662f-4e29-89f4-5db95dd29b52",
-      id: "fe9172e0-f098-439d-8364-5a65b70a2bad",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "ANCHOR-$$-a700e2f0-5400-4d17-bcf0-59c030014f57",
-      id: "cc039d84-e086-4dfe-9900-a583479888d3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "ANCHOR-$$-e277443e-4b1a-45db-83f3-1023d7d608f7",
-      id: "c3f515da-b2b9-4c9b-a2ca-b03cab68fec8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "ANCHOR-$$-d13aeddc-3ce6-4d7e-a2c3-47aaf59f966e",
-      id: "0b9342e8-c4c6-43cb-b6a5-41c656567d18",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      id: "9f1b2536-2bea-4769-9c39-ebe9f8e1af6e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      id: "43a8d1e7-68ba-498a-85b3-19849a8c36d8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-713afa47-1b5f-416a-97ae-484f5a1ad0ef",
-      to: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      id: "d459a823-d053-465c-abf4-92c35778dd5d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-e7fcc41d-9d14-48bf-a47a-a34f7a82220f",
-      id: "9a538afe-17ab-4680-b61c-11766bdd855a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-34ae4954-7a6e-4a9d-a679-5e9e869d13b7",
-      id: "8faf9e0e-73c0-4b78-a6ad-de0ae21eeba4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-af964d68-fb6c-4f6f-8fd6-77de8f001311",
-      id: "9c4106da-cf86-4b7f-b9cb-86c7fb9b5171",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-ccabe641-15da-4c05-95a0-e4dfcb164956",
-      id: "429dff01-8494-4b78-bbfa-5529a5ac4af4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-e23a06df-eed1-4ef3-a05f-32af7b1024e1",
-      id: "f4df6ee5-614d-4a82-8da3-31abcec2d978",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-65d23214-eef4-46e1-b2f0-d7ca62ae3b63",
-      id: "759461ff-39cd-46d3-b2e9-bb9f35b1e0e4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-ecaed248-99ba-400b-838a-bfbedcc11edd",
-      id: "785952c8-a439-40e3-bfd8-0b9483d38c9b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "ANCHOR-$$-535a787e-c131-45d4-a3ba-c6e141ce036d",
-      id: "6e352aa7-ad3b-4521-a9c8-88a09cb5f093",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      id: "9a0596f4-af4e-4739-bc35-dc2774dbbeba",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      id: "72785f6b-555a-4f67-9615-5ea377303ced",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      to: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      id: "5b663e2c-4d8e-44d7-a9a6-46ed87bde80f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-65d4da01-2bb4-471c-aca8-5e840e204a52",
-      id: "b5e7c985-f394-465f-baf0-ddd78012eb29",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-9060d5d0-0708-4eb6-8891-c74f90d7b6eb",
-      id: "36784269-1507-4754-886a-0b15bba1a6bf",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-5e72b51f-2093-48f1-88db-f3f0f3e611c5",
-      id: "fba18ec2-657c-410b-b8a5-f8c7b1ce4cb0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-25474dc8-210e-443e-8262-57a8f0029bb8",
-      id: "60b1f304-7791-4dc8-85f8-8e9b8fd69e5b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-88cc3257-54c9-4e67-b5ed-16586d204b2d",
-      id: "68a8d36d-1d32-4783-931d-b1d9e6c82357",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-51240d84-e449-4c32-b7f9-3e6dbf605412",
-      id: "68765150-8132-4120-b264-1bda77d1d904",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-b1dfda7b-3dce-4391-80f5-ac01e57c22bf",
-      id: "7ffe7ed9-964e-4aee-b67e-1e3639a00053",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "ANCHOR-$$-5117b16e-0317-4394-8fc3-845953c1988a",
-      id: "a1e9cc99-bae3-4784-a09a-28755f4d4ac4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      id: "56dc055f-b7e2-4be2-8125-4474580113f5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      id: "cd0ed59e-e94f-4fd7-a967-82ae4f43a551",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      to: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      id: "4e8e627f-764b-453f-8c4b-8a4add710961",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-bf89e461-e0d5-4159-bdc0-263fc100d175",
-      id: "f03dc80f-9b8c-4281-948d-18eff49e8e22",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-80e6db50-f33b-4c87-ad4f-970e25abe14a",
-      id: "a03c1503-edf5-4c5b-a4e0-43bc5805c523",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-74b26ae5-334a-4e3c-b096-aad77edf8620",
-      id: "831254e0-85a7-4f04-8675-fe76b6ab797f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-f020389e-8406-4d36-a78e-d3465c348a6e",
-      id: "88f975ab-a3c4-464d-b7f2-36828c55e171",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-0352e7cf-488f-46db-98a8-dd4d469e75cb",
-      id: "ad0d55eb-a598-4fc7-b9d1-09f486ec95d8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-c4152328-93a7-4d41-8fe0-c1503a226730",
-      id: "e10eadc7-7b3f-4b5c-aa54-01ffc8905bb1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-5d784b37-c914-4da9-8e68-0d331e1f9a31",
-      id: "8b71bbf0-c71e-497a-a634-363f1f64a299",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "ANCHOR-$$-44de36fe-eb4c-43ad-92a8-1443ec6ecd27",
-      id: "d84ebe61-c709-43c1-a247-1df8b1afebe4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      id: "bd30b201-654d-4c15-a115-0a131a3b57d5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      to: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      id: "1b7cde46-3ed3-424f-a1ca-920ff0f6d7b7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-b5ef3946-d7ee-4a3c-b7ae-a33a505acaeb",
-      id: "b04b0ba6-5c33-448f-b4e1-f4a97ec2c03b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-f37e64d9-1dfd-432d-b758-bc71bfd68553",
-      id: "c9022114-aede-41b8-8862-70e94c8df0fb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-d77bfc2e-ca95-40f3-ad92-96971600f415",
-      id: "2e34457c-dab0-4d6b-bd39-b0fe5987879b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-dc806fa7-9faa-4fff-abfc-752f6299e1ff",
-      id: "44c4d871-9dc4-4318-a065-f6183891ca69",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-2ba2a5a5-2ec7-4efd-b864-0a6e60f312f0",
-      id: "faee1f70-cfe0-4d47-95c8-c31f0f158ed1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-8e9e99ee-f905-4a60-850c-7c86a5870c09",
-      id: "847a2121-c602-4ce4-aa22-628987105ee2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-6170e30d-8e3f-40d0-bf5d-48670c426804",
-      id: "4b335075-8f56-4f4b-8554-de77ff1c73d7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "ANCHOR-$$-99b12a15-d783-4a97-82de-942c96f335e6",
-      id: "0980caa0-6dab-4952-a774-1aec62c81526",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      id: "a420e489-5f4b-40f4-8282-f19e657b269c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      id: "1b85c983-8265-449d-ab59-03be56037a8c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      to: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      id: "a8b8dbc7-2faf-4fe0-8ecc-4670beb486af",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-c7e1c3c0-313d-4288-8253-84f23a295936",
-      id: "defb1fd9-dfed-47cb-b213-c399dee65f9a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-8c37d99c-864a-4f8b-bbfa-5e43493b76f7",
-      id: "7e2d0812-73a7-4308-8cde-ea2aa94d2682",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-e560c868-7170-4454-b58d-03d0de8ac866",
-      id: "68cb3928-008c-4b74-bbd0-d23113e14351",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-2cea4bf6-3dbc-444c-a4f8-be95d3f905c5",
-      id: "a3e6f748-ca91-416c-a8df-efb6539461ad",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-27ff41e3-1a17-4007-bbb4-2a115518cd39",
-      id: "40552929-5c67-436e-b466-d19765e6d23e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-5d6c7df2-345d-481c-8a26-290962aec4e3",
-      id: "dc50f415-668a-41af-a168-e94fce732ba2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-b1c69f09-c751-4dc4-9302-25e2ea6765b7",
-      id: "861b612a-2ad7-4991-8af2-3aef5f76b62a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-4db90d3c-d6ec-45be-ac33-7db362232a01",
-      id: "7618704a-7e37-4d64-a442-8a51f1f0a882",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "ANCHOR-$$-7a8ff013-a591-46b9-bcf8-fc4937d4d708",
-      id: "95e023d4-12cf-439d-a403-7245dcfeb25b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      id: "f0d978d2-db60-409e-906b-20b2c2fd347c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      id: "f0482072-c487-405f-8c54-27523f0d2114",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      to: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      id: "986840d9-cd28-4a9d-854d-45ed8d9a703e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-f1ecfeb0-5e0e-4e1f-9c3c-4c493820a8a4",
-      id: "d1ce901a-6e6e-4f95-a99d-cef7ca91b177",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-7bd9b596-1a2f-46f7-8048-a674cb6c7f6e",
-      id: "93b67271-252e-44fc-bd9e-bd65b9825290",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-6c6f269c-96ec-4ed8-b5e9-667ffdb5e097",
-      id: "3e81e338-efd4-42c7-bc06-fe7bdbe69ee9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-883fb7bc-8e2e-4ab4-8983-6560fb1ba3ea",
-      id: "596d1401-32b8-4fbf-942a-63f75236db74",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-11ac964a-3763-493c-a042-ee91d31d8e4d",
-      id: "d304c47d-a412-4089-8eda-ef1fcf231d9d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-2a805d25-463d-4b65-af57-7d86851ebf3f",
-      id: "2c1c2894-50cb-46ee-9388-572f69dbc574",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-8ccbffcc-5b43-46eb-9895-4d690961a66f",
-      id: "251ed5ac-ee3c-450f-bd3c-57eb3eac44a5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "ANCHOR-$$-5f93bd72-23a3-4ac9-b61d-46975cf94432",
-      id: "87850ea3-248b-4a14-9df9-bc552ba0e9f0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      id: "e7b79f9f-e651-4909-9e38-156933a5b04f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      id: "91364340-4278-4b53-994d-c0dc3d9d495a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      to: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      id: "35b84572-5746-4807-9785-a3a2b6b56182",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-092e935a-08fb-49cd-b114-30c28bbc9e0e",
-      id: "6372b37c-b776-47ab-b39f-ebe58c5f6952",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-33d54b1d-79c0-4078-b6d9-ad60384d4818",
-      id: "a25e2810-06f9-4791-826a-54ae8d2e49f3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-ad423441-daa8-42c5-a907-502ed7d7aee8",
-      id: "74cbed80-ef47-4530-91c0-dc0a60921c7f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-c944ac04-bef6-43bf-8377-7d553fa496c9",
-      id: "95b92fab-18f8-457e-ad18-225ce5374fa8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-2dc8341c-0d2d-471b-9ae3-7629c9b3e6ad",
-      id: "dd7f2dc4-f3fe-4af0-8661-aafed1ccc524",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-ddc4f77c-1127-47f4-ba2a-04dff6731c1e",
-      id: "dd8d3ea9-81b8-40a3-ac60-a594d3df5dd9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-3d5c3f2a-b61a-44a2-8c7a-512ca213e2d3",
-      id: "659a38b2-d0c3-4792-b84b-00155b407f64",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-849800b3-b473-4acb-83f1-06195fcd4dde",
-      id: "10100c33-f502-4ad9-8aa9-62f3eda9c46b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "ANCHOR-$$-75dc529d-ecc3-4274-9a06-69a5307b93e1",
-      id: "75e0c243-8b3a-4d9b-8ecd-119adf30d0f2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      id: "14813fa3-cb18-4051-ac7a-8a906d335cbf",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3a8331bd-72b6-469f-b002-62d0fffc5097",
-      to: "FILE-$$-53e7a965-80d2-407c-9682-45155f67f148",
-      id: "feff2326-2999-4244-b707-7ab76dd9e173",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-4d3e1047-f0ba-4f20-bb77-036910b5fd32",
-      id: "c618cd34-bba2-4ffb-86f9-8987b82d7cd0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-25938f19-05e8-4110-9d7c-45172b2b6fac",
-      id: "6c630033-1dc3-46ad-8129-21b8c4889a7f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-cf5cd41a-6b1b-4717-841b-2d25b230f8c1",
-      id: "3ed1cc1d-38e1-4d34-b580-b76ca7683a2e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-b894e0f8-f1b2-4ed0-8cc8-42f6369374a5",
-      id: "98788ee9-29af-430b-a9e7-cce183f1c989",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-bab98b00-91ea-4929-916b-d1d6cddd5f6b",
-      id: "f6be908e-fe0a-48c9-83e8-b901d33086d5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-33e355b4-cad0-470a-9c73-a22512c96819",
-      id: "da8c4b57-8ca9-4231-8c9f-ceedb4919f75",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-089ea120-c4cc-40f8-9f8b-8109be0208b8",
-      id: "929294b3-e38a-4463-80ff-fd8b78f2721e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "ANCHOR-$$-65ab6025-fa92-44c8-b30c-9e341a073116",
-      id: "fa8873b3-1090-495a-b379-f2362e48944d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      id: "56d84d42-6602-423e-a866-3dc1df269f3f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      id: "3e74a893-6fb3-45f3-b0f8-5bba4636de85",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      to: "FILE-$$-9d2459a6-bd9e-4fca-bcf5-a7568c50cd10",
-      id: "623c911f-cccb-43c0-89b3-db7a1d369106",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-389591a4-23c6-41cb-a344-2de3a47d975c",
-      id: "d5e518aa-ea02-40c7-ac5c-d4f418ded7c0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-36fe0b04-d0be-4cec-ba38-f0c939463e68",
-      id: "ca7bf7f0-76cb-43e9-a871-b92425ae3db3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-cfb19e94-a7c4-4c4b-8af2-4f2d15d6d5b1",
-      id: "d2015cbe-2ab3-4804-98c2-fc5096abdc49",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-cf1df794-d050-4824-a9e0-87b250e3c2f5",
-      id: "89b3038e-1c9e-4175-8591-c34989658391",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-5b111d14-3caf-4e2a-a4be-e3e16f5efbfb",
-      id: "0a7af47a-b803-4ca7-b5a2-ce069070d710",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-8d4b7f08-5304-48ec-90cb-9bdcba3b34f6",
-      id: "06e8c823-bd7e-43d5-9315-9d4234e4779a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-edd2ba04-39e9-4583-b0ca-5bd3fcc59cde",
-      id: "6da2ec6b-0d86-4159-a579-a7126dc1501c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "ANCHOR-$$-7d132b2a-cfa2-44d2-8ce0-4a09753e423a",
-      id: "bc9afd59-2d37-4a6d-923c-1a511ca10ae9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "FILE-$$-3416cfcd-5a1c-4d53-87ac-d79f09ad40b1",
-      id: "3777af78-bc4b-4187-b441-a48afca31d44",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "FILE-$$-5392cf06-ce99-42b8-bc7f-01879c258302",
-      id: "590358c1-bb69-4c54-ba2d-9dd106172ec1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c5215226-18ba-46e5-975b-caed975cae8c",
-      to: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      id: "2085f08f-66f3-4bce-94f7-ee2744cd4d76",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-d5a46620-79b8-4334-a86d-179ded439e2b",
-      id: "a7ce8cff-3963-4cf1-8406-803f0557c61b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-b2e6e0a3-f36f-4060-8584-3c7004b10dfa",
-      id: "60a49d61-2de1-4d12-9a1f-8e554f47411b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-3967f326-937d-461d-bc31-dce84cf33b6f",
-      id: "3d8fdcbd-d75e-4826-b531-4a2e2863bdf0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-18ed8187-3c15-4901-9f7c-8e9ead1bfe49",
-      id: "ac5b68bc-5467-443b-bed5-c6ee594a07bb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-bde4e747-72dc-40d8-85f5-7682d84963bc",
-      id: "aa36227b-ff41-42e1-a5fb-49639d245b49",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-7236e6ee-7b21-47e5-9947-c4483d8238bd",
-      id: "d2a299ad-da6e-4290-b8fd-306d4ed284a5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-205b41a1-4206-4757-b1d2-09c93903f1dc",
-      id: "3ed9bf18-2035-4202-9318-ff8f394b6a49",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "ANCHOR-$$-ee91c8de-a090-4165-b8f8-e85767ea28b1",
-      id: "2730b928-c2fc-4272-b32e-16a8ca234d20",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "FILE-$$-607a309b-7729-4bd5-a0b4-304568e98309",
-      id: "d60ef2c4-b38c-40b3-85a5-e11490718d45",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "FILE-$$-cd1c930a-d88a-4e56-9b55-b8e102f97b2e",
-      id: "0e518771-7b30-4c5f-a022-6fd01f8a9407",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-6135f528-fb12-4b54-a778-c9d2a5e1ff8c",
-      to: "FILE-$$-ec9a3085-a225-4fde-9261-537c1fbbaf76",
-      id: "ffce777d-9558-4583-b6bf-6c5e1d83f433",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "TAG-$$-9bf29bc4-7149-4b0c-9b9a-f835ecde982e",
-      id: "fd1ad37a-b38d-408f-ac51-7f0977035d84",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "ANCHOR-$$-f3e8b196-e72f-422a-b303-8e7ed9e1306d",
-      id: "765dc28f-5a84-4d29-a2fd-591448e6bbb8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "ANCHOR-$$-b478434d-559b-4d3e-8a93-85a4a1aa478a",
-      id: "eef944f2-f0f7-4176-92db-11a7744d25d0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "ANCHOR-$$-a3eb7313-9d48-4758-8093-0b0490b21668",
-      id: "39a3d855-7b45-4e6a-8358-0b66804baae9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "ANCHOR-$$-f10f1338-5e64-4805-92ac-ad2d910a14d4",
-      id: "fe00f3e2-02bc-4cee-ab90-d009e938d888",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "ANCHOR-$$-f1f71c85-26bc-4134-9911-3daa4605da2d",
-      id: "8bcca1fd-5548-4f99-b83e-28d40ab05b6b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "ANCHOR-$$-77ecad11-5ad0-46c0-ac73-a02b40494ba4",
-      id: "cc39601a-42cb-4a93-9f1e-3b33eaccd047",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "ANCHOR-$$-285316a3-85cf-4f7d-a9d7-ed2791f5742e",
-      id: "bb3c71b0-f098-4e21-8cd9-2282e1b03f9f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      id: "dc716bf9-a4dd-40a1-b7dc-b3f8b7fad6d0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      id: "036ebd28-4766-41ba-8690-4fad9f8ab444",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      id: "2142b232-634f-42c7-a215-a8bef893929d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      id: "d2e7d281-9db5-437e-b30d-cd2d03a3fcb6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "FILE-$$-d92a5f38-0600-4226-8074-40801151dd79",
-      id: "d65cbc89-6b6f-440d-9dbe-9231d98e7ea0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e449681b-75c8-4224-95ed-6a35626c6f30",
-      to: "FILE-$$-bedda643-0f68-4895-9a5a-323a3f783e87",
-      id: "115f1464-f31c-4d49-9637-1c647435b2d6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-043c2f07-da30-495f-834d-8a82c63869d7",
-      id: "d63f18aa-a913-4085-9bfe-55b2295a7a22",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-5f011699-676f-4f4d-a1d0-42e4ad3f6faa",
-      id: "dc5f1ab5-4067-4e2e-a925-1c4bd4c1a9d6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-c6a53367-fdae-422e-8221-41aa5961f931",
-      id: "cf2b87d7-12ec-4438-8dcd-6d5ee568e702",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-04a7985b-27d3-4402-b266-87d4b5e16ff2",
-      id: "610c9481-1dca-4a82-8100-0b8ff34ea19c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-690da89e-4c68-4cf3-a9ae-b999571751d8",
-      id: "3bbca7cd-cc4d-4776-9132-4171c867bcd4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-acc17713-ebad-4af0-91e0-df533c1d8714",
-      id: "4b505617-a72f-4646-84ef-24eb5ec509e3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-6571ea01-63a3-454a-b67c-2fe74c1e8726",
-      id: "cbefb21b-c2e4-4d63-a081-2d8edfa6e585",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "ANCHOR-$$-b2190031-1659-4754-afbd-7b7b4fdaa856",
-      id: "e4bee007-3119-4840-a61c-1db6b74b1268",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "FILE-$$-dc34908b-e04b-4333-bd0b-e35f02014c55",
-      id: "f128a5d2-97e0-4222-b45a-fc25fec19a79",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "FILE-$$-f70abdbf-039e-4cd2-ab0e-d9efac99ed3c",
-      id: "d5cfda2d-01a8-49ee-a9fb-cd2fd942723f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9a66f287-c0c0-4212-b8fe-99e0a947c162",
-      to: "FILE-$$-ff7dba7c-7d52-40dd-baa6-24b6e4b049bf",
-      id: "1998c19d-d4bb-480f-a1e0-a6af5a0edb42",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "FILE-$$-3ec44a62-1f4a-4cd7-bb87-cb080e295d50",
-      id: "fd760424-8911-4038-982d-2f7e99484839",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-894E9344-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "6f5e3ebd-aa3c-4fd7-9d0a-c1aef20e69a2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-894F5586-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "541e7b96-86aa-4c8d-9e1e-bc5d520c9bee",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-894F5504-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "cb6a31f6-be4e-40fb-bcbf-460b64a76855",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-895E059A-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "bc17e8a8-98d3-4682-89c5-7776974f1256",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-894F55B8-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "23e6b23c-aa92-4d5d-9467-4db878c39322",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-895E0540-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "1a802e8d-5472-43ea-b2c9-906850801865",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-894F554A-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "f25b4250-bbd0-43a6-9114-ce50ff828334",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-895E03C4-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-895E05D6-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "3856ad07-b0f5-4410-88e2-1ed0f463bf03",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-206ad93e-05b7-49c7-9aca-b91b58218cdf",
-      to: "TAG-$$-645884c1-f98b-4a08-8e29-2cc7e22089ce",
-      id: "7b396153-dce6-4dd0-9782-22c83ff62104",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c65a384d-d292-4194-96ae-e03f898dda72",
-      to: "TAG-$$-faffb393-1f5b-44fb-b240-348241f47912",
-      id: "905ec854-89fd-4d6d-ac0a-b2a4a9cc94c5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c65a384d-d292-4194-96ae-e03f898dda72",
-      to: "TAG-$$-a1992cf4-9c24-49ba-9528-fb97afc49a6a",
-      id: "85893846-df3e-4cc6-87b5-5f53a63ad937",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c65a384d-d292-4194-96ae-e03f898dda72",
-      to: "TAG-$$-aeac9e83-71b5-458d-bf77-5a27a7f00622",
-      id: "ad1e933f-ee9f-4e6a-97b2-390be818989e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-c65a384d-d292-4194-96ae-e03f898dda72",
-      to: "FILE-$$-052ee3e5-c415-404c-abf4-a13519e37c6a",
-      id: "8603bdd4-ea75-474c-b83e-33f0e276e89d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-052ee3e5-c415-404c-abf4-a13519e37c6a",
-      to: "TAG-$$-6bc973d8-57ee-47d3-a96c-fca6905eeb2e",
-      id: "2cc1785a-b3eb-4f16-a1b2-a18e92e8f9c3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-052ee3e5-c415-404c-abf4-a13519e37c6a",
-      to: "TAG-$$-645884c1-f98b-4a08-8e29-2cc7e22089ce",
-      id: "a8bb9078-6963-4e87-b6e2-0b51c2d448af",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-052ee3e5-c415-404c-abf4-a13519e37c6a",
-      to: "TAG-$$-faffb393-1f5b-44fb-b240-348241f47912",
-      id: "6db11f75-5407-419b-b671-d16145bb3aaa",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-052ee3e5-c415-404c-abf4-a13519e37c6a",
-      to: "FILE-$$-c65a384d-d292-4194-96ae-e03f898dda72",
-      id: "2433df3e-7a1c-440b-8e26-be258a4c072c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-b59ac330-6912-48f4-a1d2-393dd921bfc5",
-      id: "b46d3ff6-38ba-4186-8d85-ce6254c26290",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-2e6a3da1-2c35-4604-98a7-dd31c028a6c5",
-      id: "73d777f9-2834-4da8-9a77-821882c45df5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-d0ee3c15-091c-4dd8-8586-e3ab5b77ae28",
-      id: "5f7f68dd-1a69-47f2-bd3a-06285ddc0336",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-6f08ef83-c012-45ac-9a4d-bb5a13a6fbd1",
-      id: "22a1a892-9d9c-41a5-b380-ff48d15b3f1d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-35ee4e92-0bb8-4387-aaa3-8ac0ed17cea4",
-      id: "71ae0a64-d43f-4f62-9bbb-05ef15faf80f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-91c03594-a128-43dd-9e5b-5fa5cb14d118",
-      id: "a3379d69-e11c-4f57-a2ac-1242dab685eb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-b9cd95c1-db8a-4066-883b-d1f5e96ec062",
-      id: "499bcfe7-38f6-4d8d-8079-42f44f6de6ef",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "ANCHOR-$$-dcf122a0-8d3b-4d23-9504-bb037304816c",
-      id: "72b1fb3b-18a5-4a9b-a70f-a7f1e7c628d5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      id: "ead487ef-fa97-4297-9c5a-d4493f4b6bf3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      id: "30fb3801-6836-4382-8807-5d8cd51fcc53",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      to: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      id: "af111c69-9ae1-4297-b7f9-cb5f3f8404c7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "TAG-$$-faffb393-1f5b-44fb-b240-348241f47912",
-      id: "fe8a54cd-1d84-45a0-b2a7-cf155008acec",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "TAG-$$-a1992cf4-9c24-49ba-9528-fb97afc49a6a",
-      id: "b5fd4c59-e521-4b36-a8ce-0580001f7dfb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "TAG-$$-aeac9e83-71b5-458d-bf77-5a27a7f00622",
-      id: "dbee8acf-2b38-42c2-86c4-547d2d5b9ed5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "TAG-$$-a1992cf4-9c24-49ba-9528-fb97afc49a6a",
-      id: "02f120f1-21a2-4782-b101-f17a327d2efd",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-4190a29c-1bed-451d-add5-731ba244dc4e",
-      id: "f06db48b-78b9-41f7-a4e2-ed4e49d5d80b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-9ebfad22-611d-4cc3-bb54-dfb3277fce97",
-      id: "2095812e-98ec-477b-b3e7-6cf8e9b19886",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-e8d65651-293a-44d0-a4ad-6b3e2c5125bb",
-      id: "d802119f-2f2e-43b0-8a30-33e05748b1a6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-25d62619-ab5c-4555-849d-0919a75de445",
-      id: "c8216a2a-30c9-4c6d-8eae-43714b622575",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-dc3c57a9-6fe2-46a3-b04a-25443429accb",
-      id: "5b1eddc3-5bd2-46de-a77d-270071f4c48a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-f482c3fb-e0ca-4759-add6-676072896114",
-      id: "dc7ca3dd-67ec-4619-9350-c46c0e90baaa",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-ee6fb6f9-c639-40f8-ab14-ae60306adc31",
-      id: "4ca30057-0cfe-4f18-92a2-d5eb198a5ed9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "ANCHOR-$$-5effb4fc-8139-4dff-9e28-76d85668debb",
-      id: "fdd47e5f-a40d-4ddd-89a2-7017f027365e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      id: "808d4eb2-7be6-42ea-ba29-edc2c29675ab",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      id: "b4633fd3-6fb0-4a20-9c0e-a282ca310955",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      to: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      id: "8045fc97-3395-4ee0-ab7a-9364c61082e7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-c9458933-4bcc-4a36-93b8-97220442eea8",
-      id: "c6397a32-27f4-4df2-be70-659ae996f92e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-98882739-3269-4ca0-903a-39376022efd0",
-      id: "bc7d4421-4606-488c-a6cb-180b02b5b2a9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-52e4fac2-b819-467d-a8ca-f8f7433c45d9",
-      id: "ea62aceb-d329-4d85-9e45-d8cfade606bc",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-8b57bf56-a88d-4417-a710-59c2883f1302",
-      id: "f70427f1-a7a2-414a-a92d-bd9deff90831",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-0ff7096e-9b5d-4cfe-85c5-d949eeb937ee",
-      id: "4f4e5b83-a9cc-4d47-9e94-13fda85641f7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-cbd4d04b-ed4e-4bd3-b892-8fd9ac0c45f1",
-      id: "62efd7cf-1b72-4317-ac25-7d8fe5d38f1c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-169371b5-3f58-4069-b7b3-b130c539f2cf",
-      id: "ac69ca17-374c-4a36-93b7-789667ef8cf5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "ANCHOR-$$-43fd61a3-bd1b-4427-b53b-abccef8edeb4",
-      id: "a3c3583f-4d93-4bc8-b4f2-d51a98c7f6d2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      id: "cedb3c2a-4110-4059-86d2-d7d3afa8f96e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      id: "e51707d9-9785-4ab7-8b33-2af273ea5039",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      to: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      id: "09a3cfaa-d086-40f6-938f-c627be2d7cfd",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-5707ec6b-2d9e-417b-91a6-f4f66c556963",
-      id: "252ccaa0-ea4c-402b-9677-f860eacd3ea6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-e91dbe52-5481-45c3-9474-1c601fa37f48",
-      id: "99ef29d9-6e56-48bf-80ad-2bfaf7fcc19d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-849fac8b-5805-4bf6-848b-ffb6ccf2e49d",
-      id: "e94787a7-4e31-4c22-9c5f-26d411c3e53e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-b0c9f3f0-069d-4f69-8028-ea998a8e78c4",
-      id: "272d0fc3-1091-422c-a9a6-2a245a32a44f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-11425c0b-beb4-402c-bfd0-831b9b02970d",
-      id: "ebc9ecf2-ab70-478a-85ef-88ccbdf6b9da",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-827cf76b-abef-4986-8695-63e147676cbe",
-      id: "bee223de-3759-4d72-925d-89780ffc1da4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-dbe01925-72d7-4168-a48b-4272c25c1f51",
-      id: "e84ec87f-2eca-4fe5-a2d5-7bb50ef5cfc3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "ANCHOR-$$-6bc111cc-4d29-4830-b7a5-e3a8f51bba0d",
-      id: "b9b89085-05ab-48c3-91ca-6bfab2c2f755",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      id: "9d048f33-80bc-440f-ba57-5227f12b90fa",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      id: "a3a9fbd8-58fc-4d2e-abc1-d58e41f2bd0f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      to: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      id: "2e0ad4e1-95f0-41fe-bae4-0de75a2a15a7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-97c1f506-54b1-4fcf-ba7e-34a9e447276a",
-      id: "f7cc7caf-c40c-4c5d-b13a-d46e6a6f15df",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-2ad2bd04-e9d3-4c97-a287-3901a99838a0",
-      id: "3d681d7c-3ace-4770-aa85-db308b2d03fe",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-8f64f83f-6961-4932-aada-e57e3f9c670c",
-      id: "58c57527-0099-4dc5-a1a2-1598d08bf882",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-f59fbe05-848b-45fc-ab95-05174d029c47",
-      id: "a0921d9e-6630-4d6b-b688-71e81cc7f5f7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-648a0454-1c92-407b-a0d0-8251824261f6",
-      id: "0a031c75-4d6d-45bf-828e-21e106a83128",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-a12e48ce-db5b-494b-910f-5a7a46528d83",
-      id: "48212b25-8ada-4836-8bc6-fffb40e38768",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-ab9df02e-bfad-4bbf-99d5-96f7d9822a4c",
-      id: "66bf57fa-94c5-4bb9-886e-e6895e677bc4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "ANCHOR-$$-4c036ee0-d062-403a-83ea-f373b7f6d335",
-      id: "1483c5bf-255f-494d-aded-3a69f9d9b615",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      id: "f8e2be36-22da-496b-9397-18b0dfa8f68c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      to: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      id: "c6dbd158-52d6-485a-bdc8-fc70ccb0f4f5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-0acaa716-3c71-4437-8770-c6915f8b97da",
-      id: "327769de-0dda-4774-8353-71f114f9321f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-1ebe9549-c60c-4450-8c00-9ef9e4b3b410",
-      id: "e811ca93-e834-46bb-a91c-96768269e38b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-4b075e5f-3ed0-48da-8319-1a8838467ac0",
-      id: "2ae5523e-aff8-45d5-8631-7d9677c073aa",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-61ac9c8f-41f4-4637-afa4-69574b13a450",
-      id: "473bb4a2-66b5-4f8d-b6a9-4035d4b2e04e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-a1e7f81e-d0cd-40b4-90c2-502d54ad31b8",
-      id: "04070eeb-f861-4838-a204-c8be4af46ba0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-066c4eaf-d221-4398-b394-9292639272a6",
-      id: "14d0e0f3-36b4-49b1-ba0b-2f603667d8b7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-1cca7192-134a-41c6-846e-5467b0aee96a",
-      id: "736c3c7e-8b8f-4241-8fb1-7d1cbc005d9f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "ANCHOR-$$-1c85afda-6914-4eb2-a763-d138dba801c0",
-      id: "3ff2f305-a277-48c7-a986-1470e5f1c405",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "FILE-$$-b111558a-295f-42f4-80a3-9ebc6ef63369",
-      id: "a108b7fc-658a-4728-a19d-8ed4f0636bef",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      id: "d5347449-325e-4729-818a-fda8cbe230e2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      to: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      id: "904cb1aa-64c8-456f-adeb-377b664a3cdc",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "ANCHOR-$$-31d772b8-6d4e-4990-93c5-784d98746edc",
-      id: "85c40ef1-0768-4ab3-8618-efac9a4602b4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "ANCHOR-$$-98364e61-781b-408d-b85f-5e00773a91a1",
-      id: "390c7524-7a02-4c0d-b580-bac6ce25afeb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "ANCHOR-$$-049ff980-a0ef-41ec-bbc4-52f626f86145",
-      id: "e7b54fd2-c033-46c6-9afe-e62b1d4e3550",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "ANCHOR-$$-b6a4d9d7-c9a0-4208-ba6c-4604e887b684",
-      id: "dfebfbcd-10aa-4ddb-9745-dc5a242be035",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "ANCHOR-$$-46e11f18-98f2-4d55-bdf9-33ccede46777",
-      id: "8ee7c2c7-5fac-40c4-b3b5-74cddc575290",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "ANCHOR-$$-20afdfdb-eeee-4095-a856-9d078a52c143",
-      id: "fec62602-32f9-478b-8b32-2dd762047c21",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "ANCHOR-$$-47ae9149-0526-44b7-803d-bd5a9e01ec46",
-      id: "2c657a23-d03a-42b7-a5fa-3c64927f60f8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      id: "6aff9f27-0d41-4cb6-8543-82a90d23b5f7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      id: "8a5e20ea-2c00-4bb6-8a66-dd473cb87a9b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-5314f329-4791-444c-b974-70c938c4d4af",
-      to: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      id: "bb945dc8-822e-4571-832e-35104700a115",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-10908ed1-b9ee-4336-886c-2cade4668494",
-      id: "1fe381dc-5b20-42a4-b13b-19dbfded7654",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-c89bdbb9-2786-40b5-9bce-2a29dcf9ed8d",
-      id: "b891333b-9629-47f1-aa77-1a9c04af8a1a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-005b70df-d0a8-4caf-b7a5-fd4462547882",
-      id: "5bb4d2f4-cf59-4712-8ba4-a138b6d4d5e0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-dbacc486-9b0f-4316-8668-f24fcef55eff",
-      id: "ecd75029-3325-4fc9-8ac1-3cc81365eced",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-6f37eed9-7ac4-493b-9c0d-d68cf00aac8a",
-      id: "0c7323f5-46fa-4739-ada3-12857d3f8d05",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-ac026c1f-da98-4891-8689-9be943f0cab5",
-      id: "73e6e7b5-b4a9-4984-b5e5-a7af4f4b62c6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-6218b332-e618-4622-a988-a8ee894298c5",
-      id: "18a19c98-b1dc-4300-a727-f8a5847ecca9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "ANCHOR-$$-5c11316f-3596-4c8e-9c40-74db37696160",
-      id: "68bbce7c-5639-4418-9e3c-8694b1323a24",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      id: "ad620796-69be-4a3e-af7d-f74fec067637",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      id: "e7c08fe1-7e7b-4d85-9a8d-5488cad60081",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      to: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      id: "edbea62c-be7e-477b-be8c-d3cda6db4cff",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-2ce42e4d-1976-4437-a548-a8fb618b2702",
-      id: "25717975-99af-4f36-8742-fa27580e3466",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-0d4897ea-880d-4fc3-acf4-1a3381241704",
-      id: "b9cf8973-29ea-497b-9995-ae3f9c49ce24",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-a2a2e339-b124-4c07-801c-71f668e61cc9",
-      id: "529aa76f-d609-4ad6-b00f-59d2bb15336d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-abd34be6-097e-4257-98e7-7f429458f4fb",
-      id: "471b01ca-1794-4f0b-84f3-880e99a72335",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-cf105e25-ed33-4cbd-a324-f02e2f2ed08a",
-      id: "8ebc60b4-7d35-4d01-b503-f81d953a85b0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-dc9d41f5-5ce3-411d-a204-c6dd4d7132ad",
-      id: "cc95e059-48a2-4ecc-8c71-e0e04cab3d8f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-e9442b7a-08ff-4a17-976f-bd62df899d49",
-      id: "376a2999-e5f6-493e-818d-6fe402cf15cf",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "ANCHOR-$$-9fce4ca6-c3f2-4027-a282-ca750ce72cb2",
-      id: "852e2456-c7a1-4094-890b-b027cd33b1a0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      id: "c35104e9-b8c8-4004-8037-da4a50a4ca52",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      id: "2fe2172c-263a-4221-8664-11bfd719c671",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      to: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      id: "724e1801-bf36-416d-a250-7d67d5e78746",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-ccd18294-5a15-4f94-99d9-f7672ab8dbfd",
-      id: "9f46f3e0-509d-441e-ba92-05210a9cfd4f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-a2f15534-4774-4330-8e58-1d1fb0f2daec",
-      id: "d32228ad-40f7-4084-b94e-2f3ea03af2bb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-6c072e6a-130f-496b-bd8b-9da574b64eb3",
-      id: "42229798-67bf-47af-9f24-974d8438adfd",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-b931b4df-6194-482b-bce0-8cc438c4eea3",
-      id: "864df757-2971-4c0b-937a-d051760c6aec",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-4596f7cd-0d6b-456f-8d4f-76c3a27aa851",
-      id: "13d2dbb1-8714-4958-a483-d848de5375a6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-6b1ded1b-2be0-4f34-a301-ef1238de113e",
-      id: "687a8b76-9147-4f2a-8798-1654df7db480",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-5beca993-849b-458a-a5b0-e9a4794055b0",
-      id: "cfd5d2f0-3f6e-4ede-a920-762a337155e0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "ANCHOR-$$-403f6952-bf78-4ff6-84ed-d850520724a6",
-      id: "8a81fa37-7c5d-47c6-9c28-a38a150a6e44",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      id: "d8065769-8354-46af-9cd5-476821d906c7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      id: "6d062de6-015a-492b-bcf7-e3c5dc815977",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      to: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      id: "6479f96e-b99d-4915-a31d-d5e73a291b3a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-10633d79-d068-4b83-b783-3d7e59260061",
-      id: "dc599e23-bc50-4322-9e79-c3566882406a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-353f1061-f0fb-4418-8e11-7f134648b267",
-      id: "ab5d5137-338d-4210-97d9-0fbabe18d9e3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-ea169706-149d-4bfd-930d-a7ecd0a4f1f7",
-      id: "33224ec7-2d51-4850-8f35-e88920d9102a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-d933f57e-0a21-444d-bab6-7c4db1c9fc03",
-      id: "25d1f2a0-5bb5-42fd-8885-38ac9b635680",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-4f94ab63-e93c-405d-a4c6-c068597e3c04",
-      id: "5b70f6a2-85ec-4840-be8d-30554053b09e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-47a39289-aae2-459e-8c26-bfba09e87763",
-      id: "436dd05a-8adf-4ef3-84b5-9eadee93ee29",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-798487c8-4aa0-436d-afe1-c7cd5cad8db2",
-      id: "784c9342-8f8d-484a-be11-ea678a26b481",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "ANCHOR-$$-73b73558-2efc-4bcb-b60b-6a67443f4a24",
-      id: "19ad5f1f-d93a-4ff8-8dad-6c7c35270d39",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      id: "d80120cd-a3fa-473a-be9e-67e7e1381757",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      to: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      id: "3dd0cb2c-b35d-4b8c-88d6-14cf3b9c3c5e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-d47f1250-35eb-44ef-b2f8-6a9fc4f789b9",
-      id: "43124bad-ba1d-40dd-a134-88c325039d6b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-62166325-5c6a-4a92-bb91-08fe8dcd5c40",
-      id: "4720f89c-8de5-4819-a66f-013d82f1fb2c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-ddf039fd-c9d5-400c-b508-2d06f7897119",
-      id: "6c86292b-f149-454e-9b34-46e381804c06",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-a3f143f6-815b-41ca-be88-93c5ee456a93",
-      id: "dc883ac0-0163-4ae0-b538-aa72a251b580",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-b496d1b5-faf8-40f8-ac71-84c913bc258f",
-      id: "2a8a869e-ac42-4023-bd84-e6cc64658ff3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-95b171f5-bed7-4d2b-92a4-b896f28ed9eb",
-      id: "87fd9a68-d9c0-4c08-8b9c-f59da8bb6f01",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-7dea5e68-5ffb-4e6d-9273-1fcc465c4899",
-      id: "9f5c265f-0897-4748-8b25-8bb41f454482",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-fe56e0f5-d938-41e9-8a7d-ba41a117669c",
-      id: "537a2d89-3c72-4e3a-880e-47dd31e8e4bc",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "ANCHOR-$$-11e2d401-f3aa-4f8e-b259-c3aeef023bfb",
-      id: "fceeaaa7-678f-46eb-91bc-51dcb2941072",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      id: "f73caa47-8b35-4d20-8ee6-7bbcde2536b0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      id: "cb1a15e5-7114-4d2e-9d9e-d58a4bdd06da",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      to: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      id: "006a9bef-2385-4b71-8247-708b603f097b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "TAG-$$-6bc973d8-57ee-47d3-a96c-fca6905eeb2e",
-      id: "f9433cca-7363-4070-8f64-162a8c5ae27e",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "TAG-$$-a1992cf4-9c24-49ba-9528-fb97afc49a6a",
-      id: "14ead6da-a036-480a-bc4d-7689a7fd2ed0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-0078dcb0-58ea-496a-9d24-84d122e20773",
-      id: "3b5b4f80-f68b-4770-9173-75129dce0885",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-0b156fd6-9c69-481b-bcce-19f54427cb4c",
-      id: "e6017344-9573-49a7-9324-17dc2faa8ff8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-f3126181-2e36-4ac3-839e-c959b0ee5ca5",
-      id: "ced9289f-c627-4214-bf2d-c8bfc7853e36",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-87ab626a-1a0c-4aeb-acb6-cda2de8a12c0",
-      id: "b4e003ec-7478-4f1e-af87-513767f07a91",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-e0ae4338-acc2-4c3c-9220-a47d344de45d",
-      id: "2376093e-a939-4c1d-b596-febcf94b98b6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-0f21a003-8e01-4172-9368-74cb9eca0e6d",
-      id: "3ce54333-9139-419a-afcf-ef392148c7d4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-77971f9c-d07a-401b-84d4-109d9f85fd83",
-      id: "dd7b4d6d-1e39-44d7-b459-f7572a915128",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "ANCHOR-$$-c917cda6-bca5-4fab-8572-d2cbab65143d",
-      id: "4bc8a996-7caf-46eb-b606-f544303cb039",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      id: "775e5a7c-d0be-46e7-99a7-9be94b21db62",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      id: "d15516c7-4873-4afb-96f5-1278b560701d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      to: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      id: "9f671a10-ed84-46a3-8d1d-08dc9f6eae19",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-03b22788-9fc0-4425-993e-1a2a874fcf7b",
-      id: "d93aaf78-25d5-48ca-9ca6-483f42d820dd",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-47c26dd0-a807-44db-9914-c33bd5f676b9",
-      id: "1ba3c270-ad8c-41e6-938a-1f9c26720390",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-22bfbeb3-2b7a-49fa-a09a-725c19ce8969",
-      id: "464f6f74-95e9-48e0-828b-e5ddd04401d2",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-ffa830df-d62d-4628-815b-5fb79d437c89",
-      id: "d0102ce0-f465-4972-ae51-a26326fc763f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-b42574a7-2718-4d02-bb69-bd3800c7713b",
-      id: "1058cb19-a3f1-4275-adc5-f476517ff38f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-9baa991f-aebd-46c7-afff-bd84a54b1c0f",
-      id: "61284506-ae6b-4ed6-81ec-0dbc89a48a71",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-5fd580e7-bbac-48d6-aa44-f3beb607f9d5",
-      id: "ddf80031-b29c-428f-8f8a-44fba23837f1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-8f53a864-3384-4dad-b0ae-bccd916dbeb0",
-      id: "5c4a1271-c786-4985-b43d-abe9add89581",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "ANCHOR-$$-8eef8ee7-6f20-48c2-bd23-ca2638612de1",
-      id: "ed2b0463-22f4-4c42-b48b-73ed591fa5b0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      id: "ee4eb39c-7bd2-4e2d-bf48-4c9db3a2ecba",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-1db9fbc9-c29c-499e-9684-67e7bed88086",
-      to: "FILE-$$-e4f9636f-9a9f-4202-989a-2e35f6db04ec",
-      id: "43f714d4-8c58-4625-96a9-4c1131049be4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-26467040-3699-4a7e-94ff-28378b59ce7e",
-      id: "d837ad71-7acd-43fa-8a64-c1b43cc41902",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-33ab587b-3466-4c5a-83b1-5b71dc0d060d",
-      id: "221054f0-5799-4292-83a1-e95c94da6429",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-5d7769cb-c2ed-46c3-8b49-d44dea79b1d0",
-      id: "458030cd-72e5-45dc-8333-cfed674bca31",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-357e461d-e116-4cce-abc9-f85b4f6b3d87",
-      id: "ea86cf5e-b41d-4b79-accb-d49b6bb76166",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-756826e3-2804-405c-8632-7398065e0ce6",
-      id: "9862e767-4a5e-4b78-b292-3e157bc91b08",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-b6931170-a5a2-40c6-9f9b-fde36217cd37",
-      id: "99a7e350-0a2c-422d-8588-248ff5c142e6",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-57ec0820-a4f0-4a93-bd05-301ed34ca666",
-      id: "7e673568-fe85-44e0-8e7a-351f294ee3d1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "ANCHOR-$$-b8770544-1ad1-466a-b74f-5fead97215f8",
-      id: "1eca9321-690f-44fb-a595-b9c19fe69c6f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      id: "94d3e254-0ab8-45a1-bbc8-a5b916311a1a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      id: "0ceed6a0-df24-4a82-a419-15f6dba6d37a",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      to: "FILE-$$-9f56bd66-d9bb-456b-bf0e-2bda9fdc1432",
-      id: "585602a7-55e0-436a-b555-5d3701a11956",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-289d85e2-6ed8-4e9b-9dea-b8c68dce27ad",
-      id: "fd898ffd-4f9b-4722-bd7c-3405ea9ec5d5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-6dc36c42-6cc3-40e0-87ff-c687cc623166",
-      id: "60096978-9995-4a64-a6a6-2db6604cb196",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-be7a3c3a-46dc-4a43-97ef-3dd8c3b27f41",
-      id: "5cd6cb59-0267-4db4-b961-3a968241243f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-b72903b0-f2be-406d-ac28-dc34a29623d8",
-      id: "70aed038-8ab1-46dc-a6d9-d36ec94fbab3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-28750260-b2b0-4e67-8e27-b46f2a46c537",
-      id: "a97d3312-72bd-492c-a9b0-0de4d07cc54c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-0cb02130-cb3f-48d4-9ef7-fb6dfc582188",
-      id: "b4665ba2-a842-44db-94e3-73ba580ec2d4",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-127e1582-6b84-46dd-afd2-abcbc53ea993",
-      id: "6d602465-eac8-4dbf-a0b4-083226dd15de",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "ANCHOR-$$-87f08f13-b86e-431d-8c26-000da368cccf",
-      id: "7d7bced5-cdd8-4d25-8ff2-a78261775c00",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "FILE-$$-d0110eba-23ac-48d8-829a-5466bc434c7f",
-      id: "3f72c69c-9816-45ac-8643-af1b29b8e040",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "FILE-$$-3ffe82e8-d7d4-47d8-9d31-dc00166a6399",
-      id: "ef6f2d6f-7c5a-4021-9342-ae03b02a92b0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-3e21abfc-3f7f-40c9-a2e7-a76c4764a216",
-      to: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      id: "8c9f9bc6-98ec-4902-b582-89b823a2da05",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-7270a676-bf23-490d-a06f-4572d2355fd4",
-      id: "db61f001-4033-4a26-872a-4d5726eabe84",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-d56f9c9b-631f-4382-80ac-352c82273267",
-      id: "c4d6431f-d773-4f0d-9982-24cd918cfa41",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-afd73448-eec9-4e05-b509-0ab3f5772c20",
-      id: "976aa2ef-c8d7-4dfa-b0f5-6b824e5775c8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-d21741ae-78e3-44e8-8169-f12a630617c7",
-      id: "5067f602-7196-439e-b9cf-051cfc65dff9",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-8c516ba4-503c-4435-9482-deee5aa319b2",
-      id: "d5fa66c5-1358-4adb-adf4-ef43ed093d03",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-ce46c175-124e-4eff-9c1a-cef750c7bfe4",
-      id: "3713820f-906d-4342-9477-d6daa28ba656",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-bcc1b100-c372-452e-a105-aea678d30d00",
-      id: "b5e4fa4e-a148-4fd8-8c0a-f443560ac6ab",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "ANCHOR-$$-309951bb-85fb-433f-b806-ab5ba61ecff5",
-      id: "a01f6fac-6e97-42c4-93d6-c4c251247b04",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "FILE-$$-d99980e7-5e5d-4337-9e8d-e6e50e572bf3",
-      id: "7979387e-53da-4fde-bc1c-8a0dfa69c615",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "FILE-$$-eee945a4-7ee2-48d1-ade3-45023468e5cf",
-      id: "ac347344-8dcc-4867-897e-45d2d275a7cc",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-65b8f6fc-0664-4d8f-9c2f-a809f28ccfe3",
-      to: "FILE-$$-28b48455-07e7-45dd-b5af-3584af713277",
-      id: "9de13fdc-af46-4ba9-a945-63bca8c493bb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "ANCHOR-$$-ae197a12-b664-492e-858b-01340b9135ee",
-      id: "660017f2-c7d8-405a-baa3-b4ffa93ed131",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "ANCHOR-$$-e468d57b-7d3f-4d25-bff3-fe05b5607457",
-      id: "31d57697-f400-48f5-b9bc-35622cecf0a3",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "ANCHOR-$$-cef75dc5-37e5-49a6-8b2d-cadb50bd7e70",
-      id: "c87e6a36-4f47-4370-899b-5fb595227ff8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "ANCHOR-$$-d64cd390-9d76-4daf-af49-f2424f1e2e81",
-      id: "3eb2fe21-f24b-4b27-abfb-b40dda271178",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "ANCHOR-$$-fe7e4741-81bf-4f74-815f-ffa5e20181b4",
-      id: "54561a27-6b62-42c0-a71e-7e43c58532bb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "ANCHOR-$$-02d91b0b-3da4-4f36-86c5-fdc722a7d83f",
-      id: "282ba981-a14e-42ce-a8bb-fad1c97854c1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "ANCHOR-$$-703f4950-ae80-4b8a-afaa-ada2cef55ea1",
-      id: "866f2496-2ac2-4d23-9191-31da2aab971d",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      id: "b696bde8-447b-4c0e-8ef6-f8ef4e77ddd1",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      id: "85dc8535-428e-41b9-b463-25d3a376f107",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      id: "fbc1a0ec-2a8f-483c-92a6-70276a24f363",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      id: "a84504ae-96c4-4471-ad37-3b8575766357",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      id: "c6e7838d-6fbc-4f2f-9005-c27765532d29",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-329b7008-6915-4a58-9b61-593d0ead58c3",
-      to: "FILE-$$-187ca6b3-9fb3-4e04-832c-bd0abbc9ce5b",
-      id: "d4a43bc4-c8c3-4f93-986c-223ab2ff6c2c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "TAG-$$-aeac9e83-71b5-458d-bf77-5a27a7f00622",
-      id: "816242b4-c7db-4c0a-b8e4-ec9bde13868c",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-98da3812-abe5-4f53-82a8-502f9223de86",
-      id: "e5ac7a6a-ff22-46bd-8acd-1b705622b852",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-2cc698bf-25e6-4da4-9c80-062432ddbd50",
-      id: "d0c8a1a6-49b2-4372-bfe3-24722180a550",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-cf2cca92-5cdb-4c5b-bd37-15e61cac6651",
-      id: "e00e8790-193f-4fd6-9bfb-654542374aaa",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-eeb4bd13-fa7b-44cc-ad35-d7990cfd9b5b",
-      id: "7a6dcb2f-26e0-42f7-b215-db42f1af53ff",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-d4d515ef-336a-46a7-b674-b11c21497d2a",
-      id: "cea6dd93-989d-41a3-9d7a-341e23058889",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-0a857f2e-f1cc-41b4-bdcb-a88a5b6020b9",
-      id: "9930a9ce-096f-4211-910d-ee00af401e17",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-76de1564-f4a4-4065-b91c-772cc6ad2bde",
-      id: "0456d854-ff90-4221-bccd-e83acfe15e77",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "ANCHOR-$$-0f5ab45a-bd11-44e6-b421-4c1dc180ae03",
-      id: "e528ee20-6035-4f58-947b-59d3c392997f",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "FILE-$$-44ea4962-b48d-4448-84e8-9c54db98dced",
-      id: "2e44cf00-6b61-452b-ba76-17bd03f22229",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "FILE-$$-970f6b0e-6a38-4267-b32c-5e8bb4e9f60e",
-      id: "61e9e805-5ae6-4ac7-85d9-b11d1dd3dc9b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-484d2573-8645-446d-87fc-d7a40fcd2d99",
-      to: "FILE-$$-84c7ccec-7799-48f9-bd2c-49aa73463517",
-      id: "3799d63d-8e86-49f7-8254-23d0717246d8",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "FILE-$$-206ad93e-05b7-49c7-9aca-b91b58218cdf",
-      id: "32b535be-3332-4fac-94c9-675ba2e3ba26",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F05F12-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "0c6604e9-7d1f-4d60-bc1d-77a87c737a62",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F05F62-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "5e028ad8-7174-48a9-908d-772be8fefe24",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F7C9E6-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "f4085391-3322-4ff3-bd5f-2d55285eed73",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F03C12-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "1d75a8a8-64d5-46d6-b2d5-5b8171c521e5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F05EAE-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "0856b6ee-eacd-4894-ab9d-a8a0e8acd710",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F7C996-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "293a158e-d334-4825-bd38-38dbe22d07fc",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F7CA36-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "8f21e26f-7c50-4f50-b251-0a899063caf7",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F7CA86-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "e8e04ded-4b10-4a00-ba6a-44805ab75e66",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-93F7C784-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-93F7C928-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "ca85921a-fdb0-4cc3-9c9f-d1037de199e0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "FILE-$$-3998487e-54b7-4906-9f2e-2f10165b2ea0",
-      id: "2e02ca75-d3df-4fc6-8fc1-e26d9009cc17",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7BA28-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "a7ce8cff-3963-4cf1-8406-803f0557c61b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7BAD2-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "60a49d61-2de1-4d12-9a1f-8e554f47411b",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7B91A-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "3d8fdcbd-d75e-4826-b531-4a2e2863bdf0",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7BA64-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "ac5b68bc-5467-443b-bed5-c6ee594a07bb",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7B9EC-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "aa36227b-ff41-42e1-a5fb-49639d245b49",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7BA96-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "d2a299ad-da6e-4290-b8fd-306d4ed284a5",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7B974-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "3ed9bf18-2035-4202-9318-ff8f394b6a49",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
-      },
-      chosen: {},
-    },
-    {
-      from: "FILE-$$-A1B7AAB0-C11C-11EE-A174-9E3F4D08EF5C",
-      to: "ANCHOR-$$-A1B7B9B0-C11C-11EE-A174-9E3F4D08EF5C",
-      id: "2730b928-c2fc-4272-b32e-16a8ca234d20",
-      arrows: {
-        to: {
-          enabled: false,
-        },
-        middle: {
-          enabled: false,
-        },
-        from: {
-          enabled: false,
-        },
+      id: "1d0eb0e7-f42f-4390-9022-feb6c3cc9942",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+      to: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+      fromNode: {
+        id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        title: "Test.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\Test.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Test.md",
+          type: "FILE",
+          name: "Test.md",
+        },
+      },
+      toNode: {
+        id: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+        title: "#tag1",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#tag1",
+          id: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+          type: "TAG",
+        },
+      },
+      original: {
+        from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        to: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+        id: "1d0eb0e7-f42f-4390-9022-feb6c3cc9942",
+      },
+    },
+    {
+      id: "58f7d854-f02b-4d8f-9120-d9bfca83e491",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+      to: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+      fromNode: {
+        id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        title: "Test.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\Test.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Test.md",
+          type: "FILE",
+          name: "Test.md",
+        },
+      },
+      toNode: {
+        id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+        title: "#tag2",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#tag2",
+          id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+          type: "TAG",
+        },
+      },
+      original: {
+        to: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+        from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        id: "58f7d854-f02b-4d8f-9120-d9bfca83e491",
+      },
+    },
+    {
+      id: "a518f0cc-c3fd-416e-b11e-7687f7f31dd2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+      to: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+      fromNode: {
+        id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        title: "Test.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\Test.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Test.md",
+          type: "FILE",
+          name: "Test.md",
+        },
+      },
+      toNode: {
+        id: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+        title: "#tag3",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "TAG",
+          id: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+          name: "#tag3",
+        },
+      },
+      original: {
+        to: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+        from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        id: "a518f0cc-c3fd-416e-b11e-7687f7f31dd2",
+      },
+    },
+    {
+      id: "64175808-155b-4dab-a5ac-d684fe3deabe",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+      to: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+      fromNode: {
+        id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        title: "Test.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\Test.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Test.md",
+          type: "FILE",
+          name: "Test.md",
+        },
+      },
+      toNode: {
+        id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        title: "Table.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\Table.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Table.md",
+          id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "Table.md",
+          type: "FILE",
+        },
+      },
+      original: {
+        to: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        from: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        id: "64175808-155b-4dab-a5ac-d684fe3deabe",
+      },
+    },
+    {
+      id: "b13d7fab-65f6-418e-b6a4-203f14044852",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+      to: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+      fromNode: {
+        id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        title: "Table.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\Table.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Table.md",
+          id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "Table.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+        title: "#tag",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "TAG",
+          id: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+          name: "#tag",
+        },
+      },
+      original: {
+        from: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        to: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+        id: "b13d7fab-65f6-418e-b6a4-203f14044852",
+      },
+    },
+    {
+      id: "d76ecc30-4683-48d2-a520-162ed70d8259",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+      to: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+      fromNode: {
+        id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        title: "Table.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\Table.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Table.md",
+          id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "Table.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+        title: "#qwe",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#qwe",
+          id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+          type: "TAG",
+        },
+      },
+      original: {
+        from: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        to: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+        id: "d76ecc30-4683-48d2-a520-162ed70d8259",
+      },
+    },
+    {
+      id: "c50afdca-7c14-4024-b3f9-44e3477316e0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+      to: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+      fromNode: {
+        id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        title: "Table.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\Table.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Table.md",
+          id: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "Table.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        title: "Test.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\Test.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Test.md",
+          type: "FILE",
+          name: "Test.md",
+        },
+      },
+      original: {
+        to: "149d7b3d-529e-4f33-9e69-c4ea79fbd161",
+        from: "b0cde966-e667-45de-bc61-e18ae7ac2274",
+        id: "c50afdca-7c14-4024-b3f9-44e3477316e0",
+      },
+    },
+    {
+      id: "50e30ebe-23b6-4af3-9dc4-a6b73ddf9a3c",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c1095f78-4e67-4fdf-93cc-6ea7d4a0cea3",
+      to: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+      fromNode: {
+        id: "c1095f78-4e67-4fdf-93cc-6ea7d4a0cea3",
+        title: "Документ 1.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\Документ 1.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\Документ 1.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c1095f78-4e67-4fdf-93cc-6ea7d4a0cea3",
+          name: "Документ 1.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+        title: "#qwe",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#qwe",
+          id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+          type: "TAG",
+        },
+      },
+      original: {
+        to: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+        from: "c1095f78-4e67-4fdf-93cc-6ea7d4a0cea3",
+        id: "50e30ebe-23b6-4af3-9dc4-a6b73ddf9a3c",
+      },
+    },
+    {
+      id: "a9f15555-853b-474a-940b-ed5a37fd28a2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "1da18919-77ab-4eae-a751-8b212f761c2d",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "1da18919-77ab-4eae-a751-8b212f761c2d",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          id: "1da18919-77ab-4eae-a751-8b212f761c2d",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "1da18919-77ab-4eae-a751-8b212f761c2d",
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "a9f15555-853b-474a-940b-ed5a37fd28a2",
+      },
+    },
+    {
+      id: "663cbe85-57be-416d-97a9-a6007cee92db",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "8434f0cc-c503-4ebf-aac4-39366420d630",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "8434f0cc-c503-4ebf-aac4-39366420d630",
+        title: "#Венера: Загадки Горячей Планеты",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "8434f0cc-c503-4ebf-aac4-39366420d630",
+          type: "ANCHOR",
+          name: "#Венера: Загадки Горячей Планеты",
+        },
+      },
+      original: {
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        to: "8434f0cc-c503-4ebf-aac4-39366420d630",
+        id: "663cbe85-57be-416d-97a9-a6007cee92db",
+      },
+    },
+    {
+      id: "b298b944-8eb3-4634-928c-d236af41b483",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "4de6f442-7302-40c2-b972-f9d92b509067",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "4de6f442-7302-40c2-b972-f9d92b509067",
+        title: "#Марс: Путь к Красной Планете",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Марс: Путь к Красной Планете",
+          id: "4de6f442-7302-40c2-b972-f9d92b509067",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "4de6f442-7302-40c2-b972-f9d92b509067",
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "b298b944-8eb3-4634-928c-d236af41b483",
+      },
+    },
+    {
+      id: "75c96526-0db7-4d04-9869-52f3a2555949",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "3c5a052b-a8d3-4881-9ddc-bbaf85769578",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "3c5a052b-a8d3-4881-9ddc-bbaf85769578",
+        title: "#Миссии на Венеру и Марс",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "3c5a052b-a8d3-4881-9ddc-bbaf85769578",
+          name: "#Миссии на Венеру и Марс",
+        },
+      },
+      original: {
+        to: "3c5a052b-a8d3-4881-9ddc-bbaf85769578",
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "75c96526-0db7-4d04-9869-52f3a2555949",
+      },
+    },
+    {
+      id: "d1c2d52a-5c1c-4fd4-a7f4-5e265174a7b9",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "9ef03edd-b60f-42bc-9492-68c3993e24a1",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "9ef03edd-b60f-42bc-9492-68c3993e24a1",
+        title: "#Научные Открытия и Перспективы",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "9ef03edd-b60f-42bc-9492-68c3993e24a1",
+          name: "#Научные Открытия и Перспективы",
+        },
+      },
+      original: {
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        to: "9ef03edd-b60f-42bc-9492-68c3993e24a1",
+        id: "d1c2d52a-5c1c-4fd4-a7f4-5e265174a7b9",
+      },
+    },
+    {
+      id: "53d3b22e-11f1-453e-8f1f-f0ecd7bc4257",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "f4ffbd71-1c01-40a2-b746-f503f2600aa9",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "f4ffbd71-1c01-40a2-b746-f503f2600aa9",
+        title: "#Значимость Освоения Венеры и Марса",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "f4ffbd71-1c01-40a2-b746-f503f2600aa9",
+          name: "#Значимость Освоения Венеры и Марса",
+        },
+      },
+      original: {
+        to: "f4ffbd71-1c01-40a2-b746-f503f2600aa9",
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "53d3b22e-11f1-453e-8f1f-f0ecd7bc4257",
+      },
+    },
+    {
+      id: "66e77c63-588f-40f7-b5c3-74754a2e6658",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "a663f823-fa91-4dc8-9611-0b4d5725a9d7",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "a663f823-fa91-4dc8-9611-0b4d5725a9d7",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "a663f823-fa91-4dc8-9611-0b4d5725a9d7",
+          type: "ANCHOR",
+          name: "#Заключение",
+        },
+      },
+      original: {
+        to: "a663f823-fa91-4dc8-9611-0b4d5725a9d7",
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "66e77c63-588f-40f7-b5c3-74754a2e6658",
+      },
+    },
+    {
+      id: "b884d352-f4ea-474e-a158-6a3e5ed2696b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "8e1e5f29-4da9-429c-813f-7d3235d02111",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "8e1e5f29-4da9-429c-813f-7d3235d02111",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          type: "ANCHOR",
+          id: "8e1e5f29-4da9-429c-813f-7d3235d02111",
+        },
+      },
+      original: {
+        to: "8e1e5f29-4da9-429c-813f-7d3235d02111",
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "b884d352-f4ea-474e-a158-6a3e5ed2696b",
+      },
+    },
+    {
+      id: "b84c0568-6a76-4ad6-86d7-1f29eb79ffd2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      original: {
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        id: "b84c0568-6a76-4ad6-86d7-1f29eb79ffd2",
+      },
+    },
+    {
+      id: "cfab858c-28b9-4163-8df3-85c0d5c9fc01",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "cfab858c-28b9-4163-8df3-85c0d5c9fc01",
+      },
+    },
+    {
+      id: "c9dde146-b5d7-4479-a7b6-66018d738bba",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      to: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      fromNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        from: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        to: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "c9dde146-b5d7-4479-a7b6-66018d738bba",
+      },
+    },
+    {
+      id: "5eba4ada-9d1e-42b6-8472-580114d5202f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+        title: "#tag1",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#tag1",
+          id: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+          type: "TAG",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "0c7fe6e3-3ebc-4e32-b475-96803e53cb44",
+        id: "5eba4ada-9d1e-42b6-8472-580114d5202f",
+      },
+    },
+    {
+      id: "bb67d615-5d43-4f68-b8e8-5bccbc5f6504",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+        title: "#tag2",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#tag2",
+          id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+          type: "TAG",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+        id: "bb67d615-5d43-4f68-b8e8-5bccbc5f6504",
+      },
+    },
+    {
+      id: "acdb10c6-24fb-4c2f-84f1-6e234f3d90d2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+        title: "#tag3",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "TAG",
+          id: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+          name: "#tag3",
+        },
+      },
+      original: {
+        to: "082fcde3-a22c-4e0f-a5d9-525adbb540c3",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "acdb10c6-24fb-4c2f-84f1-6e234f3d90d2",
+      },
+    },
+    {
+      id: "84d0ea32-5954-47ed-92be-a65ec8f0c11b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+        title: "#qwe",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#qwe",
+          id: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+          type: "TAG",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "d6685ee9-8d12-45c9-9b2a-eb9b27002df9",
+        id: "84d0ea32-5954-47ed-92be-a65ec8f0c11b",
+      },
+    },
+    {
+      id: "6f496b31-e527-4a21-9197-d602f08aedc9",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+        title: "#tag2",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#tag2",
+          id: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+          type: "TAG",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "3d554773-724e-4e5f-8a3a-ecb1d47acd59",
+        id: "6f496b31-e527-4a21-9197-d602f08aedc9",
+      },
+    },
+    {
+      id: "e9aee321-8e9e-427d-8d45-2e31e0c2b97c",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "b07dc501-be5d-44d5-802a-c598574951d0",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "b07dc501-be5d-44d5-802a-c598574951d0",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "b07dc501-be5d-44d5-802a-c598574951d0",
+          type: "ANCHOR",
+          name: "#Введение",
+        },
+      },
+      original: {
+        to: "b07dc501-be5d-44d5-802a-c598574951d0",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "e9aee321-8e9e-427d-8d45-2e31e0c2b97c",
+      },
+    },
+    {
+      id: "292488e1-7f85-4b92-82a0-bf8ae5c29b12",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "ef3b273a-bfd9-46c4-b9f9-57a573f35fec",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "ef3b273a-bfd9-46c4-b9f9-57a573f35fec",
+        title: "#Развитие Реактивных Двигателей",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Развитие Реактивных Двигателей",
+          id: "ef3b273a-bfd9-46c4-b9f9-57a573f35fec",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "ef3b273a-bfd9-46c4-b9f9-57a573f35fec",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "292488e1-7f85-4b92-82a0-bf8ae5c29b12",
+      },
+    },
+    {
+      id: "e6549fb9-5114-4251-99a5-d3f0eb70ee38",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "9d0899bc-9ef8-44e9-85d5-f8084a68697a",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "9d0899bc-9ef8-44e9-85d5-f8084a68697a",
+        title: "#Ионные и Электрические Двигатели",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Ионные и Электрические Двигатели",
+          type: "ANCHOR",
+          id: "9d0899bc-9ef8-44e9-85d5-f8084a68697a",
+        },
+      },
+      original: {
+        to: "9d0899bc-9ef8-44e9-85d5-f8084a68697a",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "e6549fb9-5114-4251-99a5-d3f0eb70ee38",
+      },
+    },
+    {
+      id: "cdf400c4-df8f-4432-b48d-340a8ec206d1",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "be918cd7-6b1b-4c7b-bd10-aa7d52143f40",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "be918cd7-6b1b-4c7b-bd10-aa7d52143f40",
+        title: "#Технологии Жизнеобеспечения на Борту",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Технологии Жизнеобеспечения на Борту",
+          type: "ANCHOR",
+          id: "be918cd7-6b1b-4c7b-bd10-aa7d52143f40",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "be918cd7-6b1b-4c7b-bd10-aa7d52143f40",
+        id: "cdf400c4-df8f-4432-b48d-340a8ec206d1",
+      },
+    },
+    {
+      id: "926be7d3-2450-4f4c-a310-984d73d57e53",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "06f95e30-1ca6-4b8e-8a34-fa1876a8de46",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "06f95e30-1ca6-4b8e-8a34-fa1876a8de46",
+        title: "#Инновации в Материалах и Конструкциях",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "06f95e30-1ca6-4b8e-8a34-fa1876a8de46",
+          type: "ANCHOR",
+          name: "#Инновации в Материалах и Конструкциях",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "06f95e30-1ca6-4b8e-8a34-fa1876a8de46",
+        id: "926be7d3-2450-4f4c-a310-984d73d57e53",
+      },
+    },
+    {
+      id: "14f148b3-efa8-4b6c-a3f0-0b4e6255a006",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "bc197fde-73ab-406c-ab99-1c1c6a049126",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "bc197fde-73ab-406c-ab99-1c1c6a049126",
+        title: "#Будущее Космических Путешествий",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "bc197fde-73ab-406c-ab99-1c1c6a049126",
+          name: "#Будущее Космических Путешествий",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "bc197fde-73ab-406c-ab99-1c1c6a049126",
+        id: "14f148b3-efa8-4b6c-a3f0-0b4e6255a006",
+      },
+    },
+    {
+      id: "5458bcdf-d164-445d-ada7-3f7a035a80ef",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "286f5a84-0fa0-4880-af30-6734c6a71bbe",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "286f5a84-0fa0-4880-af30-6734c6a71bbe",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "286f5a84-0fa0-4880-af30-6734c6a71bbe",
+          name: "#Заключение",
+        },
+      },
+      original: {
+        to: "286f5a84-0fa0-4880-af30-6734c6a71bbe",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "5458bcdf-d164-445d-ada7-3f7a035a80ef",
+      },
+    },
+    {
+      id: "1d9a2d93-35af-437c-9eb6-94684cb07ee9",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "990ecf87-4c8a-4fe9-906f-be380368178a",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "990ecf87-4c8a-4fe9-906f-be380368178a",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          type: "ANCHOR",
+          id: "990ecf87-4c8a-4fe9-906f-be380368178a",
+        },
+      },
+      original: {
+        to: "990ecf87-4c8a-4fe9-906f-be380368178a",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "1d9a2d93-35af-437c-9eb6-94684cb07ee9",
+      },
+    },
+    {
+      id: "e43e307b-533b-4de7-b5f3-5e313197e625",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "c45272b1-e295-4b45-8730-2ba36c174545",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      original: {
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        to: "c45272b1-e295-4b45-8730-2ba36c174545",
+        id: "e43e307b-533b-4de7-b5f3-5e313197e625",
+      },
+    },
+    {
+      id: "cc08ac2c-e449-4c86-999e-f88de5aa7534",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      original: {
+        to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "cc08ac2c-e449-4c86-999e-f88de5aa7534",
+      },
+    },
+    {
+      id: "17827b49-b3a1-4f0b-a2bf-8dc045d9ed15",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      fromNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      toNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      original: {
+        to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        from: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "17827b49-b3a1-4f0b-a2bf-8dc045d9ed15",
+      },
+    },
+    {
+      id: "91c41266-260d-4e8f-b7bb-e645d35079fe",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "3fa9acad-2864-45ad-8abf-c08bad9706ed",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "3fa9acad-2864-45ad-8abf-c08bad9706ed",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "3fa9acad-2864-45ad-8abf-c08bad9706ed",
+          name: "#Введение",
+        },
+      },
+      original: {
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        to: "3fa9acad-2864-45ad-8abf-c08bad9706ed",
+        id: "91c41266-260d-4e8f-b7bb-e645d35079fe",
+      },
+    },
+    {
+      id: "24d6ad87-99fe-458a-9569-149814a94410",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "8895599f-e19a-476b-9179-b1a390d3eb66",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "8895599f-e19a-476b-9179-b1a390d3eb66",
+        title: "#История Космического Туризма",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#История Космического Туризма",
+          id: "8895599f-e19a-476b-9179-b1a390d3eb66",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "8895599f-e19a-476b-9179-b1a390d3eb66",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "24d6ad87-99fe-458a-9569-149814a94410",
+      },
+    },
+    {
+      id: "6f95a16f-59eb-4b13-a167-5a8530837e49",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "13e45f41-2bd4-4927-b613-97fe96562342",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "13e45f41-2bd4-4927-b613-97fe96562342",
+        title: "#Космические Коммерческие Проекты",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "13e45f41-2bd4-4927-b613-97fe96562342",
+          type: "ANCHOR",
+          name: "#Космические Коммерческие Проекты",
+        },
+      },
+      original: {
+        to: "13e45f41-2bd4-4927-b613-97fe96562342",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "6f95a16f-59eb-4b13-a167-5a8530837e49",
+      },
+    },
+    {
+      id: "cce4317a-fee0-4433-aca6-ebd0a280f519",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "70134b22-7296-4d1a-87e1-7236848e93d5",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "70134b22-7296-4d1a-87e1-7236848e93d5",
+        title: "#Технические Испытания и Будущие Полеты",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "70134b22-7296-4d1a-87e1-7236848e93d5",
+          name: "#Технические Испытания и Будущие Полеты",
+        },
+      },
+      original: {
+        to: "70134b22-7296-4d1a-87e1-7236848e93d5",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "cce4317a-fee0-4433-aca6-ebd0a280f519",
+      },
+    },
+    {
+      id: "6b791b3f-505b-4a88-aa23-418c0898537d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "4b7651b9-a03f-478d-b1c0-58599381da6c",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "4b7651b9-a03f-478d-b1c0-58599381da6c",
+        title: "#Экономический Потенциал и Вызовы",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "4b7651b9-a03f-478d-b1c0-58599381da6c",
+          name: "#Экономический Потенциал и Вызовы",
+        },
+      },
+      original: {
+        to: "4b7651b9-a03f-478d-b1c0-58599381da6c",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "6b791b3f-505b-4a88-aa23-418c0898537d",
+      },
+    },
+    {
+      id: "287b31dd-3c37-4d02-824b-9b7a8430ccb6",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "ff712b30-d0c5-4964-b302-9f01901ae335",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "ff712b30-d0c5-4964-b302-9f01901ae335",
+        title: "#Космический Туризм и Научные Исследования",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Космический Туризм и Научные Исследования",
+          type: "ANCHOR",
+          id: "ff712b30-d0c5-4964-b302-9f01901ae335",
+        },
+      },
+      original: {
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        to: "ff712b30-d0c5-4964-b302-9f01901ae335",
+        id: "287b31dd-3c37-4d02-824b-9b7a8430ccb6",
+      },
+    },
+    {
+      id: "921429ff-1e59-43c6-808a-18ba38e17157",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "2a4691aa-f6b0-4809-b14f-c4b4bfdf079c",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "2a4691aa-f6b0-4809-b14f-c4b4bfdf079c",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "2a4691aa-f6b0-4809-b14f-c4b4bfdf079c",
+          name: "#Заключение",
+        },
+      },
+      original: {
+        to: "2a4691aa-f6b0-4809-b14f-c4b4bfdf079c",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "921429ff-1e59-43c6-808a-18ba38e17157",
+      },
+    },
+    {
+      id: "80e8e859-6211-421b-a727-026c9e785a44",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "82166597-eee1-48a1-a4df-d6760c2c8d0b",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "82166597-eee1-48a1-a4df-d6760c2c8d0b",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          type: "ANCHOR",
+          id: "82166597-eee1-48a1-a4df-d6760c2c8d0b",
+        },
+      },
+      original: {
+        to: "82166597-eee1-48a1-a4df-d6760c2c8d0b",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "80e8e859-6211-421b-a727-026c9e785a44",
+      },
+    },
+    {
+      id: "aa5c4c97-a223-4469-94f3-c9e3b5dedc8a",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "aa5c4c97-a223-4469-94f3-c9e3b5dedc8a",
+      },
+    },
+    {
+      id: "53e104f2-cd4a-4bba-a54d-240e340d3305",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "53e104f2-cd4a-4bba-a54d-240e340d3305",
+      },
+    },
+    {
+      id: "7d112c93-9bea-4eeb-88cf-9ec6aafdf716",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      fromNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      original: {
+        to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        from: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "7d112c93-9bea-4eeb-88cf-9ec6aafdf716",
+      },
+    },
+    {
+      id: "3a6f3f6f-7129-4f67-8ae0-ff0eaf2e075b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "b9e24671-ff86-4540-b86b-1db65ac96567",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "b9e24671-ff86-4540-b86b-1db65ac96567",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          type: "ANCHOR",
+          id: "b9e24671-ff86-4540-b86b-1db65ac96567",
+        },
+      },
+      original: {
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        to: "b9e24671-ff86-4540-b86b-1db65ac96567",
+        id: "3a6f3f6f-7129-4f67-8ae0-ff0eaf2e075b",
+      },
+    },
+    {
+      id: "b5a94a06-2092-4934-983b-8cf04558bb6d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "11968660-549a-4121-b521-f8f58af0da1c",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "11968660-549a-4121-b521-f8f58af0da1c",
+        title: "#Ранние Прототипы и История Скафандров",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Ранние Прототипы и История Скафандров",
+          id: "11968660-549a-4121-b521-f8f58af0da1c",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "11968660-549a-4121-b521-f8f58af0da1c",
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        id: "b5a94a06-2092-4934-983b-8cf04558bb6d",
+      },
+    },
+    {
+      id: "64e5a781-93da-4276-84a5-5ae0ae9470c2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "7c8d6e5b-5218-4c38-b309-cfb032a22ff8",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "7c8d6e5b-5218-4c38-b309-cfb032a22ff8",
+        title: "#Эволюция Скафандров в Космосе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Эволюция Скафандров в Космосе",
+          id: "7c8d6e5b-5218-4c38-b309-cfb032a22ff8",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "7c8d6e5b-5218-4c38-b309-cfb032a22ff8",
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        id: "64e5a781-93da-4276-84a5-5ae0ae9470c2",
+      },
+    },
+    {
+      id: "2498530c-ff85-4737-ab5b-a0796002e6d1",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "607c8dd6-3d65-4fe6-8401-220657102bb8",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "607c8dd6-3d65-4fe6-8401-220657102bb8",
+        title: "#Современные Скафандры и Инновации",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Современные Скафандры и Инновации",
+          id: "607c8dd6-3d65-4fe6-8401-220657102bb8",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        to: "607c8dd6-3d65-4fe6-8401-220657102bb8",
+        id: "2498530c-ff85-4737-ab5b-a0796002e6d1",
+      },
+    },
+    {
+      id: "ad214604-b724-4401-9dba-72fcd8224113",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "22422945-3258-49c8-a621-418b6d4e8c41",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "22422945-3258-49c8-a621-418b6d4e8c41",
+        title: "#Скафандры в Космических Миссиях",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "22422945-3258-49c8-a621-418b6d4e8c41",
+          type: "ANCHOR",
+          name: "#Скафандры в Космических Миссиях",
+        },
+      },
+      original: {
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        to: "22422945-3258-49c8-a621-418b6d4e8c41",
+        id: "ad214604-b724-4401-9dba-72fcd8224113",
+      },
+    },
+    {
+      id: "eb62fdb2-8b18-422f-b685-e4b0035148b1",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "9b28b768-ce8d-4add-8768-b91e6b031ec7",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "9b28b768-ce8d-4add-8768-b91e6b031ec7",
+        title: "#Значимость Скафандров для Астронавтов",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "9b28b768-ce8d-4add-8768-b91e6b031ec7",
+          type: "ANCHOR",
+          name: "#Значимость Скафандров для Астронавтов",
+        },
+      },
+      original: {
+        to: "9b28b768-ce8d-4add-8768-b91e6b031ec7",
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        id: "eb62fdb2-8b18-422f-b685-e4b0035148b1",
+      },
+    },
+    {
+      id: "51b4cd52-efb4-4b86-be92-6c15e2d13191",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "28024de2-fd88-412b-a8a8-cc3c99e1bbf7",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "28024de2-fd88-412b-a8a8-cc3c99e1bbf7",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          id: "28024de2-fd88-412b-a8a8-cc3c99e1bbf7",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "28024de2-fd88-412b-a8a8-cc3c99e1bbf7",
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        id: "51b4cd52-efb4-4b86-be92-6c15e2d13191",
+      },
+    },
+    {
+      id: "d5b69c75-11d6-4a33-ab1e-7f02388c77bc",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "f8839654-8d01-4090-87aa-00883a890142",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "f8839654-8d01-4090-87aa-00883a890142",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          id: "f8839654-8d01-4090-87aa-00883a890142",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        to: "f8839654-8d01-4090-87aa-00883a890142",
+        id: "d5b69c75-11d6-4a33-ab1e-7f02388c77bc",
+      },
+    },
+    {
+      id: "1f588db7-2ab8-4ecb-857d-d27adf578505",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      original: {
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "1f588db7-2ab8-4ecb-857d-d27adf578505",
+      },
+    },
+    {
+      id: "2f9c7d69-71cb-4a1c-a179-6d556a4a2729",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        id: "2f9c7d69-71cb-4a1c-a179-6d556a4a2729",
+      },
+    },
+    {
+      id: "4dc676aa-a062-49db-81c5-d4b0c63dcc62",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      fromNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      toNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        from: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        id: "4dc676aa-a062-49db-81c5-d4b0c63dcc62",
+      },
+    },
+    {
+      id: "c9d1ab6f-6a8e-4b2e-a1ff-911cf548acb6",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "7f26258e-88e7-4572-9f81-b6df9a454a04",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "7f26258e-88e7-4572-9f81-b6df9a454a04",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "7f26258e-88e7-4572-9f81-b6df9a454a04",
+          name: "#Введение",
+        },
+      },
+      original: {
+        to: "7f26258e-88e7-4572-9f81-b6df9a454a04",
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "c9d1ab6f-6a8e-4b2e-a1ff-911cf548acb6",
+      },
+    },
+    {
+      id: "23804e16-e4d5-4297-8d47-68a16fc3f860",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "833e1800-d663-4195-8ab8-b7d661ccc862",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "833e1800-d663-4195-8ab8-b7d661ccc862",
+        title: "#История Космических Катастроф",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#История Космических Катастроф",
+          id: "833e1800-d663-4195-8ab8-b7d661ccc862",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        to: "833e1800-d663-4195-8ab8-b7d661ccc862",
+        id: "23804e16-e4d5-4297-8d47-68a16fc3f860",
+      },
+    },
+    {
+      id: "fa58616b-8eca-45d4-b740-e54d0ef3b833",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "a35c6f1f-cd18-4566-917c-37072477a68c",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "a35c6f1f-cd18-4566-917c-37072477a68c",
+        title: "#Причины и Уроки Через Преграды",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "a35c6f1f-cd18-4566-917c-37072477a68c",
+          name: "#Причины и Уроки Через Преграды",
+        },
+      },
+      original: {
+        to: "a35c6f1f-cd18-4566-917c-37072477a68c",
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "fa58616b-8eca-45d4-b740-e54d0ef3b833",
+      },
+    },
+    {
+      id: "2834fe6f-946b-4ab9-b0af-e7f0111985b6",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "3e618de9-71fd-4b59-ac98-071e95735b40",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "3e618de9-71fd-4b59-ac98-071e95735b40",
+        title: "#Безопасность и Профилактика",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Безопасность и Профилактика",
+          type: "ANCHOR",
+          id: "3e618de9-71fd-4b59-ac98-071e95735b40",
+        },
+      },
+      original: {
+        to: "3e618de9-71fd-4b59-ac98-071e95735b40",
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "2834fe6f-946b-4ab9-b0af-e7f0111985b6",
+      },
+    },
+    {
+      id: "36fed806-205b-40be-b55f-e3a38b80a961",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "c8190168-7b0d-42d2-8835-ae4fae5a5f6e",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "c8190168-7b0d-42d2-8835-ae4fae5a5f6e",
+        title: "#Опыт и Эволюция",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "c8190168-7b0d-42d2-8835-ae4fae5a5f6e",
+          name: "#Опыт и Эволюция",
+        },
+      },
+      original: {
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        to: "c8190168-7b0d-42d2-8835-ae4fae5a5f6e",
+        id: "36fed806-205b-40be-b55f-e3a38b80a961",
+      },
+    },
+    {
+      id: "fb10a4ba-d05b-43da-aadb-e019a4ba54e9",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "2483a733-7b3b-49d4-8296-2aeb4f5b28c1",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "2483a733-7b3b-49d4-8296-2aeb4f5b28c1",
+        title: "#Значимость Уроков Космических Катастроф",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Значимость Уроков Космических Катастроф",
+          id: "2483a733-7b3b-49d4-8296-2aeb4f5b28c1",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "2483a733-7b3b-49d4-8296-2aeb4f5b28c1",
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "fb10a4ba-d05b-43da-aadb-e019a4ba54e9",
+      },
+    },
+    {
+      id: "37de719d-170a-4af9-a4da-50e7cc8d70d0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "a8209204-f7eb-4524-8154-f7eb7c51355f",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "a8209204-f7eb-4524-8154-f7eb7c51355f",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          type: "ANCHOR",
+          id: "a8209204-f7eb-4524-8154-f7eb7c51355f",
+        },
+      },
+      original: {
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        to: "a8209204-f7eb-4524-8154-f7eb7c51355f",
+        id: "37de719d-170a-4af9-a4da-50e7cc8d70d0",
+      },
+    },
+    {
+      id: "c1226f59-13ab-4f7c-8dff-99a7355548de",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "2eca19a2-5ba2-464b-8018-9f596c729bed",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "2eca19a2-5ba2-464b-8018-9f596c729bed",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "2eca19a2-5ba2-464b-8018-9f596c729bed",
+          name: "#См. также",
+        },
+      },
+      original: {
+        to: "2eca19a2-5ba2-464b-8018-9f596c729bed",
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "c1226f59-13ab-4f7c-8dff-99a7355548de",
+      },
+    },
+    {
+      id: "c92c4427-835f-419b-a817-1fd62c6d1f76",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "c92c4427-835f-419b-a817-1fd62c6d1f76",
+      },
+    },
+    {
+      id: "52b6961f-af99-4332-879c-2cbe08f4d425",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      fromNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      original: {
+        to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        from: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "52b6961f-af99-4332-879c-2cbe08f4d425",
+      },
+    },
+    {
+      id: "26240162-6db7-45cb-8c8f-d890c5340635",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "b6c03471-eaa6-4e31-9f1d-2dd669bb788c",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "b6c03471-eaa6-4e31-9f1d-2dd669bb788c",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          type: "ANCHOR",
+          id: "b6c03471-eaa6-4e31-9f1d-2dd669bb788c",
+        },
+      },
+      original: {
+        to: "b6c03471-eaa6-4e31-9f1d-2dd669bb788c",
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "26240162-6db7-45cb-8c8f-d890c5340635",
+      },
+    },
+    {
+      id: "2e0afd0b-c052-4dfd-b806-54272eb6f46d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "b0449e12-42ca-4493-8e3f-1e8734eb67a1",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "b0449e12-42ca-4493-8e3f-1e8734eb67a1",
+        title: "#Солнечные Панели и Источники Энергии",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "b0449e12-42ca-4493-8e3f-1e8734eb67a1",
+          name: "#Солнечные Панели и Источники Энергии",
+        },
+      },
+      original: {
+        to: "b0449e12-42ca-4493-8e3f-1e8734eb67a1",
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "2e0afd0b-c052-4dfd-b806-54272eb6f46d",
+      },
+    },
+    {
+      id: "686c0013-27b7-4ba6-9245-cd894d1e1ac9",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "3e6699a2-92ad-4987-adad-4c11813a05ab",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "3e6699a2-92ad-4987-adad-4c11813a05ab",
+        title: "#Применение Солнечной Энергии в Космосе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "3e6699a2-92ad-4987-adad-4c11813a05ab",
+          name: "#Применение Солнечной Энергии в Космосе",
+        },
+      },
+      original: {
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        to: "3e6699a2-92ad-4987-adad-4c11813a05ab",
+        id: "686c0013-27b7-4ba6-9245-cd894d1e1ac9",
+      },
+    },
+    {
+      id: "3ee63b54-b704-4b70-aeab-5ad71115b16a",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "d0964f51-dfb2-44f3-9188-db75c49eb439",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "d0964f51-dfb2-44f3-9188-db75c49eb439",
+        title: "#Технологии и Инновации",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "d0964f51-dfb2-44f3-9188-db75c49eb439",
+          type: "ANCHOR",
+          name: "#Технологии и Инновации",
+        },
+      },
+      original: {
+        to: "d0964f51-dfb2-44f3-9188-db75c49eb439",
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "3ee63b54-b704-4b70-aeab-5ad71115b16a",
+      },
+    },
+    {
+      id: "71d78f6c-59c9-4945-be80-6be25175cdfb",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "81a9d993-c3e2-4ab6-be11-6d228ab7ff3b",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "81a9d993-c3e2-4ab6-be11-6d228ab7ff3b",
+        title: "#Вызовы и Перспективы",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Вызовы и Перспективы",
+          type: "ANCHOR",
+          id: "81a9d993-c3e2-4ab6-be11-6d228ab7ff3b",
+        },
+      },
+      original: {
+        to: "81a9d993-c3e2-4ab6-be11-6d228ab7ff3b",
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "71d78f6c-59c9-4945-be80-6be25175cdfb",
+      },
+    },
+    {
+      id: "a378956d-d634-4956-8243-daf2eb945c7b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "001048d2-1957-41ed-aac2-5c80b9dd0f78",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "001048d2-1957-41ed-aac2-5c80b9dd0f78",
+        title: "#Значимость Солнечной Энергии в Космических Миссиях",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "001048d2-1957-41ed-aac2-5c80b9dd0f78",
+          name: "#Значимость Солнечной Энергии в Космических Миссиях",
+        },
+      },
+      original: {
+        to: "001048d2-1957-41ed-aac2-5c80b9dd0f78",
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "a378956d-d634-4956-8243-daf2eb945c7b",
+      },
+    },
+    {
+      id: "59a1458f-fbd6-49c1-aa2e-8b646c00e737",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "b9949185-7d24-4c3f-a9cd-ce44fbd2f1ed",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "b9949185-7d24-4c3f-a9cd-ce44fbd2f1ed",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          id: "b9949185-7d24-4c3f-a9cd-ce44fbd2f1ed",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        to: "b9949185-7d24-4c3f-a9cd-ce44fbd2f1ed",
+        id: "59a1458f-fbd6-49c1-aa2e-8b646c00e737",
+      },
+    },
+    {
+      id: "3ec0f665-d3c4-43bd-a0d1-59327b6824c7",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "391b2050-d9d9-4e22-8fff-6387e9391da9",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "391b2050-d9d9-4e22-8fff-6387e9391da9",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "391b2050-d9d9-4e22-8fff-6387e9391da9",
+          name: "#См. также",
+        },
+      },
+      original: {
+        to: "391b2050-d9d9-4e22-8fff-6387e9391da9",
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "3ec0f665-d3c4-43bd-a0d1-59327b6824c7",
+      },
+    },
+    {
+      id: "c69234d6-2bfe-43ff-b722-5db86d66c0a6",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        title: "space-disasters-lessons-learned.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-disasters-lessons-learned.md",
+          type: "FILE",
+          relativePath: ".\\space/space-disasters-lessons-learned.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-disasters-lessons-learned.md",
+          id: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        to: "76657f48-e7d1-4ad4-ac2d-fa5e649fdf47",
+        id: "c69234d6-2bfe-43ff-b722-5db86d66c0a6",
+      },
+    },
+    {
+      id: "1e8ab0c5-eb7d-4ad4-9270-4d8258edce08",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "1e8ab0c5-eb7d-4ad4-9270-4d8258edce08",
+      },
+    },
+    {
+      id: "4929ed04-d76c-4df7-b1bf-ae0b29d26478",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      fromNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      original: {
+        to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        from: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "4929ed04-d76c-4df7-b1bf-ae0b29d26478",
+      },
+    },
+    {
+      id: "9b3a509f-783c-43c8-a2cc-669dc028f678",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "489d29e1-fe69-49af-a71d-84a3e40498e8",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "489d29e1-fe69-49af-a71d-84a3e40498e8",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          id: "489d29e1-fe69-49af-a71d-84a3e40498e8",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "489d29e1-fe69-49af-a71d-84a3e40498e8",
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        id: "9b3a509f-783c-43c8-a2cc-669dc028f678",
+      },
+    },
+    {
+      id: "f8c91b43-2a45-4f49-90ba-560c36ac7fa0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "36037d3a-33a9-4612-b728-aad453f736ed",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "36037d3a-33a9-4612-b728-aad453f736ed",
+        title: "#Экзопланеты и Зона Жизни",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "36037d3a-33a9-4612-b728-aad453f736ed",
+          type: "ANCHOR",
+          name: "#Экзопланеты и Зона Жизни",
+        },
+      },
+      original: {
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        to: "36037d3a-33a9-4612-b728-aad453f736ed",
+        id: "f8c91b43-2a45-4f49-90ba-560c36ac7fa0",
+      },
+    },
+    {
+      id: "16bd025e-0639-46e2-a553-7906ab009f4e",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "f6c09a79-c670-4223-a6e9-5f78af47d7d1",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "f6c09a79-c670-4223-a6e9-5f78af47d7d1",
+        title: "#Исследование Марса и Марсианских Загадок",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Исследование Марса и Марсианских Загадок",
+          id: "f6c09a79-c670-4223-a6e9-5f78af47d7d1",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        to: "f6c09a79-c670-4223-a6e9-5f78af47d7d1",
+        id: "16bd025e-0639-46e2-a553-7906ab009f4e",
+      },
+    },
+    {
+      id: "8afb945c-26fc-4b6d-9ba6-2a99f8de2182",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "f4e10b77-41b2-434f-b133-2d048e35a9cb",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "f4e10b77-41b2-434f-b133-2d048e35a9cb",
+        title: "#История Радиосигналов и SETI",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#История Радиосигналов и SETI",
+          type: "ANCHOR",
+          id: "f4e10b77-41b2-434f-b133-2d048e35a9cb",
+        },
+      },
+      original: {
+        to: "f4e10b77-41b2-434f-b133-2d048e35a9cb",
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        id: "8afb945c-26fc-4b6d-9ba6-2a99f8de2182",
+      },
+    },
+    {
+      id: "16ef100d-4b6b-48fb-8aff-b5ac868dd0ed",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "0119dbfe-80fe-4e56-8a1e-062bd9a4bdb5",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "0119dbfe-80fe-4e56-8a1e-062bd9a4bdb5",
+        title: "#Значимые Открытия и Перспективы",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Значимые Открытия и Перспективы",
+          type: "ANCHOR",
+          id: "0119dbfe-80fe-4e56-8a1e-062bd9a4bdb5",
+        },
+      },
+      original: {
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        to: "0119dbfe-80fe-4e56-8a1e-062bd9a4bdb5",
+        id: "16ef100d-4b6b-48fb-8aff-b5ac868dd0ed",
+      },
+    },
+    {
+      id: "a08a2f28-953e-4743-a27f-8fec444eea78",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "575be04a-7f5f-46df-a4e6-6d3f065726f4",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "575be04a-7f5f-46df-a4e6-6d3f065726f4",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          id: "575be04a-7f5f-46df-a4e6-6d3f065726f4",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "575be04a-7f5f-46df-a4e6-6d3f065726f4",
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        id: "a08a2f28-953e-4743-a27f-8fec444eea78",
+      },
+    },
+    {
+      id: "cf74f6ae-02d1-46cc-9f00-f7eb1722fd35",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "9b1703c0-cf94-457a-b7fa-99f0c92ddfc6",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "9b1703c0-cf94-457a-b7fa-99f0c92ddfc6",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "9b1703c0-cf94-457a-b7fa-99f0c92ddfc6",
+          name: "#См. также",
+        },
+      },
+      original: {
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        to: "9b1703c0-cf94-457a-b7fa-99f0c92ddfc6",
+        id: "cf74f6ae-02d1-46cc-9f00-f7eb1722fd35",
+      },
+    },
+    {
+      id: "b1559924-d632-4c8c-8c7f-0e8fde83d225",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      original: {
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        id: "b1559924-d632-4c8c-8c7f-0e8fde83d225",
+      },
+    },
+    {
+      id: "54cd951e-1878-48ec-a002-33d4ef6f2df5",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "c45272b1-e295-4b45-8730-2ba36c174545",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      original: {
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        to: "c45272b1-e295-4b45-8730-2ba36c174545",
+        id: "54cd951e-1878-48ec-a002-33d4ef6f2df5",
+      },
+    },
+    {
+      id: "2cb50b8e-54d7-49d1-af92-51f6da71329d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+      to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      fromNode: {
+        id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        title: "search-for-extraterrestrial-life.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/search-for-extraterrestrial-life.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\search-for-extraterrestrial-life.md",
+          id: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          name: "search-for-extraterrestrial-life.md",
+          type: "FILE",
+        },
+      },
+      toNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      original: {
+        to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        from: "cd867acd-664c-4e0c-a3c2-00168055cde1",
+        id: "2cb50b8e-54d7-49d1-af92-51f6da71329d",
+      },
+    },
+    {
+      id: "44ded555-e1fa-4a30-90ee-3aa6fd50485b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "bc77ca86-5117-421d-a76e-9448334567fe",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "bc77ca86-5117-421d-a76e-9448334567fe",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          type: "ANCHOR",
+          id: "bc77ca86-5117-421d-a76e-9448334567fe",
+        },
+      },
+      original: {
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        to: "bc77ca86-5117-421d-a76e-9448334567fe",
+        id: "44ded555-e1fa-4a30-90ee-3aa6fd50485b",
+      },
+    },
+    {
+      id: "5c6c6b10-0d03-4a16-8cec-fb3b323d8af8",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "eecef9ee-a351-4954-9e0d-d1732df9f395",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "eecef9ee-a351-4954-9e0d-d1732df9f395",
+        title: "#Спутники: Глаза Вселенной в Нашем Небе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Спутники: Глаза Вселенной в Нашем Небе",
+          id: "eecef9ee-a351-4954-9e0d-d1732df9f395",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        to: "eecef9ee-a351-4954-9e0d-d1732df9f395",
+        id: "5c6c6b10-0d03-4a16-8cec-fb3b323d8af8",
+      },
+    },
+    {
+      id: "f24ae78a-1a77-4e87-9800-7519b7f8410d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "1bf1825c-5113-4dad-a16d-10fedebc7639",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "1bf1825c-5113-4dad-a16d-10fedebc7639",
+        title: "#Роль Спутников в Космической Навигации",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Роль Спутников в Космической Навигации",
+          id: "1bf1825c-5113-4dad-a16d-10fedebc7639",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        to: "1bf1825c-5113-4dad-a16d-10fedebc7639",
+        id: "f24ae78a-1a77-4e87-9800-7519b7f8410d",
+      },
+    },
+    {
+      id: "ae1aac25-017c-462c-b91f-3dafca46ed57",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "bf2f959b-725d-4be7-86a6-26e960dad5b2",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "bf2f959b-725d-4be7-86a6-26e960dad5b2",
+        title: "#Слежение за Погодой и Климатом",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Слежение за Погодой и Климатом",
+          type: "ANCHOR",
+          id: "bf2f959b-725d-4be7-86a6-26e960dad5b2",
+        },
+      },
+      original: {
+        to: "bf2f959b-725d-4be7-86a6-26e960dad5b2",
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        id: "ae1aac25-017c-462c-b91f-3dafca46ed57",
+      },
+    },
+    {
+      id: "8fedaf91-0db1-4221-aa22-044ac8cf0e40",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "e06cd141-8c32-4b48-83c1-9563624a80f3",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "e06cd141-8c32-4b48-83c1-9563624a80f3",
+        title: "#Спутники для Глобальной Безопасности",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Спутники для Глобальной Безопасности",
+          id: "e06cd141-8c32-4b48-83c1-9563624a80f3",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "e06cd141-8c32-4b48-83c1-9563624a80f3",
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        id: "8fedaf91-0db1-4221-aa22-044ac8cf0e40",
+      },
+    },
+    {
+      id: "c224c02a-989f-4563-9254-afa3a697abc5",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "4a0eaa6f-b633-4362-8905-9cd576f88c10",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "4a0eaa6f-b633-4362-8905-9cd576f88c10",
+        title: "#Будущее Спутников и Слежения",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "4a0eaa6f-b633-4362-8905-9cd576f88c10",
+          type: "ANCHOR",
+          name: "#Будущее Спутников и Слежения",
+        },
+      },
+      original: {
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        to: "4a0eaa6f-b633-4362-8905-9cd576f88c10",
+        id: "c224c02a-989f-4563-9254-afa3a697abc5",
+      },
+    },
+    {
+      id: "e4bedcf9-fa6d-4e4b-a330-e5a65f392841",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "1b081d87-db20-48d1-9511-437976ec6aea",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "1b081d87-db20-48d1-9511-437976ec6aea",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          type: "ANCHOR",
+          id: "1b081d87-db20-48d1-9511-437976ec6aea",
+        },
+      },
+      original: {
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        to: "1b081d87-db20-48d1-9511-437976ec6aea",
+        id: "e4bedcf9-fa6d-4e4b-a330-e5a65f392841",
+      },
+    },
+    {
+      id: "e8cf28a0-39ef-4325-8027-198ec9eefb0c",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "573e8cb3-1dce-4119-9488-7e7910154c54",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "573e8cb3-1dce-4119-9488-7e7910154c54",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          type: "ANCHOR",
+          id: "573e8cb3-1dce-4119-9488-7e7910154c54",
+        },
+      },
+      original: {
+        to: "573e8cb3-1dce-4119-9488-7e7910154c54",
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        id: "e8cf28a0-39ef-4325-8027-198ec9eefb0c",
+      },
+    },
+    {
+      id: "8c5cc12d-efc2-424d-bb84-2c17c3ba8866",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      original: {
+        to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        id: "8c5cc12d-efc2-424d-bb84-2c17c3ba8866",
+      },
+    },
+    {
+      id: "216c0699-68e1-4ec5-9dd5-b41299192617",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      original: {
+        to: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        id: "216c0699-68e1-4ec5-9dd5-b41299192617",
+      },
+    },
+    {
+      id: "64eec848-3abf-4d7a-bd19-a412e6184e8a",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      to: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      fromNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      toNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      original: {
+        from: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        to: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        id: "64eec848-3abf-4d7a-bd19-a412e6184e8a",
+      },
+    },
+    {
+      id: "0c71890f-4a8c-4f20-ab98-7cf879ee9186",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "c2e0ec38-a863-447f-8244-2af527c831a3",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "c2e0ec38-a863-447f-8244-2af527c831a3",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          type: "ANCHOR",
+          id: "c2e0ec38-a863-447f-8244-2af527c831a3",
+        },
+      },
+      original: {
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        to: "c2e0ec38-a863-447f-8244-2af527c831a3",
+        id: "0c71890f-4a8c-4f20-ab98-7cf879ee9186",
+      },
+    },
+    {
+      id: "0157edae-0e1b-41e9-9217-a7475ea5b1ad",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "6f5c53ab-ff25-41b2-a266-e0374de32a41",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "6f5c53ab-ff25-41b2-a266-e0374de32a41",
+        title: "#Основы Квантовой Физики",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Основы Квантовой Физики",
+          type: "ANCHOR",
+          id: "6f5c53ab-ff25-41b2-a266-e0374de32a41",
+        },
+      },
+      original: {
+        to: "6f5c53ab-ff25-41b2-a266-e0374de32a41",
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        id: "0157edae-0e1b-41e9-9217-a7475ea5b1ad",
+      },
+    },
+    {
+      id: "5dd37e00-1686-4364-92c1-97188f8caf99",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "fe369bbe-3691-48c0-b40b-ab0f4b730666",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "fe369bbe-3691-48c0-b40b-ab0f4b730666",
+        title: "#Квантовая Физика и Космические Явления",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Квантовая Физика и Космические Явления",
+          type: "ANCHOR",
+          id: "fe369bbe-3691-48c0-b40b-ab0f4b730666",
+        },
+      },
+      original: {
+        to: "fe369bbe-3691-48c0-b40b-ab0f4b730666",
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        id: "5dd37e00-1686-4364-92c1-97188f8caf99",
+      },
+    },
+    {
+      id: "4a039a59-3d17-47f3-bdc5-b5953f99c509",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "f513d5a4-0a9e-4e4e-99de-f89d7164e231",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "f513d5a4-0a9e-4e4e-99de-f89d7164e231",
+        title: "#Квантовые Технологии в Космосе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "f513d5a4-0a9e-4e4e-99de-f89d7164e231",
+          type: "ANCHOR",
+          name: "#Квантовые Технологии в Космосе",
+        },
+      },
+      original: {
+        to: "f513d5a4-0a9e-4e4e-99de-f89d7164e231",
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        id: "4a039a59-3d17-47f3-bdc5-b5953f99c509",
+      },
+    },
+    {
+      id: "c1012100-3f54-4474-9ae3-558789fec94d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "1aed72e4-9769-48cd-b6c4-c84dfdf3b78b",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "1aed72e4-9769-48cd-b6c4-c84dfdf3b78b",
+        title: "#Будущее Квантовой Физики в Космосе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Будущее Квантовой Физики в Космосе",
+          id: "1aed72e4-9769-48cd-b6c4-c84dfdf3b78b",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        to: "1aed72e4-9769-48cd-b6c4-c84dfdf3b78b",
+        id: "c1012100-3f54-4474-9ae3-558789fec94d",
+      },
+    },
+    {
+      id: "22e7acc9-25c4-49e2-b104-ced1e52e9cd1",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "a8aa1353-3ea2-488f-bc20-7f420b8d14a4",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "a8aa1353-3ea2-488f-bc20-7f420b8d14a4",
+        title: "#Значимость для Исследований Вселенной",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Значимость для Исследований Вселенной",
+          type: "ANCHOR",
+          id: "a8aa1353-3ea2-488f-bc20-7f420b8d14a4",
+        },
+      },
+      original: {
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        to: "a8aa1353-3ea2-488f-bc20-7f420b8d14a4",
+        id: "22e7acc9-25c4-49e2-b104-ced1e52e9cd1",
+      },
+    },
+    {
+      id: "6f72450d-5842-4883-9c94-9e967f8d4afc",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "3750d8a1-7a7f-4cbf-8c5a-0f39cb18ae8e",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "3750d8a1-7a7f-4cbf-8c5a-0f39cb18ae8e",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "3750d8a1-7a7f-4cbf-8c5a-0f39cb18ae8e",
+          type: "ANCHOR",
+          name: "#Заключение",
+        },
+      },
+      original: {
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        to: "3750d8a1-7a7f-4cbf-8c5a-0f39cb18ae8e",
+        id: "6f72450d-5842-4883-9c94-9e967f8d4afc",
+      },
+    },
+    {
+      id: "8094501e-1a5a-4e22-a33d-181e9b09b4ba",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "9a31b404-4072-4729-90e0-a00681ee2e7d",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "9a31b404-4072-4729-90e0-a00681ee2e7d",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "9a31b404-4072-4729-90e0-a00681ee2e7d",
+          type: "ANCHOR",
+          name: "#См. также",
+        },
+      },
+      original: {
+        to: "9a31b404-4072-4729-90e0-a00681ee2e7d",
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        id: "8094501e-1a5a-4e22-a33d-181e9b09b4ba",
+      },
+    },
+    {
+      id: "134fee99-44cc-4934-9176-29fb1923d697",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      original: {
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        to: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        id: "134fee99-44cc-4934-9176-29fb1923d697",
+      },
+    },
+    {
+      id: "1e2a6962-9f04-49f8-b6c4-fa61fca53ef3",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      original: {
+        to: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        id: "1e2a6962-9f04-49f8-b6c4-fa61fca53ef3",
+      },
+    },
+    {
+      id: "add19287-8a5f-4e82-9c0a-0906b7b14433",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      fromNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      toNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      original: {
+        from: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "add19287-8a5f-4e82-9c0a-0906b7b14433",
+      },
+    },
+    {
+      id: "3d3b769b-e5c2-4664-9b42-1c5a0c03220d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "d2a686fb-36f6-49c1-9b7a-12e3a84118f7",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "d2a686fb-36f6-49c1-9b7a-12e3a84118f7",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          id: "d2a686fb-36f6-49c1-9b7a-12e3a84118f7",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "d2a686fb-36f6-49c1-9b7a-12e3a84118f7",
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "3d3b769b-e5c2-4664-9b42-1c5a0c03220d",
+      },
+    },
+    {
+      id: "ade76079-08ae-4568-9d67-3454e4dcca7f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "bce1d139-37a2-47f1-aa25-ecac51bda41f",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "bce1d139-37a2-47f1-aa25-ecac51bda41f",
+        title: "#Начало Программы Аполлон",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Начало Программы Аполлон",
+          id: "bce1d139-37a2-47f1-aa25-ecac51bda41f",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        to: "bce1d139-37a2-47f1-aa25-ecac51bda41f",
+        id: "ade76079-08ae-4568-9d67-3454e4dcca7f",
+      },
+    },
+    {
+      id: "16fec4ec-ee0d-4206-9e3f-4cdc7f2faea1",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "c248f2b1-ee53-4e14-8e77-61ffd4ddd9f3",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "c248f2b1-ee53-4e14-8e77-61ffd4ddd9f3",
+        title: "#Аполлон-11: Первые Шаги Человека на Луне",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "c248f2b1-ee53-4e14-8e77-61ffd4ddd9f3",
+          name: "#Аполлон-11: Первые Шаги Человека на Луне",
+        },
+      },
+      original: {
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        to: "c248f2b1-ee53-4e14-8e77-61ffd4ddd9f3",
+        id: "16fec4ec-ee0d-4206-9e3f-4cdc7f2faea1",
+      },
+    },
+    {
+      id: "739f72fd-4e9d-44c1-af05-c9992ea0fec4",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "328e8b5d-d38f-4253-bce5-bca6d5acae3b",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "328e8b5d-d38f-4253-bce5-bca6d5acae3b",
+        title: "#Технологические и Научные Достижения",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Технологические и Научные Достижения",
+          id: "328e8b5d-d38f-4253-bce5-bca6d5acae3b",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "328e8b5d-d38f-4253-bce5-bca6d5acae3b",
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "739f72fd-4e9d-44c1-af05-c9992ea0fec4",
+      },
+    },
+    {
+      id: "94af37c0-7b5b-426c-b180-8a11e4313af6",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "e17280dc-5883-4e1d-b9f6-64422a6400c1",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "e17280dc-5883-4e1d-b9f6-64422a6400c1",
+        title: "#Культурное и Историческое Значение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "e17280dc-5883-4e1d-b9f6-64422a6400c1",
+          name: "#Культурное и Историческое Значение",
+        },
+      },
+      original: {
+        to: "e17280dc-5883-4e1d-b9f6-64422a6400c1",
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "94af37c0-7b5b-426c-b180-8a11e4313af6",
+      },
+    },
+    {
+      id: "7f991c3c-9dce-4b2d-9a5a-94170e16d177",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "af4981a1-1d76-4e5f-bc25-2b3bdf9d7f31",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "af4981a1-1d76-4e5f-bc25-2b3bdf9d7f31",
+        title: "#Наследие и Влияние на Будущие Миссии",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Наследие и Влияние на Будущие Миссии",
+          type: "ANCHOR",
+          id: "af4981a1-1d76-4e5f-bc25-2b3bdf9d7f31",
+        },
+      },
+      original: {
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        to: "af4981a1-1d76-4e5f-bc25-2b3bdf9d7f31",
+        id: "7f991c3c-9dce-4b2d-9a5a-94170e16d177",
+      },
+    },
+    {
+      id: "34b0f9ff-6512-4dcf-bc75-bd2b2636b4f8",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "42de84f9-d123-4371-a089-2db2b9300d70",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "42de84f9-d123-4371-a089-2db2b9300d70",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          type: "ANCHOR",
+          id: "42de84f9-d123-4371-a089-2db2b9300d70",
+        },
+      },
+      original: {
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        to: "42de84f9-d123-4371-a089-2db2b9300d70",
+        id: "34b0f9ff-6512-4dcf-bc75-bd2b2636b4f8",
+      },
+    },
+    {
+      id: "c92b174a-7f8c-4dbd-aa47-d9a0ef0b0083",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "7867243d-a2bd-4e4d-9038-d9674a5d5d9b",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "7867243d-a2bd-4e4d-9038-d9674a5d5d9b",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "7867243d-a2bd-4e4d-9038-d9674a5d5d9b",
+          name: "#См. также",
+        },
+      },
+      original: {
+        to: "7867243d-a2bd-4e4d-9038-d9674a5d5d9b",
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "c92b174a-7f8c-4dbd-aa47-d9a0ef0b0083",
+      },
+    },
+    {
+      id: "f4794c67-20da-4316-b3c0-01aff25ca39f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "863df54f-b156-4660-a54d-cd39c06478e2",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      original: {
+        to: "863df54f-b156-4660-a54d-cd39c06478e2",
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "f4794c67-20da-4316-b3c0-01aff25ca39f",
+      },
+    },
+    {
+      id: "b226e12b-b6e8-4bd6-a5b0-277a4eb7d62b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      fromNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      toNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        from: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "b226e12b-b6e8-4bd6-a5b0-277a4eb7d62b",
+      },
+    },
+    {
+      id: "42d8fb5b-6ca4-4bbb-b37c-338ef3842a92",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "6824ec05-7b47-4fad-8c48-05f70bd33e50",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "6824ec05-7b47-4fad-8c48-05f70bd33e50",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          id: "6824ec05-7b47-4fad-8c48-05f70bd33e50",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        to: "6824ec05-7b47-4fad-8c48-05f70bd33e50",
+        id: "42d8fb5b-6ca4-4bbb-b37c-338ef3842a92",
+      },
+    },
+    {
+      id: "f708aab5-9623-440d-a4ed-91a3c8e47f1c",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "9bc2dc9f-ed4f-434b-bf41-1fa76266beee",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "9bc2dc9f-ed4f-434b-bf41-1fa76266beee",
+        title: "#История Исследования Марса",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "9bc2dc9f-ed4f-434b-bf41-1fa76266beee",
+          name: "#История Исследования Марса",
+        },
+      },
+      original: {
+        to: "9bc2dc9f-ed4f-434b-bf41-1fa76266beee",
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        id: "f708aab5-9623-440d-a4ed-91a3c8e47f1c",
+      },
+    },
+    {
+      id: "dd4ad7dc-769d-4719-aa7f-ffaae78af986",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "cb306aaa-8924-4454-aad3-60294ba4e86d",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "cb306aaa-8924-4454-aad3-60294ba4e86d",
+        title: "#Текущие Миссии на Марс",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "cb306aaa-8924-4454-aad3-60294ba4e86d",
+          name: "#Текущие Миссии на Марс",
+        },
+      },
+      original: {
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        to: "cb306aaa-8924-4454-aad3-60294ba4e86d",
+        id: "dd4ad7dc-769d-4719-aa7f-ffaae78af986",
+      },
+    },
+    {
+      id: "1147c93f-94e6-4ef0-b8e9-34fdc478c558",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "8c08cf28-2895-492e-8067-009cf8d0bebe",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "8c08cf28-2895-492e-8067-009cf8d0bebe",
+        title: "#Планы по Колонизации",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "8c08cf28-2895-492e-8067-009cf8d0bebe",
+          name: "#Планы по Колонизации",
+        },
+      },
+      original: {
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        to: "8c08cf28-2895-492e-8067-009cf8d0bebe",
+        id: "1147c93f-94e6-4ef0-b8e9-34fdc478c558",
+      },
+    },
+    {
+      id: "f00b0aca-e8bb-46ec-9678-f0e23854af61",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "baf928b7-d21c-470e-909d-f307a9d208d1",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "baf928b7-d21c-470e-909d-f307a9d208d1",
+        title: "#Технологические и Логистические Вызовы",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "baf928b7-d21c-470e-909d-f307a9d208d1",
+          type: "ANCHOR",
+          name: "#Технологические и Логистические Вызовы",
+        },
+      },
+      original: {
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        to: "baf928b7-d21c-470e-909d-f307a9d208d1",
+        id: "f00b0aca-e8bb-46ec-9678-f0e23854af61",
+      },
+    },
+    {
+      id: "7d583fb7-4b5d-46d2-8883-e123f8dde719",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "263df72f-4474-427d-ba66-7608081a6d99",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "263df72f-4474-427d-ba66-7608081a6d99",
+        title: "#Этические и Экологические Аспекты",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "263df72f-4474-427d-ba66-7608081a6d99",
+          type: "ANCHOR",
+          name: "#Этические и Экологические Аспекты",
+        },
+      },
+      original: {
+        to: "263df72f-4474-427d-ba66-7608081a6d99",
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        id: "7d583fb7-4b5d-46d2-8883-e123f8dde719",
+      },
+    },
+    {
+      id: "1b3ed245-0c27-47e9-bdcf-aba8587949f4",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "c9165913-6ba5-491a-a5fd-ecdceb7e0dbe",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "c9165913-6ba5-491a-a5fd-ecdceb7e0dbe",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          type: "ANCHOR",
+          id: "c9165913-6ba5-491a-a5fd-ecdceb7e0dbe",
+        },
+      },
+      original: {
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        to: "c9165913-6ba5-491a-a5fd-ecdceb7e0dbe",
+        id: "1b3ed245-0c27-47e9-bdcf-aba8587949f4",
+      },
+    },
+    {
+      id: "5f1738d8-3874-4bac-bca5-95d964dbc71e",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "ebaa89aa-7b14-4376-9242-401cd2416acd",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "ebaa89aa-7b14-4376-9242-401cd2416acd",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          id: "ebaa89aa-7b14-4376-9242-401cd2416acd",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "ebaa89aa-7b14-4376-9242-401cd2416acd",
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        id: "5f1738d8-3874-4bac-bca5-95d964dbc71e",
+      },
+    },
+    {
+      id: "d9fe9232-bcbf-4dcf-a01b-d2bc8a41912e",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "863df54f-b156-4660-a54d-cd39c06478e2",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      original: {
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        to: "863df54f-b156-4660-a54d-cd39c06478e2",
+        id: "d9fe9232-bcbf-4dcf-a01b-d2bc8a41912e",
+      },
+    },
+    {
+      id: "4751f120-de0d-4e54-afb2-10f4875d55d8",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      original: {
+        to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        id: "4751f120-de0d-4e54-afb2-10f4875d55d8",
+      },
+    },
+    {
+      id: "04e02a47-9268-4808-9b13-4dac982cf4d4",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      fromNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      toNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      original: {
+        to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        from: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        id: "04e02a47-9268-4808-9b13-4dac982cf4d4",
+      },
+    },
+    {
+      id: "268f052a-bfe3-416b-9146-050569a94e16",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "00c24c26-e237-450d-a015-dac658106cac",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "00c24c26-e237-450d-a015-dac658106cac",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          type: "ANCHOR",
+          id: "00c24c26-e237-450d-a015-dac658106cac",
+        },
+      },
+      original: {
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        to: "00c24c26-e237-450d-a015-dac658106cac",
+        id: "268f052a-bfe3-416b-9146-050569a94e16",
+      },
+    },
+    {
+      id: "18002ae2-0218-42ae-81c9-916a34ac179e",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "d1cdb3f9-506e-4309-baff-9f9f9d56463a",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "d1cdb3f9-506e-4309-baff-9f9f9d56463a",
+        title: "#История и Структура МКС",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "d1cdb3f9-506e-4309-baff-9f9f9d56463a",
+          name: "#История и Структура МКС",
+        },
+      },
+      original: {
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        to: "d1cdb3f9-506e-4309-baff-9f9f9d56463a",
+        id: "18002ae2-0218-42ae-81c9-916a34ac179e",
+      },
+    },
+    {
+      id: "1ebd7ec3-f5a0-4a48-b947-84268c143bcf",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "3be689bc-d9df-40df-8c7c-3ac5693e2b42",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "3be689bc-d9df-40df-8c7c-3ac5693e2b42",
+        title: "#Повседневная Жизнь на МКС",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Повседневная Жизнь на МКС",
+          id: "3be689bc-d9df-40df-8c7c-3ac5693e2b42",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        to: "3be689bc-d9df-40df-8c7c-3ac5693e2b42",
+        id: "1ebd7ec3-f5a0-4a48-b947-84268c143bcf",
+      },
+    },
+    {
+      id: "e8a5f34e-5080-418b-8042-82a63d10ead0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "dce1d9b2-50dd-4ae0-8032-b425efba8db0",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "dce1d9b2-50dd-4ae0-8032-b425efba8db0",
+        title: "#Научные Эксперименты на Орбите",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Научные Эксперименты на Орбите",
+          id: "dce1d9b2-50dd-4ae0-8032-b425efba8db0",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "dce1d9b2-50dd-4ae0-8032-b425efba8db0",
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "e8a5f34e-5080-418b-8042-82a63d10ead0",
+      },
+    },
+    {
+      id: "674cd4ac-a0d5-4cc8-820d-5dcbaab7b4a1",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "c3fab49c-b6ae-4e26-a307-197c480a2b38",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "c3fab49c-b6ae-4e26-a307-197c480a2b38",
+        title: "#Взаимодействие и Работа Экипажа",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "c3fab49c-b6ae-4e26-a307-197c480a2b38",
+          name: "#Взаимодействие и Работа Экипажа",
+        },
+      },
+      original: {
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        to: "c3fab49c-b6ae-4e26-a307-197c480a2b38",
+        id: "674cd4ac-a0d5-4cc8-820d-5dcbaab7b4a1",
+      },
+    },
+    {
+      id: "52b0217c-9400-4a59-b36c-bf44caa4b818",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "5251f9b5-ad7e-4c47-b8cb-34efee141935",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "5251f9b5-ad7e-4c47-b8cb-34efee141935",
+        title: "#Вызовы Жизни в Космосе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Вызовы Жизни в Космосе",
+          id: "5251f9b5-ad7e-4c47-b8cb-34efee141935",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "5251f9b5-ad7e-4c47-b8cb-34efee141935",
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "52b0217c-9400-4a59-b36c-bf44caa4b818",
+      },
+    },
+    {
+      id: "f158d69d-9c1f-41e8-801c-a3b4b6bea5ab",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "90a2b542-adf8-4ca5-b90e-278f26128912",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "90a2b542-adf8-4ca5-b90e-278f26128912",
+        title: "#Значение МКС для Будущего Исследования Космоса",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "90a2b542-adf8-4ca5-b90e-278f26128912",
+          name: "#Значение МКС для Будущего Исследования Космоса",
+        },
+      },
+      original: {
+        to: "90a2b542-adf8-4ca5-b90e-278f26128912",
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "f158d69d-9c1f-41e8-801c-a3b4b6bea5ab",
+      },
+    },
+    {
+      id: "2d4f9219-f982-4211-be9b-5e6cdc396e8b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "5474c44e-98e0-47c1-a2cd-5b05c7cdc508",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "5474c44e-98e0-47c1-a2cd-5b05c7cdc508",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          id: "5474c44e-98e0-47c1-a2cd-5b05c7cdc508",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "5474c44e-98e0-47c1-a2cd-5b05c7cdc508",
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "2d4f9219-f982-4211-be9b-5e6cdc396e8b",
+      },
+    },
+    {
+      id: "c693e8b3-896b-4dd4-b73b-c19985bf2c6f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "61896fca-8afd-45bf-87d6-5a0136e658cf",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "61896fca-8afd-45bf-87d6-5a0136e658cf",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          id: "61896fca-8afd-45bf-87d6-5a0136e658cf",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "61896fca-8afd-45bf-87d6-5a0136e658cf",
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "c693e8b3-896b-4dd4-b73b-c19985bf2c6f",
+      },
+    },
+    {
+      id: "4e32daee-da86-4a97-b6e1-fe67ff64c840",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      original: {
+        to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "4e32daee-da86-4a97-b6e1-fe67ff64c840",
+      },
+    },
+    {
+      id: "671cbf3a-3e16-43b8-8a33-5660457dbdd2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      original: {
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "671cbf3a-3e16-43b8-8a33-5660457dbdd2",
+      },
+    },
+    {
+      id: "3e066fe6-f517-4054-aa0d-ac58377dd4b5",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      fromNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      toNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      original: {
+        to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        from: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "3e066fe6-f517-4054-aa0d-ac58377dd4b5",
+      },
+    },
+    {
+      id: "8e21c5f5-d92f-4d3f-a9b0-d58e6c4b19f2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "48725be3-bb07-4cb6-8bef-a481deb241c8",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "48725be3-bb07-4cb6-8bef-a481deb241c8",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "48725be3-bb07-4cb6-8bef-a481deb241c8",
+          name: "#Введение",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "48725be3-bb07-4cb6-8bef-a481deb241c8",
+        id: "8e21c5f5-d92f-4d3f-a9b0-d58e6c4b19f2",
+      },
+    },
+    {
+      id: "dd6f7f39-bb2c-470c-8b02-738477562ff0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "215f3a58-839e-486f-ba96-e65099bd3c97",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "215f3a58-839e-486f-ba96-e65099bd3c97",
+        title: "#История и Разработка Телескопа",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#История и Разработка Телескопа",
+          type: "ANCHOR",
+          id: "215f3a58-839e-486f-ba96-e65099bd3c97",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "215f3a58-839e-486f-ba96-e65099bd3c97",
+        id: "dd6f7f39-bb2c-470c-8b02-738477562ff0",
+      },
+    },
+    {
+      id: "f1abc83e-df25-470a-8352-b7e85e6400cb",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "a24f5b13-774e-4382-9341-14987c08496a",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "a24f5b13-774e-4382-9341-14987c08496a",
+        title: "#Уникальные Возможности и Инструменты",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Уникальные Возможности и Инструменты",
+          type: "ANCHOR",
+          id: "a24f5b13-774e-4382-9341-14987c08496a",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "a24f5b13-774e-4382-9341-14987c08496a",
+        id: "f1abc83e-df25-470a-8352-b7e85e6400cb",
+      },
+    },
+    {
+      id: "4a5f5d20-c324-4ea5-ba5c-8a8bbd900049",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "d42faee8-ebea-43a4-9164-2bbcca992e08",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "d42faee8-ebea-43a4-9164-2bbcca992e08",
+        title: "#Основные Цели Миссии",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Основные Цели Миссии",
+          id: "d42faee8-ebea-43a4-9164-2bbcca992e08",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "d42faee8-ebea-43a4-9164-2bbcca992e08",
+        id: "4a5f5d20-c324-4ea5-ba5c-8a8bbd900049",
+      },
+    },
+    {
+      id: "da7ce335-c3dd-417d-9149-dd1e0e659735",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "19e96e74-c9b1-48d0-b7eb-0352d3706fcf",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "19e96e74-c9b1-48d0-b7eb-0352d3706fcf",
+        title: "#Первые Открытия и Наблюдения",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "19e96e74-c9b1-48d0-b7eb-0352d3706fcf",
+          type: "ANCHOR",
+          name: "#Первые Открытия и Наблюдения",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "19e96e74-c9b1-48d0-b7eb-0352d3706fcf",
+        id: "da7ce335-c3dd-417d-9149-dd1e0e659735",
+      },
+    },
+    {
+      id: "f27aac95-f15b-4ad9-8939-8d0fd09d80ab",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "8f390049-6eb6-4178-b3d4-f7aa405285a6",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "8f390049-6eb6-4178-b3d4-f7aa405285a6",
+        title: "#Будущее Астрономических Исследований",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Будущее Астрономических Исследований",
+          type: "ANCHOR",
+          id: "8f390049-6eb6-4178-b3d4-f7aa405285a6",
+        },
+      },
+      original: {
+        to: "8f390049-6eb6-4178-b3d4-f7aa405285a6",
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        id: "f27aac95-f15b-4ad9-8939-8d0fd09d80ab",
+      },
+    },
+    {
+      id: "4648d09c-0cdb-4b20-aec2-e16444f2da31",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "6c16bf66-39c8-4953-826d-c521cf1913dc",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "6c16bf66-39c8-4953-826d-c521cf1913dc",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          type: "ANCHOR",
+          id: "6c16bf66-39c8-4953-826d-c521cf1913dc",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "6c16bf66-39c8-4953-826d-c521cf1913dc",
+        id: "4648d09c-0cdb-4b20-aec2-e16444f2da31",
+      },
+    },
+    {
+      id: "a5449e2d-f0c3-47eb-90b6-9969515bf15d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "40ef6a74-7200-4d7f-89a4-99fe9acc0c1c",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "40ef6a74-7200-4d7f-89a4-99fe9acc0c1c",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "40ef6a74-7200-4d7f-89a4-99fe9acc0c1c",
+          name: "#См. также",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "40ef6a74-7200-4d7f-89a4-99fe9acc0c1c",
+        id: "a5449e2d-f0c3-47eb-90b6-9969515bf15d",
+      },
+    },
+    {
+      id: "bc75bcd0-07ab-4a0d-833c-b3438f55fbc2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        id: "bc75bcd0-07ab-4a0d-833c-b3438f55fbc2",
+      },
+    },
+    {
+      id: "08504c95-a317-47b3-80e0-5b007599858a",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "c45272b1-e295-4b45-8730-2ba36c174545",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "c45272b1-e295-4b45-8730-2ba36c174545",
+        id: "08504c95-a317-47b3-80e0-5b007599858a",
+      },
+    },
+    {
+      id: "d45d1ce8-7332-4c60-ba39-97fb08e9cb58",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      fromNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      toNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      original: {
+        from: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        id: "d45d1ce8-7332-4c60-ba39-97fb08e9cb58",
+      },
+    },
+    {
+      id: "1b3f5389-fce4-4a29-b5a6-41eee3b8973d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "080a0f45-368d-426a-9a3b-33b61ee7ad41",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "080a0f45-368d-426a-9a3b-33b61ee7ad41",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "080a0f45-368d-426a-9a3b-33b61ee7ad41",
+          type: "ANCHOR",
+          name: "#Введение",
+        },
+      },
+      original: {
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        to: "080a0f45-368d-426a-9a3b-33b61ee7ad41",
+        id: "1b3f5389-fce4-4a29-b5a6-41eee3b8973d",
+      },
+    },
+    {
+      id: "83b8ce9a-f1f0-40cf-b0b9-895981dc2153",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "a8339b73-d26d-4032-9069-ae4bd55a90cc",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "a8339b73-d26d-4032-9069-ae4bd55a90cc",
+        title: "#Юрий Гагарин: Первый Человек в Космосе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Юрий Гагарин: Первый Человек в Космосе",
+          id: "a8339b73-d26d-4032-9069-ae4bd55a90cc",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "a8339b73-d26d-4032-9069-ae4bd55a90cc",
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        id: "83b8ce9a-f1f0-40cf-b0b9-895981dc2153",
+      },
+    },
+    {
+      id: "bacff62f-f2de-4891-8f50-7953b280f020",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "2bdb7c08-48a4-4fae-9608-eee8ecc52174",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "2bdb7c08-48a4-4fae-9608-eee8ecc52174",
+        title: "#Нил Армстронг: Легенда Аполлона",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2bdb7c08-48a4-4fae-9608-eee8ecc52174",
+          type: "ANCHOR",
+          name: "#Нил Армстронг: Легенда Аполлона",
+        },
+      },
+      original: {
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        to: "2bdb7c08-48a4-4fae-9608-eee8ecc52174",
+        id: "bacff62f-f2de-4891-8f50-7953b280f020",
+      },
+    },
+    {
+      id: "fbe0c2b4-dc5b-4a23-8ac5-c3f16775354f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "8241618e-d4be-4269-b527-0330a1001e34",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "8241618e-d4be-4269-b527-0330a1001e34",
+        title: "#Валентина Терешкова: Первая Женщина в Космосе",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "8241618e-d4be-4269-b527-0330a1001e34",
+          type: "ANCHOR",
+          name: "#Валентина Терешкова: Первая Женщина в Космосе",
+        },
+      },
+      original: {
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        to: "8241618e-d4be-4269-b527-0330a1001e34",
+        id: "fbe0c2b4-dc5b-4a23-8ac5-c3f16775354f",
+      },
+    },
+    {
+      id: "c39ac6c9-4648-4cfe-8229-70716d80ba68",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "afeddd3f-9a68-488d-b2ab-7ef5a85a5d0a",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "afeddd3f-9a68-488d-b2ab-7ef5a85a5d0a",
+        title: "#Салли Райд: Пионерка Американского Космоса",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "afeddd3f-9a68-488d-b2ab-7ef5a85a5d0a",
+          name: "#Салли Райд: Пионерка Американского Космоса",
+        },
+      },
+      original: {
+        to: "afeddd3f-9a68-488d-b2ab-7ef5a85a5d0a",
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        id: "c39ac6c9-4648-4cfe-8229-70716d80ba68",
+      },
+    },
+    {
+      id: "0d72447e-8c1a-4151-95cd-8fadc32a80d2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "34a79f6f-0e6e-4ed4-b1b8-e035b5c88b04",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "34a79f6f-0e6e-4ed4-b1b8-e035b5c88b04",
+        title: "#Крис Хэдфилд: Современный Герой Космоса",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Крис Хэдфилд: Современный Герой Космоса",
+          id: "34a79f6f-0e6e-4ed4-b1b8-e035b5c88b04",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        to: "34a79f6f-0e6e-4ed4-b1b8-e035b5c88b04",
+        id: "0d72447e-8c1a-4151-95cd-8fadc32a80d2",
+      },
+    },
+    {
+      id: "95594fe8-d3c7-4c1b-9c59-2f3840632639",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "66aa2750-73c5-4f95-abf2-51efebb247dd",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "66aa2750-73c5-4f95-abf2-51efebb247dd",
+        title: "#Вклад Астронавтов в Исследование Космоса",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Вклад Астронавтов в Исследование Космоса",
+          type: "ANCHOR",
+          id: "66aa2750-73c5-4f95-abf2-51efebb247dd",
+        },
+      },
+      original: {
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        to: "66aa2750-73c5-4f95-abf2-51efebb247dd",
+        id: "95594fe8-d3c7-4c1b-9c59-2f3840632639",
+      },
+    },
+    {
+      id: "67bbfeb3-1ea0-45ba-920e-c1213acaeb25",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "952e708c-5421-47a6-bc15-850d2365006a",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "952e708c-5421-47a6-bc15-850d2365006a",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          id: "952e708c-5421-47a6-bc15-850d2365006a",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "952e708c-5421-47a6-bc15-850d2365006a",
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        id: "67bbfeb3-1ea0-45ba-920e-c1213acaeb25",
+      },
+    },
+    {
+      id: "64b23ec5-e127-4838-89c5-48042b7004fd",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "56178392-cbdb-44d2-9969-0ae8be0621d4",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "56178392-cbdb-44d2-9969-0ae8be0621d4",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          type: "ANCHOR",
+          id: "56178392-cbdb-44d2-9969-0ae8be0621d4",
+        },
+      },
+      original: {
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        to: "56178392-cbdb-44d2-9969-0ae8be0621d4",
+        id: "64b23ec5-e127-4838-89c5-48042b7004fd",
+      },
+    },
+    {
+      id: "a9a04f3f-2242-4482-bc1c-980d0dc435a3",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      original: {
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        id: "a9a04f3f-2242-4482-bc1c-980d0dc435a3",
+      },
+    },
+    {
+      id: "49ea0fbc-b1ed-4555-903a-4f07483633e0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "c45272b1-e295-4b45-8730-2ba36c174545",
+      to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+      fromNode: {
+        id: "c45272b1-e295-4b45-8730-2ba36c174545",
+        title: "greatest-astronauts-biographies.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "greatest-astronauts-biographies.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "c45272b1-e295-4b45-8730-2ba36c174545",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\greatest-astronauts-biographies.md",
+          relativePath: ".\\space/greatest-astronauts-biographies.md",
+        },
+      },
+      toNode: {
+        id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        title: "james-webb-telescope-mission.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "james-webb-telescope-mission.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+          relativePath: ".\\space/james-webb-telescope-mission.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\james-webb-telescope-mission.md",
+        },
+      },
+      original: {
+        to: "8e20921b-a7ea-4ba5-9eee-a7e64f97ee9b",
+        from: "c45272b1-e295-4b45-8730-2ba36c174545",
+        id: "49ea0fbc-b1ed-4555-903a-4f07483633e0",
+      },
+    },
+    {
+      id: "b0877927-a95d-4ef3-aea9-6ee6ab8237ce",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "4a128581-c04c-42de-a0c0-7f72b7b080e9",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "4a128581-c04c-42de-a0c0-7f72b7b080e9",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          type: "ANCHOR",
+          id: "4a128581-c04c-42de-a0c0-7f72b7b080e9",
+        },
+      },
+      original: {
+        to: "4a128581-c04c-42de-a0c0-7f72b7b080e9",
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "b0877927-a95d-4ef3-aea9-6ee6ab8237ce",
+      },
+    },
+    {
+      id: "372b052d-4c3f-422e-9ca5-ae03b606cc22",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "f60c0ce6-ad57-403f-9d99-c76cd7010e6f",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "f60c0ce6-ad57-403f-9d99-c76cd7010e6f",
+        title: "#Основы Гравитации и Относительности",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "f60c0ce6-ad57-403f-9d99-c76cd7010e6f",
+          name: "#Основы Гравитации и Относительности",
+        },
+      },
+      original: {
+        to: "f60c0ce6-ad57-403f-9d99-c76cd7010e6f",
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "372b052d-4c3f-422e-9ca5-ae03b606cc22",
+      },
+    },
+    {
+      id: "7f1f9f24-3b5e-473f-ad91-87041283de33",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "3036606e-9da0-4726-83e7-e09b10897dd7",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "3036606e-9da0-4726-83e7-e09b10897dd7",
+        title: "#Эффекты Гравитации на Космонавтику",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Эффекты Гравитации на Космонавтику",
+          id: "3036606e-9da0-4726-83e7-e09b10897dd7",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        to: "3036606e-9da0-4726-83e7-e09b10897dd7",
+        id: "7f1f9f24-3b5e-473f-ad91-87041283de33",
+      },
+    },
+    {
+      id: "81b17ae3-b79c-46e9-ab53-9bef1f034b6b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "4fda304d-c9be-4d48-b10c-b3e10d8eee8a",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "4fda304d-c9be-4d48-b10c-b3e10d8eee8a",
+        title: "#Относительность и Путешествие со Световой Скоростью",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Относительность и Путешествие со Световой Скоростью",
+          id: "4fda304d-c9be-4d48-b10c-b3e10d8eee8a",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        to: "4fda304d-c9be-4d48-b10c-b3e10d8eee8a",
+        id: "81b17ae3-b79c-46e9-ab53-9bef1f034b6b",
+      },
+    },
+    {
+      id: "7d20298e-0ec0-4466-8e31-201bef11e292",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "ec7d17a5-ad98-4c63-a9e0-30dc10fe5031",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "ec7d17a5-ad98-4c63-a9e0-30dc10fe5031",
+        title: "#Исследования и Эксперименты",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "ec7d17a5-ad98-4c63-a9e0-30dc10fe5031",
+          type: "ANCHOR",
+          name: "#Исследования и Эксперименты",
+        },
+      },
+      original: {
+        to: "ec7d17a5-ad98-4c63-a9e0-30dc10fe5031",
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "7d20298e-0ec0-4466-8e31-201bef11e292",
+      },
+    },
+    {
+      id: "68a32a46-2fcc-4885-8408-3600758e8b3f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "7c8bbddc-3e2e-4d84-8a7d-c9f8b712343a",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "7c8bbddc-3e2e-4d84-8a7d-c9f8b712343a",
+        title: "#Значимость для Будущего Космических Путешествий",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "7c8bbddc-3e2e-4d84-8a7d-c9f8b712343a",
+          type: "ANCHOR",
+          name: "#Значимость для Будущего Космических Путешествий",
+        },
+      },
+      original: {
+        to: "7c8bbddc-3e2e-4d84-8a7d-c9f8b712343a",
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "68a32a46-2fcc-4885-8408-3600758e8b3f",
+      },
+    },
+    {
+      id: "9f44db1c-2f4e-4ab1-ad41-d1ea73b21b49",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "c7f22cb2-cf11-4930-8c7a-ff8ca28609db",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "c7f22cb2-cf11-4930-8c7a-ff8ca28609db",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          id: "c7f22cb2-cf11-4930-8c7a-ff8ca28609db",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        to: "c7f22cb2-cf11-4930-8c7a-ff8ca28609db",
+        id: "9f44db1c-2f4e-4ab1-ad41-d1ea73b21b49",
+      },
+    },
+    {
+      id: "e12a0239-ec6b-4022-b436-98a300acdb32",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "db09c9fd-230c-4744-ae5c-48ef170a1deb",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "db09c9fd-230c-4744-ae5c-48ef170a1deb",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          type: "ANCHOR",
+          id: "db09c9fd-230c-4744-ae5c-48ef170a1deb",
+        },
+      },
+      original: {
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        to: "db09c9fd-230c-4744-ae5c-48ef170a1deb",
+        id: "e12a0239-ec6b-4022-b436-98a300acdb32",
+      },
+    },
+    {
+      id: "e262b2f1-109a-4e4b-9153-3e4dda4cb4e2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      original: {
+        to: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "e262b2f1-109a-4e4b-9153-3e4dda4cb4e2",
+      },
+    },
+    {
+      id: "381c93b8-126b-4aa1-855b-95dd8303496c",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      original: {
+        to: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "381c93b8-126b-4aa1-855b-95dd8303496c",
+      },
+    },
+    {
+      id: "75af07b4-f3fc-4dd4-8afb-3c3e79f9efbe",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+      fromNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      toNode: {
+        id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        title: "space-suits-from-prototypes-to-modern-models.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "space-suits-from-prototypes-to-modern-models.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-suits-from-prototypes-to-modern-models.md",
+          relativePath:
+            ".\\space/space-suits-from-prototypes-to-modern-models.md",
+        },
+      },
+      original: {
+        to: "6a67aefa-2b31-4328-bc35-3d86d83693d0",
+        from: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "75af07b4-f3fc-4dd4-8afb-3c3e79f9efbe",
+      },
+    },
+    {
+      id: "e808ea0f-6699-4a82-a90d-3b475dfd247e",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "de8cb98a-7f43-4433-8e4b-088152811fd4",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "de8cb98a-7f43-4433-8e4b-088152811fd4",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          id: "de8cb98a-7f43-4433-8e4b-088152811fd4",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "de8cb98a-7f43-4433-8e4b-088152811fd4",
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        id: "e808ea0f-6699-4a82-a90d-3b475dfd247e",
+      },
+    },
+    {
+      id: "c0ce9f99-f591-48b3-8cab-98e71591686a",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "00a62285-c25f-42a4-80a0-253f8df89245",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "00a62285-c25f-42a4-80a0-253f8df89245",
+        title: "#История Космических Станций",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#История Космических Станций",
+          id: "00a62285-c25f-42a4-80a0-253f8df89245",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "00a62285-c25f-42a4-80a0-253f8df89245",
+        id: "c0ce9f99-f591-48b3-8cab-98e71591686a",
+      },
+    },
+    {
+      id: "79dba413-3796-4e0c-b01d-1e992937a084",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "4bd98818-146c-4f85-9fd2-c2feaffe986c",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "4bd98818-146c-4f85-9fd2-c2feaffe986c",
+        title: "#МКС: Наша Современная Космическая Лаборатория",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#МКС: Наша Современная Космическая Лаборатория",
+          id: "4bd98818-146c-4f85-9fd2-c2feaffe986c",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "4bd98818-146c-4f85-9fd2-c2feaffe986c",
+        id: "79dba413-3796-4e0c-b01d-1e992937a084",
+      },
+    },
+    {
+      id: "47ec4cba-84b7-4eae-8c44-e93f95bf1f78",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "d5dc7ccd-1006-4ce2-b907-6384e4966b2a",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "d5dc7ccd-1006-4ce2-b907-6384e4966b2a",
+        title: "#Будущее Космических Станций",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "d5dc7ccd-1006-4ce2-b907-6384e4966b2a",
+          type: "ANCHOR",
+          name: "#Будущее Космических Станций",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "d5dc7ccd-1006-4ce2-b907-6384e4966b2a",
+        id: "47ec4cba-84b7-4eae-8c44-e93f95bf1f78",
+      },
+    },
+    {
+      id: "913233ed-2a5d-49b7-9d45-e5fbed1cac1f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "889fe4f4-f64f-4756-8685-fec0702612dc",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "889fe4f4-f64f-4756-8685-fec0702612dc",
+        title: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "889fe4f4-f64f-4756-8685-fec0702612dc",
+          type: "ANCHOR",
+          name: "#Межзвездные Одиссеи: Новые Горизонты Исследований",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "889fe4f4-f64f-4756-8685-fec0702612dc",
+        id: "913233ed-2a5d-49b7-9d45-e5fbed1cac1f",
+      },
+    },
+    {
+      id: "f6db40fa-f0e5-4326-b48b-e8d4aff9ad9b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "95e140ae-ae2f-4b64-8fa6-1798e0a3b67a",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "95e140ae-ae2f-4b64-8fa6-1798e0a3b67a",
+        title: "#Значимость для Человечества",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Значимость для Человечества",
+          type: "ANCHOR",
+          id: "95e140ae-ae2f-4b64-8fa6-1798e0a3b67a",
+        },
+      },
+      original: {
+        to: "95e140ae-ae2f-4b64-8fa6-1798e0a3b67a",
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        id: "f6db40fa-f0e5-4326-b48b-e8d4aff9ad9b",
+      },
+    },
+    {
+      id: "a841d792-86d4-4901-999a-234e3470b145",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "c40b17de-f797-43af-ab50-a4aaea6f2be8",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "c40b17de-f797-43af-ab50-a4aaea6f2be8",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "c40b17de-f797-43af-ab50-a4aaea6f2be8",
+          name: "#Заключение",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "c40b17de-f797-43af-ab50-a4aaea6f2be8",
+        id: "a841d792-86d4-4901-999a-234e3470b145",
+      },
+    },
+    {
+      id: "f558d26c-b28f-439d-a298-c7083468b5d2",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "fe519fec-6618-4f3b-b20f-afbaa849950a",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "fe519fec-6618-4f3b-b20f-afbaa849950a",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          id: "fe519fec-6618-4f3b-b20f-afbaa849950a",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "fe519fec-6618-4f3b-b20f-afbaa849950a",
+        id: "f558d26c-b28f-439d-a298-c7083468b5d2",
+      },
+    },
+    {
+      id: "4fde8d38-0329-4e63-b40a-1123d0beb02b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        title: "solar-energy-in-space-new-frontiers-of-power.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "solar-energy-in-space-new-frontiers-of-power.md",
+          relativePath:
+            ".\\space/solar-energy-in-space-new-frontiers-of-power.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\solar-energy-in-space-new-frontiers-of-power.md",
+          id: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "b63cc214-7bf1-45d6-9b6b-1c95cf131799",
+        id: "4fde8d38-0329-4e63-b40a-1123d0beb02b",
+      },
+    },
+    {
+      id: "3f0d2f81-547c-4b5a-a44d-9c67d2e2f520",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        title: "gravity-and-relativity-space-travel.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "gravity-and-relativity-space-travel.md",
+          id: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\gravity-and-relativity-space-travel.md",
+          relativePath: ".\\space/gravity-and-relativity-space-travel.md",
+        },
+      },
+      original: {
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        to: "e48462ac-12e4-40ac-8835-bf9a45e578e4",
+        id: "3f0d2f81-547c-4b5a-a44d-9c67d2e2f520",
+      },
+    },
+    {
+      id: "4797d60d-8cfc-49b5-aecf-d407c7eb2787",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+      to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      fromNode: {
+        id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        title: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+          relativePath:
+            ".\\space/future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+          type: "FILE",
+          name: "future-of-space-stations-from-iss-to-interstellar-odysseys.md",
+        },
+      },
+      toNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        from: "2e7faee4-bc4d-4073-b8d2-e113753c0d34",
+        id: "4797d60d-8cfc-49b5-aecf-d407c7eb2787",
+      },
+    },
+    {
+      id: "14eb9bcf-989a-45ef-8642-1116c646a3cc",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "08a8c145-3b61-4eb2-9f9f-f14543880f42",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "08a8c145-3b61-4eb2-9f9f-f14543880f42",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          id: "08a8c145-3b61-4eb2-9f9f-f14543880f42",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        to: "08a8c145-3b61-4eb2-9f9f-f14543880f42",
+        id: "14eb9bcf-989a-45ef-8642-1116c646a3cc",
+      },
+    },
+    {
+      id: "e123ac9a-2cde-4a9e-b3cc-f30e0612b983",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "6a740266-ca61-4632-9062-9f59ed694050",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "6a740266-ca61-4632-9062-9f59ed694050",
+        title: "#Черные Дыры: Поглощение Света и Материи",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Черные Дыры: Поглощение Света и Материи",
+          id: "6a740266-ca61-4632-9062-9f59ed694050",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        to: "6a740266-ca61-4632-9062-9f59ed694050",
+        id: "e123ac9a-2cde-4a9e-b3cc-f30e0612b983",
+      },
+    },
+    {
+      id: "f006475a-df65-47ed-a341-d968bb21baec",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "88c33e68-6d37-4e81-b3ca-aad0c82d8ca2",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "88c33e68-6d37-4e81-b3ca-aad0c82d8ca2",
+        title: "#Квазары: Мощнейшие Источники Энергии",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "88c33e68-6d37-4e81-b3ca-aad0c82d8ca2",
+          name: "#Квазары: Мощнейшие Источники Энергии",
+        },
+      },
+      original: {
+        to: "88c33e68-6d37-4e81-b3ca-aad0c82d8ca2",
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        id: "f006475a-df65-47ed-a341-d968bb21baec",
+      },
+    },
+    {
+      id: "1c8230db-7564-478d-b512-848fee434b1f",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "b34b1e1f-08c2-484b-a5c9-ec7bb76d0651",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "b34b1e1f-08c2-484b-a5c9-ec7bb76d0651",
+        title: "#Сверхмассивные Черные Дыры и Галактические Коллайдеры",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "b34b1e1f-08c2-484b-a5c9-ec7bb76d0651",
+          type: "ANCHOR",
+          name: "#Сверхмассивные Черные Дыры и Галактические Коллайдеры",
+        },
+      },
+      original: {
+        to: "b34b1e1f-08c2-484b-a5c9-ec7bb76d0651",
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        id: "1c8230db-7564-478d-b512-848fee434b1f",
+      },
+    },
+    {
+      id: "743a54b2-5864-47ac-8b1b-a36cb00d0e1c",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "33fdc26b-f14c-4602-aad9-5427b038f336",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "33fdc26b-f14c-4602-aad9-5427b038f336",
+        title: "#Исследования и Теории",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "33fdc26b-f14c-4602-aad9-5427b038f336",
+          type: "ANCHOR",
+          name: "#Исследования и Теории",
+        },
+      },
+      original: {
+        to: "33fdc26b-f14c-4602-aad9-5427b038f336",
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        id: "743a54b2-5864-47ac-8b1b-a36cb00d0e1c",
+      },
+    },
+    {
+      id: "53b4f86d-2dbb-4811-ab16-4b4947db7839",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "30af9eea-3d2f-4560-a79c-6fbde070a960",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "30af9eea-3d2f-4560-a79c-6fbde070a960",
+        title: "#Значимость для Космологии",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Значимость для Космологии",
+          type: "ANCHOR",
+          id: "30af9eea-3d2f-4560-a79c-6fbde070a960",
+        },
+      },
+      original: {
+        to: "30af9eea-3d2f-4560-a79c-6fbde070a960",
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        id: "53b4f86d-2dbb-4811-ab16-4b4947db7839",
+      },
+    },
+    {
+      id: "042a9cf4-d504-4bda-9c49-b0c80dd95f60",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "d3c5ee1f-2fa2-4b40-9f6c-83a92d1e3e30",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "d3c5ee1f-2fa2-4b40-9f6c-83a92d1e3e30",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          type: "ANCHOR",
+          id: "d3c5ee1f-2fa2-4b40-9f6c-83a92d1e3e30",
+        },
+      },
+      original: {
+        to: "d3c5ee1f-2fa2-4b40-9f6c-83a92d1e3e30",
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        id: "042a9cf4-d504-4bda-9c49-b0c80dd95f60",
+      },
+    },
+    {
+      id: "b28d56da-7e47-4674-9641-6840016719cb",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "e7dd006a-83e9-4490-bced-107eb023a52a",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "e7dd006a-83e9-4490-bced-107eb023a52a",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#См. также",
+          id: "e7dd006a-83e9-4490-bced-107eb023a52a",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        to: "e7dd006a-83e9-4490-bced-107eb023a52a",
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        id: "b28d56da-7e47-4674-9641-6840016719cb",
+      },
+    },
+    {
+      id: "21341c18-8de0-4ac9-b2d2-2ee20464860b",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        title: "satellites-and-surveillance.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/satellites-and-surveillance.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\satellites-and-surveillance.md",
+          type: "FILE",
+          name: "satellites-and-surveillance.md",
+        },
+      },
+      original: {
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        to: "2c19f6f7-d9cf-4bdc-8eed-983ff9777010",
+        id: "21341c18-8de0-4ac9-b2d2-2ee20464860b",
+      },
+    },
+    {
+      id: "56c1b4d5-d550-465f-8c05-e613549bc513",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        title: "quantum-physics-in-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\quantum-physics-in-space.md",
+          relativePath: ".\\space/quantum-physics-in-space.md",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+          type: "FILE",
+          name: "quantum-physics-in-space.md",
+        },
+      },
+      original: {
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        to: "3d03b162-a678-4056-b2cd-ffbbb9f08cc7",
+        id: "56c1b4d5-d550-465f-8c05-e613549bc513",
+      },
+    },
+    {
+      id: "a2e4ce0b-188f-474f-a910-28e905925ecf",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+      to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+      fromNode: {
+        id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        title: "black-holes-and-quasars-mysteries-of-the-universe.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "black-holes-and-quasars-mysteries-of-the-universe.md",
+          type: "FILE",
+          id: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath:
+            ".\\space/black-holes-and-quasars-mysteries-of-the-universe.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\black-holes-and-quasars-mysteries-of-the-universe.md",
+        },
+      },
+      toNode: {
+        id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        title: "venus-vs-mars-exploring-space.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "venus-vs-mars-exploring-space.md",
+          type: "FILE",
+          relativePath: ".\\space/venus-vs-mars-exploring-space.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\venus-vs-mars-exploring-space.md",
+          id: "f3788327-5a50-402f-8e9b-87432fdd640f",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        from: "4f379bff-06a2-433d-ba1a-4907d5fea5ac",
+        to: "f3788327-5a50-402f-8e9b-87432fdd640f",
+        id: "a2e4ce0b-188f-474f-a910-28e905925ecf",
+      },
+    },
+    {
+      id: "a9d51f16-9190-4a71-80a4-aaffbd7ed487",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+        title: "#tag",
+        type: "TAG",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "TAG",
+          id: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+          name: "#tag",
+        },
+      },
+      original: {
+        to: "f8d444c1-8dcc-432b-88c3-f97effc572ab",
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        id: "a9d51f16-9190-4a71-80a4-aaffbd7ed487",
+      },
+    },
+    {
+      id: "54a9a482-97b7-467e-8e44-f3037204ec1e",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "af2cb03d-2253-45b0-a261-b42d9f8ee76d",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "af2cb03d-2253-45b0-a261-b42d9f8ee76d",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Введение",
+          id: "af2cb03d-2253-45b0-a261-b42d9f8ee76d",
+          type: "ANCHOR",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "af2cb03d-2253-45b0-a261-b42d9f8ee76d",
+        id: "54a9a482-97b7-467e-8e44-f3037204ec1e",
+      },
+    },
+    {
+      id: "b856269d-b9fd-4c09-8401-0a0025323ac0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "f33664c0-6d82-4665-adfb-c683901f0a3b",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "f33664c0-6d82-4665-adfb-c683901f0a3b",
+        title: "#Ранние Годы Космонавтики",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Ранние Годы Космонавтики",
+          type: "ANCHOR",
+          id: "f33664c0-6d82-4665-adfb-c683901f0a3b",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "f33664c0-6d82-4665-adfb-c683901f0a3b",
+        id: "b856269d-b9fd-4c09-8401-0a0025323ac0",
+      },
+    },
+    {
+      id: "9a81b088-6a9c-4ed2-a4ce-bb9e685aa0cb",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "12a43379-f08c-44d4-a639-34ba15ca112c",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "12a43379-f08c-44d4-a639-34ba15ca112c",
+        title: '#Эра "Аполлон"',
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: '#Эра "Аполлон"',
+          type: "ANCHOR",
+          id: "12a43379-f08c-44d4-a639-34ba15ca112c",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "12a43379-f08c-44d4-a639-34ba15ca112c",
+        id: "9a81b088-6a9c-4ed2-a4ce-bb9e685aa0cb",
+      },
+    },
+    {
+      id: "0a58d378-4909-498f-95a3-a2f36e2678a6",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "09c56639-329c-4daf-a551-b0619f7ad500",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "09c56639-329c-4daf-a551-b0619f7ad500",
+        title: "#Современные Космические Программы",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "09c56639-329c-4daf-a551-b0619f7ad500",
+          type: "ANCHOR",
+          name: "#Современные Космические Программы",
+        },
+      },
+      original: {
+        to: "09c56639-329c-4daf-a551-b0619f7ad500",
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        id: "0a58d378-4909-498f-95a3-a2f36e2678a6",
+      },
+    },
+    {
+      id: "ef50f49f-e2eb-4a64-8344-adf00d729b37",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "46cb64d4-a567-4dac-8a5e-1ff96abc38cd",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "46cb64d4-a567-4dac-8a5e-1ff96abc38cd",
+        title: "#Будущее Пилотируемых Полетов",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Будущее Пилотируемых Полетов",
+          type: "ANCHOR",
+          id: "46cb64d4-a567-4dac-8a5e-1ff96abc38cd",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "46cb64d4-a567-4dac-8a5e-1ff96abc38cd",
+        id: "ef50f49f-e2eb-4a64-8344-adf00d729b37",
+      },
+    },
+    {
+      id: "2473fb82-f90f-48b7-979e-fc32a5f60a93",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "4f3fc2a9-e3a3-41b3-8e95-d1e02eac5082",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "4f3fc2a9-e3a3-41b3-8e95-d1e02eac5082",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Заключение",
+          type: "ANCHOR",
+          id: "4f3fc2a9-e3a3-41b3-8e95-d1e02eac5082",
+        },
+      },
+      original: {
+        to: "4f3fc2a9-e3a3-41b3-8e95-d1e02eac5082",
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        id: "2473fb82-f90f-48b7-979e-fc32a5f60a93",
+      },
+    },
+    {
+      id: "a49cd4ca-4fb3-44a4-b8aa-27d1cc57c343",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "c6b232ed-a3e3-4ef0-9a8f-d81f00d362ed",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "c6b232ed-a3e3-4ef0-9a8f-d81f00d362ed",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "c6b232ed-a3e3-4ef0-9a8f-d81f00d362ed",
+          name: "#См. также",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "c6b232ed-a3e3-4ef0-9a8f-d81f00d362ed",
+        id: "a49cd4ca-4fb3-44a4-b8aa-27d1cc57c343",
+      },
+    },
+    {
+      id: "24d7a0e2-4f37-4bfb-a2de-bc58260c99a1",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "24d7a0e2-4f37-4bfb-a2de-bc58260c99a1",
+      },
+    },
+    {
+      id: "7d6a4072-a6fe-4f35-b143-bdffa22da2ca",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      original: {
+        to: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        id: "7d6a4072-a6fe-4f35-b143-bdffa22da2ca",
+      },
+    },
+    {
+      id: "23d2ae7a-c860-4918-9fcf-9578efe61e79",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        id: "23d2ae7a-c860-4918-9fcf-9578efe61e79",
+      },
+    },
+    {
+      id: "2db33310-6800-409f-9587-dd9092a9f769",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        id: "2db33310-6800-409f-9587-dd9092a9f769",
+      },
+    },
+    {
+      id: "f018f314-c747-4996-a183-4dae010b0414",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        title: "mars-colonization-plans.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          relativePath: ".\\space/mars-colonization-plans.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\mars-colonization-plans.md",
+          id: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          type: "FILE",
+          name: "mars-colonization-plans.md",
+        },
+      },
+      original: {
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        to: "d1135b45-0cd3-4e9f-b50e-aed7a7b8214c",
+        id: "f018f314-c747-4996-a183-4dae010b0414",
+      },
+    },
+    {
+      id: "c7609ba8-f510-4adc-b88a-0658569249f4",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "863df54f-b156-4660-a54d-cd39c06478e2",
+      to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+      fromNode: {
+        id: "863df54f-b156-4660-a54d-cd39c06478e2",
+        title: "beyond-earth-manned-spaceflights.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "beyond-earth-manned-spaceflights.md",
+          id: "863df54f-b156-4660-a54d-cd39c06478e2",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\beyond-earth-manned-spaceflights.md",
+          relativePath: ".\\space/beyond-earth-manned-spaceflights.md",
+        },
+      },
+      toNode: {
+        id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        title: "space-tourism-dream-or-reality.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "space-tourism-dream-or-reality.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\space-tourism-dream-or-reality.md",
+          relativePath: ".\\space/space-tourism-dream-or-reality.md",
+          id: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      original: {
+        to: "1eda0628-efaf-4470-b44a-96a08cfa2daf",
+        from: "863df54f-b156-4660-a54d-cd39c06478e2",
+        id: "c7609ba8-f510-4adc-b88a-0658569249f4",
+      },
+    },
+    {
+      id: "253524b5-e078-4434-8419-aff7a1ab688d",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "6bbfae16-b063-48d2-9f84-b40b1ba24543",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "6bbfae16-b063-48d2-9f84-b40b1ba24543",
+        title: "#Введение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "6bbfae16-b063-48d2-9f84-b40b1ba24543",
+          name: "#Введение",
+        },
+      },
+      original: {
+        to: "6bbfae16-b063-48d2-9f84-b40b1ba24543",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "253524b5-e078-4434-8419-aff7a1ab688d",
+      },
+    },
+    {
+      id: "b33c4a4e-87a3-4f54-86c7-34552e805990",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "c5c0e298-8cbe-4675-a71a-b1dc0b594734",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "c5c0e298-8cbe-4675-a71a-b1dc0b594734",
+        title: "#Астероиды: Золотые Рудники Космоса",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Астероиды: Золотые Рудники Космоса",
+          type: "ANCHOR",
+          id: "c5c0e298-8cbe-4675-a71a-b1dc0b594734",
+        },
+      },
+      original: {
+        to: "c5c0e298-8cbe-4675-a71a-b1dc0b594734",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "b33c4a4e-87a3-4f54-86c7-34552e805990",
+      },
+    },
+    {
+      id: "d5e1ca40-cd1b-4ea9-a794-affa89dca1c0",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "c919df59-2b53-4f54-aaac-fbf5d8aea739",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "c919df59-2b53-4f54-aaac-fbf5d8aea739",
+        title: "#Кометы и Их Значение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Кометы и Их Значение",
+          type: "ANCHOR",
+          id: "c919df59-2b53-4f54-aaac-fbf5d8aea739",
+        },
+      },
+      original: {
+        to: "c919df59-2b53-4f54-aaac-fbf5d8aea739",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "d5e1ca40-cd1b-4ea9-a794-affa89dca1c0",
+      },
+    },
+    {
+      id: "26bc1ec0-e278-462c-8968-3b863593adff",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "85b330fc-7a6c-4b75-a38e-e3813d2fe681",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "85b330fc-7a6c-4b75-a38e-e3813d2fe681",
+        title: "#Технологии Добычи и Транспортировки",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "85b330fc-7a6c-4b75-a38e-e3813d2fe681",
+          name: "#Технологии Добычи и Транспортировки",
+        },
+      },
+      original: {
+        to: "85b330fc-7a6c-4b75-a38e-e3813d2fe681",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "26bc1ec0-e278-462c-8968-3b863593adff",
+      },
+    },
+    {
+      id: "0073ce8e-6d76-42fd-83e0-8fee708eacd4",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "ff33a63b-0c35-4ccc-a114-e474ff873107",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "ff33a63b-0c35-4ccc-a114-e474ff873107",
+        title: "#Экологические и Экономические Аспекты",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "ff33a63b-0c35-4ccc-a114-e474ff873107",
+          name: "#Экологические и Экономические Аспекты",
+        },
+      },
+      original: {
+        to: "ff33a63b-0c35-4ccc-a114-e474ff873107",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "0073ce8e-6d76-42fd-83e0-8fee708eacd4",
+      },
+    },
+    {
+      id: "1cf9a369-6ca5-4be0-aecb-c79b11705374",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "f95c7727-b512-431a-a062-340891da3e5c",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "f95c7727-b512-431a-a062-340891da3e5c",
+        title: "#Перспективы и Вызовы",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "#Перспективы и Вызовы",
+          type: "ANCHOR",
+          id: "f95c7727-b512-431a-a062-340891da3e5c",
+        },
+      },
+      original: {
+        to: "f95c7727-b512-431a-a062-340891da3e5c",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "1cf9a369-6ca5-4be0-aecb-c79b11705374",
+      },
+    },
+    {
+      id: "97c514e6-e853-40b6-9ec2-3d62c16bac26",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "262c50de-c1be-4ba7-8bf4-1c02720825e4",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "262c50de-c1be-4ba7-8bf4-1c02720825e4",
+        title: "#Заключение",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "262c50de-c1be-4ba7-8bf4-1c02720825e4",
+          type: "ANCHOR",
+          name: "#Заключение",
+        },
+      },
+      original: {
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        to: "262c50de-c1be-4ba7-8bf4-1c02720825e4",
+        id: "97c514e6-e853-40b6-9ec2-3d62c16bac26",
+      },
+    },
+    {
+      id: "bfddcf90-c4f8-442f-914b-9f8c300ae94c",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "7322355d-567d-4327-b2f0-e2607e526ef1",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "7322355d-567d-4327-b2f0-e2607e526ef1",
+        title: "#См. также",
+        type: "ANCHOR",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "ANCHOR",
+          id: "7322355d-567d-4327-b2f0-e2607e526ef1",
+          name: "#См. также",
+        },
+      },
+      original: {
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        to: "7322355d-567d-4327-b2f0-e2607e526ef1",
+        id: "bfddcf90-c4f8-442f-914b-9f8c300ae94c",
+      },
+    },
+    {
+      id: "eeab91f2-86cd-4ad4-9bd9-052b8f468185",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        title: "moon-landing-apollo.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          name: "moon-landing-apollo.md",
+          type: "FILE",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\moon-landing-apollo.md",
+          relativePath: ".\\space/moon-landing-apollo.md",
+        },
+      },
+      original: {
+        to: "89ae1394-5b13-465a-ada2-cc33c4ad1a21",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "eeab91f2-86cd-4ad4-9bd9-052b8f468185",
+      },
+    },
+    {
+      id: "0c80e31d-f879-4be3-8a05-e113a10727f9",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        title: "life-among-the-stars.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          id: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+          relativePath: ".\\space/life-among-the-stars.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\life-among-the-stars.md",
+          type: "FILE",
+          name: "life-among-the-stars.md",
+        },
+      },
+      original: {
+        to: "affd9a06-cd51-44d7-9d51-a6c7362923f3",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "0c80e31d-f879-4be3-8a05-e113a10727f9",
+      },
+    },
+    {
+      id: "62dad682-42a3-4589-a0a7-00f27e9a5e77",
+      parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+      from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+      to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+      fromNode: {
+        id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        title: "asteroids-and-comets-resource-mining.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          type: "FILE",
+          name: "asteroids-and-comets-resource-mining.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\asteroids-and-comets-resource-mining.md",
+          relativePath: ".\\space/asteroids-and-comets-resource-mining.md",
+          id: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        },
+      },
+      toNode: {
+        id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        title: "spacecraft-technology.md",
+        type: "FILE",
+        parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+        original: {
+          id: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+          parent: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+          relativePath: ".\\space/spacecraft-technology.md",
+          absolutePath:
+            "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1\\space\\spacecraft-technology.md",
+          type: "FILE",
+          name: "spacecraft-technology.md",
+        },
+      },
+      original: {
+        to: "1587ed97-5d6e-4dcf-b2e4-09c2335aabfc",
+        from: "fa8b3b92-42e8-499a-8f91-06fccec1a454",
+        id: "62dad682-42a3-4589-a0a7-00f27e9a5e77",
       },
-      chosen: {},
     },
   ],
+  id: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+  vaultMetadata: {
+    vault: {
+      path: "D:\\PP\\PP_project\\pp-knowledge-base_backend\\trackingDir\\dir1",
+      id: "28e0ce78-e4b1-4e0d-9617-cc5ed1b36d67",
+    },
+  },
 };
 
 function findObjectsWithSameId(array) {
@@ -13708,5 +10629,5 @@ function findObjectsWithSameId(array) {
   return objectsWithSameId;
 }
 
-const result = findObjectsWithSameId(graph.edges);
+const result = findObjectsWithSameId(graph.nodes);
 console.log(result);

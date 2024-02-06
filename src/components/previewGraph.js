@@ -1,7 +1,7 @@
 import React from "react";
 import Graph from "react-graph-vis";
 
-export default function PreviewGraph({graph}) {
+export default function PreviewGraph({ graph }) {
   const options = {
     interaction: {
       tooltipDelay: 300,
@@ -23,12 +23,10 @@ export default function PreviewGraph({graph}) {
       color: "#999",
     },
   };
-
+  console.log(graph);
   return (
     <div className="graph-container">
-      {graph && (
-        <Graph graph={graph} options={options} />
-      )}
+      {graph && <Graph graph={graph} options={options} />}
     </div>
   );
 }
