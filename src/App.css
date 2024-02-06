@@ -10,6 +10,14 @@ body{
   border: 1px solid #8a5cecff;
 }
 
+.dashboard{
+  position: absolute;
+  top: 0;
+  left: 220px;
+  color: #b3b3b3;
+  z-index: 999;
+}
+
 .vis-tooltip{
   position: absolute;
   color: #fff;

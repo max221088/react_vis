@@ -19,16 +19,21 @@ function App() {
   const [currentGraph, setCurrentGraph] = useState();
   const [originalGraph, setOriginalGraph] = useState();
   const [copiedVault, setCopiedVault] = useState();
-  const [loading, setLoading] = useState(true);
+  const [extractTags, setextractTags] = useState(true);
 
-  const { graphManager, graph, graphArray, selectNode, selectedNode } =
-    useGraphManager({
-      data: originalGraph,
-      currentGraph,
-    });
+  const {
+    graphManager,
+    graph,
+    graphArray,
+    selectNode,
+    selectedNode,
+    filteredGraph,
+  } = useGraphManager({
+    data: originalGraph,
+    currentGraph,
+    extractTags,
+  });
   const updateMetadata = useCallback(() => {
-    setLoading(true);
-
     fetchData()
       .then((data) => {
         if (!data) {
@@ -36,9 +41,7 @@ function App() {
         }
         setOriginalGraph(data);
       })
-      .finally(() => {
-        setLoading(false);
-      });
+      .finally(() => {});
   }, []);
 
   useEffect(() => {
@@ -117,12 +120,14 @@ function App() {
   return (
     <div className="App">
       <GraphView
-        graph={graph}
+        graph={filteredGraph}
         setCopyVault={copyVault}
         graphManager={graphManager}
         selectNode={onNodeSelect}
         selectedNode={selectedNode}
         addEdge={addEdge}
+        extractTags={extractTags}
+        setextractTags={setextractTags}
       />
       <div className="buffer-container">
         {copiedVault && <PreviewGraph graph={copiedVault} />}

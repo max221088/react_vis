@@ -23,7 +23,6 @@ export default function PreviewGraph({ graph }) {
       color: "#999",
     },
   };
-  console.log(graph);
   return (
     <div className="graph-container">
       {graph && <Graph graph={graph} options={options} />}

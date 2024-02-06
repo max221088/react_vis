@@ -42,6 +42,8 @@ export default function GraphView({
   selectedNode,
   selectNode,
   addEdge,
+  setextractTags,
+  extractTags,
 }) {
   const [movingMetadata, setMovingMetadata] = useState({
     distance: null,
@@ -56,6 +58,7 @@ export default function GraphView({
         const newNode = {
           id: node.id,
           title: node.title,
+          type: node.type,
           shape: "dot",
           size: 8,
           color: {
@@ -87,6 +90,8 @@ export default function GraphView({
         from: edge.from,
         to: edge.to,
         id: edge.id,
+        fromNodeType: edge.fromNode.type,
+        toNodeType: edge.toNode.type,
         arrows: {
           to: {
             enabled: false,
@@ -161,7 +166,6 @@ export default function GraphView({
     },
     dragging: function (event) {
       let distance = Math.abs(event.event.distance - movingMetadata.distance);
-      //   console.log(movingMetadata);
 
       if (
         event.event.srcEvent.ctrlKey === true &&
@@ -169,7 +173,6 @@ export default function GraphView({
         movingMetadata.redundantEdges.length > 0 &&
         movingMetadata.action
       ) {
-        // console.log(movingMetadata);
         console.log("graph", graph);
         const newGraph = {
           edges: graph.edges
@@ -184,12 +187,9 @@ export default function GraphView({
         movingMetadata.action = false;
         console.log("newGraph", newGraph);
         console.log("movingData", movingMetadata);
-        sendEventToServer("change/", newGraph);
-        // const newGraph = cutEdges(normalizedGraph, edgesForDelete);
-        // props.sendEvent("remove", edgesForDelete);
-        // props.updateViewGraph(newGraph);
 
         // send event to server without redundant edges
+        sendEventToServer("change/", newGraph);
 
         setMovingMetadata({
           redundantEdges: [],
@@ -199,9 +199,18 @@ export default function GraphView({
       }
     },
   };
-  console.log(normalizedGraph);
   return (
     <div className="container">
+      <div className="dashboard">
+        <input
+          type="checkbox"
+          checked={extractTags}
+          onChange={() => {
+            setextractTags(!extractTags);
+          }}
+        />
+        <label>Show Tag</label>
+      </div>
       {normalizedGraph && (
         <Graph graph={normalizedGraph} options={options} events={events} />
       )}
