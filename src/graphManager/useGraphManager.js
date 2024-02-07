@@ -22,8 +22,13 @@ export function useGraphManager({ data, currentGraph, extractTags }) {
       return graph;
     } else {
       return {
-        nodes: graph.nodes.filter((node) => node.type !== "ANCHOR"),
-        edges: graph.edges.filter((edge) => edge.toNode.type !== "ANCHOR"),
+        nodes: graph.nodes.map((node) =>
+          node.type === "ANCHOR"
+            ? { ...node, hidden: true }
+            : { ...node, hidden: false }
+        ),
+        edges: graph.edges,
+        vaultMetadata: graph.vaultMetadata,
       };
     }
   }, [graph, extractTags]);

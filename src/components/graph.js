@@ -50,7 +50,6 @@ export default function GraphView({
     redundantEdges: [],
     nodeId: "",
   });
-
   const normalizedGraph = useMemo(() => {
     let fileIndex = 1;
     return {
@@ -59,6 +58,7 @@ export default function GraphView({
           id: node.id,
           title: node.title,
           type: node.type,
+          hidden: node.hidden ? node.hidden : false,
           shape: "dot",
           size: 8,
           color: {
@@ -173,7 +173,6 @@ export default function GraphView({
         movingMetadata.redundantEdges.length > 0 &&
         movingMetadata.action
       ) {
-        console.log("graph", graph);
         const newGraph = {
           edges: graph.edges
             .filter(
@@ -185,8 +184,6 @@ export default function GraphView({
           vault: graph.vaultMetadata.vault,
         };
         movingMetadata.action = false;
-        console.log("newGraph", newGraph);
-        console.log("movingData", movingMetadata);
 
         // send event to server without redundant edges
         sendEventToServer("change/", newGraph);
@@ -199,6 +196,7 @@ export default function GraphView({
       }
     },
   };
+  console.log(normalizedGraph);
   return (
     <div className="container">
       <div className="dashboard">
