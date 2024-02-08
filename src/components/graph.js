@@ -196,7 +196,6 @@ export default function GraphView({
       }
     },
   };
-  console.log(normalizedGraph);
   return (
     <div className="container">
       <div className="dashboard">
